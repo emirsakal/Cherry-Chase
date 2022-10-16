@@ -8,7 +8,7 @@ public class menuControl : MonoBehaviour
     public static bool GameIsPaused = false;
     public GameObject pauseMenuUI;
     public GameObject levelCheck;
-    public float timer = 1f;
+    public float timer = 1.8f;
     public bool stopper = true;
 
     void Update()
@@ -16,8 +16,10 @@ public class menuControl : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape)) {
             if (GameIsPaused) {
                 Resume();
+                levelCheck.SetActive(false);
             } else {
                 Pause();
+                levelCheck.SetActive(false);
             }
         }
 
@@ -32,7 +34,7 @@ public class menuControl : MonoBehaviour
         }
     }
 
-    void Resume() {
+    public void Resume() {
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;
