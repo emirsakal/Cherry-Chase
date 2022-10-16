@@ -9,6 +9,7 @@ TagManager:
   - BlueButton
   - GreenButton
   - YellowButton
+  - User
   layers:
   - Default
   - TransparentFX

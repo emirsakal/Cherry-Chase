@@ -7,6 +7,7 @@ public class menuControl : MonoBehaviour
 {
     public static bool GameIsPaused = false;
     public GameObject pauseMenuUI;
+    public GameObject endingMenu;
     public GameObject levelCheck;
     public float timer = 1.8f;
     public bool stopper = true;
@@ -41,6 +42,7 @@ public class menuControl : MonoBehaviour
     }
 
     void Pause() {
+        endingMenu.SetActive(false);
         pauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
         GameIsPaused = true;
@@ -58,5 +60,9 @@ public class menuControl : MonoBehaviour
 
     public void QuitGame() {
         Application.Quit();
+    }
+
+    public void NextLevel() {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
