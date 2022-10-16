@@ -1,11 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class endingCheck : MonoBehaviour
 {
-    public GameObject endingMenu;
-    public GameObject pauseMenu;
+    private bool levelCompleted = false;
 
     void Update()
     {
@@ -13,9 +13,13 @@ public class endingCheck : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
-        if (other.gameObject.CompareTag("User")) {
-                endingMenu.SetActive(true);
-                pauseMenu.SetActive(false);
-            }
+        if (other.gameObject.CompareTag("User") && !levelCompleted) {
+            levelCompleted = true;
+            Invoke("CompleteLevel", 1f);
+        }
+    }
+
+    void CompleteLevel() {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
