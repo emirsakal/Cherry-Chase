@@ -28,6 +28,10 @@ public class buttonControl : MonoBehaviour
     public GameObject GreenDoor;
     public GameObject YellowDoor;
 
+    [Header("Fans")]
+    public GameObject OnFan;
+    public GameObject OffFan;
+
     public int doesItWork = 0;
 
     private void Start() {
@@ -59,6 +63,8 @@ public class buttonControl : MonoBehaviour
         RedButtonOn.SetActive(false);
         RedButtonOff.SetActive(true);
         RedDoor.SetActive(false);
+        OffFan.SetActive(false);
+        OnFan.SetActive(true);
     }
 
     void BlueButton() {
