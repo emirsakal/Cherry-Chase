@@ -201,7 +201,7 @@ TextureImporter:
       213: 4940259601065374553
     second: Terrain Sliced (16x16)_65
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -218,10 +218,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -260,6 +262,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -275,6 +279,54 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1684,9 +1736,75 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Terrain Sliced (16x16)_3: 7452560645506918919
+      Terrain Sliced (16x16)_1: -6150033036582198407
+      Terrain Sliced (16x16)_24: -5809228510748496589
+      Terrain Sliced (16x16)_0: 2902273802658180415
+      Terrain Sliced (16x16)_15: 7169940465979160916
+      Terrain Sliced (16x16)_9: 3320371760038065978
+      Terrain Sliced (16x16)_40: 7611417825057063656
+      Terrain Sliced (16x16)_54: 6890068618988330050
+      Terrain Sliced (16x16)_57: 7979020265591117037
+      Terrain Sliced (16x16)_17: 4467090498197927051
+      Terrain Sliced (16x16)_16: -7440051457103671695
+      Terrain Sliced (16x16)_6: -4782553538942834977
+      Terrain Sliced (16x16)_52: 7946256270314989614
+      Terrain Sliced (16x16)_63: -1520349868239849904
+      Terrain Sliced (16x16)_27: 3866701048129057578
+      Terrain Sliced (16x16)_39: 8496418937709825729
+      Terrain Sliced (16x16)_43: -2399930468311409242
+      Terrain Sliced (16x16)_44: -5876794703336190428
+      Terrain Sliced (16x16)_47: -5294283388359086134
+      Terrain Sliced (16x16)_56: -5897045102619775901
+      Terrain Sliced (16x16)_23: 4803987686719627836
+      Terrain Sliced (16x16)_14: -7107133873430283805
+      Terrain Sliced (16x16)_4: -1523456763730081660
+      Terrain Sliced (16x16)_18: -7186697262807201019
+      Terrain Sliced (16x16)_45: -7940845750058973481
+      Terrain Sliced (16x16)_42: -3104653398138783639
+      Terrain Sliced (16x16)_53: -5960054110766830253
+      Terrain Sliced (16x16)_64: 6159360690136916673
+      Terrain Sliced (16x16)_2: 5021068500436517841
+      Terrain Sliced (16x16)_5: -7892170592577072746
+      Terrain Sliced (16x16)_30: -5978227758274915419
+      Terrain Sliced (16x16)_38: -6555962669166431313
+      Terrain Sliced (16x16)_36: -1677492880468287587
+      Terrain Sliced (16x16)_29: -8185196207481930053
+      Terrain Sliced (16x16)_35: -5632686409887027556
+      Terrain Sliced (16x16)_62: -2935998901810895314
+      Terrain Sliced (16x16)_22: 7040740401427105950
+      Terrain Sliced (16x16)_33: -6153399637600640786
+      Terrain Sliced (16x16)_8: 5999578222934003670
+      Terrain Sliced (16x16)_13: -4552142719482407309
+      Terrain Sliced (16x16)_37: 2755255159657979572
+      Terrain Sliced (16x16)_50: 5092602125442828303
+      Terrain Sliced (16x16)_28: 5436956145924599635
+      Terrain Sliced (16x16)_11: -4669499228856403857
+      Terrain Sliced (16x16)_46: 3055956325679830229
+      Terrain Sliced (16x16)_60: -3406550741011873913
+      Terrain Sliced (16x16)_31: -3726844052192366309
+      Terrain Sliced (16x16)_21: -6704229216346816907
+      Terrain Sliced (16x16)_26: 1622654905497061536
+      Terrain Sliced (16x16)_25: 7878138426401487865
+      Terrain Sliced (16x16)_59: -4657060171248818949
+      Terrain Sliced (16x16)_51: -129274384365622693
+      Terrain Sliced (16x16)_61: 1047224608060278570
+      Terrain Sliced (16x16)_7: 3925165532358984209
+      Terrain Sliced (16x16)_20: -2744604866611053843
+      Terrain Sliced (16x16)_12: 5716825295704421368
+      Terrain Sliced (16x16)_41: 932416410304274468
+      Terrain Sliced (16x16)_19: 2126573664597023339
+      Terrain Sliced (16x16)_49: -7707774848039490712
+      Terrain Sliced (16x16)_32: 6014041594372727830
+      Terrain Sliced (16x16)_55: -6189402959655295490
+      Terrain Sliced (16x16)_10: -3574895735335355282
+      Terrain Sliced (16x16)_58: -3515048725455381280
+      Terrain Sliced (16x16)_48: 1148126818157445405
+      Terrain Sliced (16x16)_34: 7850876452835428796
+      Terrain Sliced (16x16)_65: 4940259601065374553
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

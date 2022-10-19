@@ -483,7 +483,7 @@ TextureImporter:
       213: -3738384539939670188
     second: ui-small-buttons_159
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -500,10 +500,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -542,6 +544,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -557,6 +561,54 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
     maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
@@ -3940,9 +3992,169 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      ui-small-buttons_32: 7631692926304458565
+      ui-small-buttons_60: -4071628307267445286
+      ui-small-buttons_155: -7246549480331028308
+      ui-small-buttons_75: -1342299805662588276
+      ui-small-buttons_150: -6254622084952476891
+      ui-small-buttons_0: -760799556183584991
+      ui-small-buttons_19: -791917726251469851
+      ui-small-buttons_59: 6432265909436058614
+      ui-small-buttons_89: 5561344351825508721
+      ui-small-buttons_16: 7751468039955347525
+      ui-small-buttons_84: 5107114499495936381
+      ui-small-buttons_153: -1229302319009206197
+      ui-small-buttons_50: -2691492321414032711
+      ui-small-buttons_85: 1025936728578130183
+      ui-small-buttons_9: 3124331081412578638
+      ui-small-buttons_138: 7477975601068189545
+      ui-small-buttons_106: -2119484285528698468
+      ui-small-buttons_131: 5123637111099878905
+      ui-small-buttons_151: 1414467411047778001
+      ui-small-buttons_38: -7720509470267307261
+      ui-small-buttons_99: -6283286399761156809
+      ui-small-buttons_102: -3165302043394884466
+      ui-small-buttons_120: -6348383763934408530
+      ui-small-buttons_144: 6633042247862220803
+      ui-small-buttons_129: 7204127102869416671
+      ui-small-buttons_52: 2116514613225928294
+      ui-small-buttons_11: 1446739911195838820
+      ui-small-buttons_7: -384395795471492321
+      ui-small-buttons_82: 3596747342190545265
+      ui-small-buttons_121: 2733215375977029404
+      ui-small-buttons_57: -5942689319077611682
+      ui-small-buttons_108: -7627845712019329699
+      ui-small-buttons_136: -8814168926154692215
+      ui-small-buttons_141: -7368111772440239069
+      ui-small-buttons_53: 1344062448953207443
+      ui-small-buttons_94: -8149590693549633525
+      ui-small-buttons_54: -6891751098548117238
+      ui-small-buttons_51: -1521277857320696616
+      ui-small-buttons_6: 592171512871257925
+      ui-small-buttons_36: -636165809141856982
+      ui-small-buttons_49: -1000209977264970409
+      ui-small-buttons_20: 7363980111252105652
+      ui-small-buttons_93: 5285502207235308322
+      ui-small-buttons_157: 4448948696452905123
+      ui-small-buttons_134: -4658219481282317489
+      ui-small-buttons_78: -2841485900300867772
+      ui-small-buttons_80: -745667996882773679
+      ui-small-buttons_115: 7371204836323593663
+      ui-small-buttons_87: 3565710087252219970
+      ui-small-buttons_25: -6614212386984948016
+      ui-small-buttons_100: 4274982585111381080
+      ui-small-buttons_146: -6608894770583869346
+      ui-small-buttons_31: -7288830450054573953
+      ui-small-buttons_47: 8095983811624526199
+      ui-small-buttons_159: -3738384539939670188
+      ui-small-buttons_24: 104545547636385783
+      ui-small-buttons_137: -6250187435860397858
+      ui-small-buttons_77: 8972043204431142000
+      ui-small-buttons_5: -8710768838010210159
+      ui-small-buttons_148: 8047540822368808017
+      ui-small-buttons_90: -56801251611342513
+      ui-small-buttons_88: -6679273840204465637
+      ui-small-buttons_33: 6746269712920297877
+      ui-small-buttons_64: 7705341917449459132
+      ui-small-buttons_13: -5391830228828834263
+      ui-small-buttons_40: 8591371974239785519
+      ui-small-buttons_91: -5374127386018562015
+      ui-small-buttons_127: 5884940527006217452
+      ui-small-buttons_65: -633799232248289189
+      ui-small-buttons_14: 4738235602908224218
+      ui-small-buttons_34: -4061525093231391963
+      ui-small-buttons_67: -2130895875431312088
+      ui-small-buttons_63: -467759502752398262
+      ui-small-buttons_145: 361401881424541142
+      ui-small-buttons_158: -446851572456669759
+      ui-small-buttons_86: 6517496920096179896
+      ui-small-buttons_8: -1693395098552743678
+      ui-small-buttons_22: -6255060555083592060
+      ui-small-buttons_104: 5586274359695545748
+      ui-small-buttons_3: 4776952406749329559
+      ui-small-buttons_156: 4976740327309414745
+      ui-small-buttons_42: -7573756553855813593
+      ui-small-buttons_103: 4717861300493662584
+      ui-small-buttons_133: 7418612151084854129
+      ui-small-buttons_140: 9117379137263108592
+      ui-small-buttons_15: 3688695029120045462
+      ui-small-buttons_10: 2587344423834300967
+      ui-small-buttons_116: -6368217085755079097
+      ui-small-buttons_18: 2587096180750765086
+      ui-small-buttons_79: -7262319030141262456
+      ui-small-buttons_142: -3673299720314087473
+      ui-small-buttons_21: 5904976949133851345
+      ui-small-buttons_61: 3128945129432931900
+      ui-small-buttons_26: -1301846918618769730
+      ui-small-buttons_48: -5105391548716759240
+      ui-small-buttons_112: -5812423482672286277
+      ui-small-buttons_27: 6314477534826864765
+      ui-small-buttons_92: -3123308448638691939
+      ui-small-buttons_45: 7750573495012159424
+      ui-small-buttons_101: -7481031725388338171
+      ui-small-buttons_39: -3974526501020563420
+      ui-small-buttons_68: 399646454541300877
+      ui-small-buttons_111: -4384224726191365516
+      ui-small-buttons_109: -8677242613015041772
+      ui-small-buttons_56: -2812642130474593582
+      ui-small-buttons_81: -8275432932148188464
+      ui-small-buttons_55: 3861139457706798823
+      ui-small-buttons_69: -404109871011867056
+      ui-small-buttons_46: 9013237672872523571
+      ui-small-buttons_105: 5818599146209636228
+      ui-small-buttons_117: 6385724390190155453
+      ui-small-buttons_97: 592499411758618351
+      ui-small-buttons_70: 97663362501522874
+      ui-small-buttons_124: -7598437597453274622
+      ui-small-buttons_152: 3199001898219756393
+      ui-small-buttons_132: 7904327473328735644
+      ui-small-buttons_125: 7480178285607231533
+      ui-small-buttons_130: 93919040900289595
+      ui-small-buttons_149: 3218059159917370135
+      ui-small-buttons_76: 4816028877431400902
+      ui-small-buttons_30: 6019327900075309033
+      ui-small-buttons_62: -3420877130782187833
+      ui-small-buttons_83: 6552890737341233844
+      ui-small-buttons_66: 3037930911348636956
+      ui-small-buttons_113: -7878431289313481974
+      ui-small-buttons_123: 6143602853801381827
+      ui-small-buttons_1: 1862540097935776561
+      ui-small-buttons_37: -2798710593572283600
+      ui-small-buttons_143: 3724658177142454813
+      ui-small-buttons_29: -98614500411816042
+      ui-small-buttons_114: -7779620527022516854
+      ui-small-buttons_98: -2859934928298323863
+      ui-small-buttons_28: -6290070328808169283
+      ui-small-buttons_154: 3878086946060158469
+      ui-small-buttons_110: -5496121297570204996
+      ui-small-buttons_71: 6654480115122583143
+      ui-small-buttons_107: 5215775038302309831
+      ui-small-buttons_23: 3836766037733873146
+      ui-small-buttons_72: 8047352271972240430
+      ui-small-buttons_119: -480054653137977844
+      ui-small-buttons_96: 258901009278878150
+      ui-small-buttons_44: -6382528841992201825
+      ui-small-buttons_122: 6414988653327792531
+      ui-small-buttons_73: 6635299789319532147
+      ui-small-buttons_147: 4927465216075978583
+      ui-small-buttons_4: 2130800482602359826
+      ui-small-buttons_12: 5581127782120447832
+      ui-small-buttons_35: -4026541482806154034
+      ui-small-buttons_126: -8795647703704049377
+      ui-small-buttons_128: -796012600723145568
+      ui-small-buttons_41: -4631099733600835014
+      ui-small-buttons_95: 2004277768718650187
+      ui-small-buttons_118: 6702938897597797321
+      ui-small-buttons_135: -5904275968063723276
+      ui-small-buttons_17: 865333848640498245
+      ui-small-buttons_2: 1260850711704720439
+      ui-small-buttons_58: 1631878184512157844
+      ui-small-buttons_74: -3434309098037325867
+      ui-small-buttons_139: 4934064125454882497
+      ui-small-buttons_43: 6993261640146046143
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
