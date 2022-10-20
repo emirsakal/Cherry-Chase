@@ -7,6 +7,11 @@ public class playerMovement : MonoBehaviour
     [Header("Object References")]
     public Rigidbody2D rb;
     private Animator anim;
+    public GameObject brokenObjects;
+
+    [Header("Distances")]
+    public float distanceXB = -140f;
+    public float distanceYB = 0f;
     public float distanceX = -12f;
     public float distanceY = 10f;
 
@@ -198,5 +203,15 @@ public class playerMovement : MonoBehaviour
         if (collision.gameObject.CompareTag("teleport")){
             transform.position = new Vector2(transform.position.x+distanceX,transform.position.y+distanceY);
         }
+        if (collision.gameObject.CompareTag("RedButton")){
+            transform.position = new Vector2(transform.position.x+distanceXB,transform.position.y+distanceYB);
+        }
+        if (collision.gameObject.CompareTag("Broken")){
+            Invoke("Destroy", 3f);
+        }
+    }
+
+    void Destroy(){
+        brokenObjects.SetActive(false);
     }
 }

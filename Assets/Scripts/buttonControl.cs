@@ -4,87 +4,23 @@ using UnityEngine;
 
 public class buttonControl : MonoBehaviour
 {
-    public Rigidbody2D rb;
+    [Header("Button")]
+    public GameObject ButtonOn;
+    public GameObject ButtonOff;
 
-    [Header("Red Button")]
-    public GameObject RedButtonOn;
-    public GameObject RedButtonOff;
-
-    [Header("Blue Button")]
-    public GameObject BlueButtonOn;
-    public GameObject BlueButtonOff;
-
-    [Header("Green Button")]
-    public GameObject GreenButtonOn;
-    public GameObject GreenButtonOff;
-
-    [Header("Yellow Button")]
-    public GameObject YellowButtonOn;
-    public GameObject YellowButtonOff;
-
-    [Header("Doors")]
-    public GameObject RedDoor;
-    public GameObject BlueDoor;
-    public GameObject GreenDoor;
-    public GameObject YellowDoor;
-
-    [Header("Fans")]
-    public GameObject OnFan;
-    public GameObject OffFan;
-
-    public int doesItWork = 0;
-
-    private void Start() {
-        rb = GetComponent<Rigidbody2D>();
-    }
-
-    void Update()
-    {
-
-    }
+    [Header("Door")]
+    public GameObject Door;
 
     private void OnCollisionEnter2D(Collision2D collision) {
-        if (collision.gameObject.CompareTag("RedButton")){
-            RedButton();
-        }
-        if (collision.gameObject.CompareTag("BlueButton")){
-            BlueButton();
-        }
-        if (collision.gameObject.CompareTag("GreenButton")){
-            GreenButton();
-        }
-        if (collision.gameObject.CompareTag("YellowButton")){
-            YellowButton();
+        if (collision.gameObject.CompareTag("User")){
+            Button();
         }
     }
 
-    void RedButton() {
-        doesItWork++;
-        RedButtonOn.SetActive(false);
-        RedButtonOff.SetActive(true);
-        RedDoor.SetActive(false);
-        OffFan.SetActive(false);
-        OnFan.SetActive(true);
-    }
-
-    void BlueButton() {
-        doesItWork++;
-        BlueButtonOn.SetActive(false);
-        BlueButtonOff.SetActive(true);
-        BlueDoor.SetActive(false);
-    }
-
-    void YellowButton() {
-        doesItWork++;
-        YellowButtonOn.SetActive(false);
-        YellowButtonOff.SetActive(true);
-        YellowDoor.SetActive(false);
-    }
-
-    void GreenButton() {
-        doesItWork++;
-        GreenButtonOn.SetActive(false);
-        GreenButtonOff.SetActive(true);
-        GreenDoor.SetActive(false);
+    void Button() {
+        ButtonOn.SetActive(false);
+        ButtonOff.SetActive(true);
+        Door.SetActive(false);
     }
 }
+
