@@ -7,12 +7,14 @@ public class playerMovement : MonoBehaviour
     [Header("Object References")]
     public Rigidbody2D rb;
     private Animator anim;
+    public float distanceX = -12f;
+    public float distanceY = 10f;
 
     private enum MovementState { idle, running, jumping, falling, sliding }
     private MovementState state = MovementState.idle;
 
     [Header("Horizontal Movement")]
-    public float moveSpeed = 5f;
+    public float moveSpeed = 10f;
 
     [Header("Vertical Movement")]
     public float jumpForce = 5f;
@@ -190,5 +192,11 @@ public class playerMovement : MonoBehaviour
     }
     void WallJump(){
         rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision) {
+        if (collision.gameObject.CompareTag("teleport")){
+            transform.position = new Vector2(transform.position.x+distanceX,transform.position.y+distanceY);
+        }
     }
 }

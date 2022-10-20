@@ -7,30 +7,15 @@ public class menuControl : MonoBehaviour
 {
     public static bool GameIsPaused = false;
     public GameObject pauseMenuUI;
-    public GameObject levelCheck;
-    public float timer = 1.8f;
-    public bool stopper = true;
 
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape)) {
             if (GameIsPaused) {
                 Resume();
-                levelCheck.SetActive(false);
             } else {
                 Pause();
-                levelCheck.SetActive(false);
             }
-        }
-
-        if (stopper) {
-            timer -= Time.deltaTime;
-        }
-
-        if (timer < 0.2f) {
-            levelCheck.SetActive(false);
-            timer = 0.1f;
-            stopper = false;
         }
     }
 
