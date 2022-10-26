@@ -9,12 +9,6 @@ public class playerMovement : MonoBehaviour
     private Animator anim;
     public GameObject brokenObjects;
 
-    [Header("Distances")]
-    public float distanceXB = -140f;
-    public float distanceYB = 0f;
-    public float distanceX = -12f;
-    public float distanceY = 10f;
-
     private enum MovementState { idle, running, jumping, falling, sliding }
     private MovementState state = MovementState.idle;
 
@@ -201,10 +195,10 @@ public class playerMovement : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision) {
         if (collision.gameObject.CompareTag("teleport")){
-            transform.position = new Vector2(transform.position.x+distanceX,transform.position.y+distanceY);
+            transform.position = new Vector2(85,18);
         }
         if (collision.gameObject.CompareTag("RedButton")){
-            transform.position = new Vector2(transform.position.x+distanceXB,transform.position.y+distanceYB);
+            transform.position = new Vector2(-72,20);
         }
         if (collision.gameObject.CompareTag("Broken")){
             Invoke("Destroy", 3f);
