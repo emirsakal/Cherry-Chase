@@ -156,31 +156,32 @@ public class playerMovement : MonoBehaviour
     }
 
     void UpdateAnimation() {
-        MovementState state;
 
-        if (mx > 0f) {
-            state = MovementState.running;
-        } else if (mx < 0) {
-            state = MovementState.running;
-        } else {
-            state = MovementState.idle;
+        if (isGrounded || isTouchingDoubleJump) {
+            if (mx != 0 && rb.velocity.y < 0.1f)
+                {
+                    anim.SetInteger("state", (int)MovementState.running);
+                }
+            else if (mx == 0 && rb.velocity.y < 0.1f)
+                {
+                    anim.SetInteger("state", (int)MovementState.idle);
+                }
         }
 
-        if (rb.velocity.y > .1f ) {
-            state = MovementState.jumping;
-        } else if (rb.velocity.y < -.1f ) {
-            state = MovementState.falling;
+        else if (rb.velocity.y > 0f ) {
+            anim.SetInteger("state", (int)MovementState.jumping);
+        } else if (rb.velocity.y < 0f ) {
+            anim.SetInteger("state", (int)MovementState.falling);
         }
 
         if (isTouchingWall) {
-            state = MovementState.sliding;
+            anim.SetInteger("state", (int)MovementState.sliding);
         }
 
         if (isTouchingWall && rb.velocity.y > .1f) {
-            state = MovementState.jumping;
+            anim.SetInteger("state", (int)MovementState.jumping);
         }
 
-        anim.SetInteger("state", (int) state);
     }
 
     void Jump(){
