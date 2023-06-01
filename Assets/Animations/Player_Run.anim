@@ -7,7 +7,7 @@ AnimationClip:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Player_Run
-  serializedVersion: 6
+  serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
   m_UseHighQualityCurve: 1
@@ -59,6 +59,7 @@ AnimationClip:
       typeID: 212
       customType: 23
       isPPtrCurve: 1
+      isIntCurve: 0
     pptrCurveMapping:
     - {fileID: 7166236263522030466, guid: 37df054fca54d4f4e9069c7499bfcbf2, type: 3}
     - {fileID: 2470319409956435798, guid: 37df054fca54d4f4e9069c7499bfcbf2, type: 3}

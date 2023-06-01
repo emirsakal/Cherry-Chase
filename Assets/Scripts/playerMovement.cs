@@ -13,10 +13,10 @@ public class playerMovement : MonoBehaviour
     private MovementState state = MovementState.idle;
 
     [Header("Horizontal Movement")]
-    public float moveSpeed = 10f;
+    public float moveSpeed = 5f;
 
     [Header("Vertical Movement")]
-    public float jumpForce = 5f;
+    public float jumpForce = 5.3f;
 
     [Header("Grounded")]
     public int canJump;
@@ -201,11 +201,16 @@ public class playerMovement : MonoBehaviour
             transform.position = new Vector2(-72,20);
         }
         if (collision.gameObject.CompareTag("Broken")){
-            Invoke("Destroy", 3f);
+            Invoke("Destroy", 1f);
+            Invoke("UnDestroy",3f);
         }
     }
 
     void Destroy(){
         brokenObjects.SetActive(false);
+    }
+
+    void UnDestroy(){
+        brokenObjects.SetActive(true);
     }
 }
