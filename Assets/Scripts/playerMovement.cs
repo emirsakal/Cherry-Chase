@@ -19,6 +19,7 @@ public class playerMovement : MonoBehaviour
     [SerializeField] private float _maxMoveSpeed = 10f;
     [SerializeField] private float _linearDrag = 7f;
     private float mx;
+    private float my;
     private bool _changingDirection => (rb.velocity.x > 0f && mx < 0f) || (rb.velocity.x < 0f && mx > 0f);
     private bool isFacingRight = true;
 
@@ -27,6 +28,10 @@ public class playerMovement : MonoBehaviour
     [SerializeField] private float _airLinearDrag = 2.5f;
     [SerializeField] private float _fallMultiplier = 8f;
     [SerializeField] private float _lowJumpFallMultiplier = 5f;
+    [SerializeField] private float _hangTime = .15f;
+    [SerializeField] private float _jumpBufferLength = .1f;
+    private float _hangTimeCounter;
+    private float _jumpBufferCounter;
     
 
     [Header("Grounded")]
@@ -64,10 +69,14 @@ public class playerMovement : MonoBehaviour
 
     void Update(){
         mx = GetInput().x;
+        my = GetInput().y;
 
-        if (isGrounded && Input.GetButtonDown("Jump")) {
-            Jump();
+        if (Input.GetButtonDown("Jump")) {
+            _jumpBufferCounter = _jumpBufferLength;
+        } else {
+            _jumpBufferCounter -= Time.deltaTime; 
         }
+
         if (isTouchingDoubleJump && Input.GetButtonDown("Jump")) {
             DoubleJump();
             canJump--;
@@ -77,7 +86,7 @@ public class playerMovement : MonoBehaviour
             WallJump();
             canWallJumpTimer = 0.7f;
         }
-
+        
         UpdateAnimation();
     }
 
@@ -87,10 +96,17 @@ public class playerMovement : MonoBehaviour
         
         if (isGrounded) {
             ApplyLinearDrag();
+            _hangTimeCounter = _hangTime;
         } else {
             ApplyAirLinearDrag();
             FallMultiplier();
+            _hangTimeCounter -= Time.fixedDeltaTime;
         }
+
+        if (_hangTimeCounter > 0f && _jumpBufferCounter > 0f) {
+            Jump();
+        }
+        
 
         if (mx<0) {
             isFacingRight = false;
@@ -204,9 +220,12 @@ public class playerMovement : MonoBehaviour
 
     void Jump(){
         CreateDust();
+        
+        ApplyLinearDrag();
         rb.velocity = new Vector2(rb.velocity.x, 0f);
         rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
-        
+        _hangTimeCounter = 0f;
+        _jumpBufferCounter = 0f;
     }
     void DoubleJump(){
         CreateDust();
