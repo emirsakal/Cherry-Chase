@@ -22,6 +22,9 @@ public class playerMovement : MonoBehaviour
     private Animator anim;
     public GameObject brokenObjects;
 
+    [Header("Sound Effects")]
+    [SerializeField] private AudioSource jumpSoundEffect;
+
     private enum MovementState { idle, running, jumping, falling, sliding }
     private MovementState state = MovementState.idle;
 
@@ -240,7 +243,7 @@ public class playerMovement : MonoBehaviour
 
     void Jump(){
         jumpParticle.Play();
-
+        jumpSoundEffect.Play();
         ApplyLinearDrag();
         rb.velocity = new Vector2(rb.velocity.x, 0f);
         rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
@@ -249,9 +252,11 @@ public class playerMovement : MonoBehaviour
     }
     void DoubleJump(){
         jumpParticle.Play();
+        jumpSoundEffect.Play();
         rb.velocity = new Vector2(rb.velocity.x, jumpForce);
     }
     void WallJump(){
+        jumpSoundEffect.Play();
         rb.velocity = new Vector2(rb.velocity.x, jumpForce);
     }
 

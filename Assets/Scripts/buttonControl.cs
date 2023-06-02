@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class buttonControl : MonoBehaviour
 {
+    [SerializeField] private AudioSource buttonClick;
+
     [Header("Button")]
     public GameObject ButtonOn;
     public GameObject ButtonOff;
@@ -13,6 +15,7 @@ public class buttonControl : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision) {
         if (collision.gameObject.CompareTag("User")){
+            // buttonClick.Play();
             Button();
         }
     }

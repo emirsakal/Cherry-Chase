@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class greenButton : MonoBehaviour
 {
+    [SerializeField] private AudioSource buttonClick;
+
     [Header("Button")]
     public GameObject ButtonOn;
     public GameObject ButtonOff;
@@ -23,6 +25,7 @@ public class greenButton : MonoBehaviour
     }
 
     void Button() {
+        // buttonClick.Play();
         ButtonOn.SetActive(false);
         ButtonOff.SetActive(false);
         beforeImage.SetActive(false);

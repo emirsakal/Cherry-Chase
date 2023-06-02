@@ -12,6 +12,8 @@ public class endingCheck : MonoBehaviour
     public ParticleSystem Confetti4;
     private bool levelCompleted = false;
 
+    [SerializeField] private AudioSource finishSound;
+
     void Update()
     {
 
@@ -19,6 +21,7 @@ public class endingCheck : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other) {
         CreateConfetties();
+        finishSound.Play();
         if (other.gameObject.CompareTag("User") && !levelCompleted) {
             levelCompleted = true;
             Invoke("CompleteLevel", 2f);
