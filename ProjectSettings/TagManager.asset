@@ -11,6 +11,8 @@ TagManager:
   - YellowButton
   - User
   - teleport
+  - Broken
+  - Ground
   layers:
   - Default
   - TransparentFX

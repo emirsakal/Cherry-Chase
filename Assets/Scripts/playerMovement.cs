@@ -4,7 +4,18 @@ using UnityEngine;
 
 public class playerMovement : MonoBehaviour
 {
-    public ParticleSystem dust;
+    
+    [Header("Particle System")]
+    [SerializeField] ParticleSystem movementParticle;
+
+    [Range(0,10)]
+    [SerializeField] int occurAfterVelocity;
+
+    [Range(0,0.2f)]
+    [SerializeField] float dustFormationPeriod;
+    float counter;
+
+    [SerializeField] ParticleSystem jumpParticle;
 
     [Header("Object References")]
     public Rigidbody2D rb;
@@ -87,6 +98,15 @@ public class playerMovement : MonoBehaviour
             canWallJumpTimer = 0.7f;
         }
         
+        counter += Time.deltaTime;
+
+        if(isGrounded && Mathf.Abs(rb.velocity.x) > occurAfterVelocity) {
+            if (counter > dustFormationPeriod) {
+                movementParticle.Play();
+                counter = 0;
+            }
+        }
+
         UpdateAnimation();
     }
 
@@ -219,8 +239,8 @@ public class playerMovement : MonoBehaviour
     }
 
     void Jump(){
-        CreateDust();
-        
+        jumpParticle.Play();
+
         ApplyLinearDrag();
         rb.velocity = new Vector2(rb.velocity.x, 0f);
         rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
@@ -228,7 +248,7 @@ public class playerMovement : MonoBehaviour
         _jumpBufferCounter = 0f;
     }
     void DoubleJump(){
-        CreateDust();
+        jumpParticle.Play();
         rb.velocity = new Vector2(rb.velocity.x, jumpForce);
     }
     void WallJump(){
@@ -248,16 +268,13 @@ public class playerMovement : MonoBehaviour
         }
     }
 
+
     void Destroy(){
         brokenObjects.SetActive(false);
     }
 
     void UnDestroy(){
         brokenObjects.SetActive(true);
-    }
-
-    void CreateDust(){
-        dust.Play();
     }
 
     private static Vector2 GetInput() {
@@ -293,4 +310,5 @@ public class playerMovement : MonoBehaviour
             rb.gravityScale = 1f;
         }
     }
+
 }
