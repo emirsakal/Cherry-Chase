@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class playerMovement : MonoBehaviour
 {
+    public ParticleSystem dust;
+
     [Header("Object References")]
     public Rigidbody2D rb;
     private Animator anim;
@@ -13,10 +15,19 @@ public class playerMovement : MonoBehaviour
     private MovementState state = MovementState.idle;
 
     [Header("Horizontal Movement")]
-    public float moveSpeed = 5f;
+    [SerializeField] private float _movementAcceleration = 50f;
+    [SerializeField] private float _maxMoveSpeed = 10f;
+    [SerializeField] private float _linearDrag = 7f;
+    private float mx;
+    private bool _changingDirection => (rb.velocity.x > 0f && mx < 0f) || (rb.velocity.x < 0f && mx > 0f);
+    private bool isFacingRight = true;
 
     [Header("Vertical Movement")]
-    public float jumpForce = 5.3f;
+    public float jumpForce = 12f;
+    [SerializeField] private float _airLinearDrag = 2.5f;
+    [SerializeField] private float _fallMultiplier = 8f;
+    [SerializeField] private float _lowJumpFallMultiplier = 5f;
+    
 
     [Header("Grounded")]
     public int canJump;
@@ -45,9 +56,6 @@ public class playerMovement : MonoBehaviour
     public LayerMask doubleLayer;
     public bool isTouchingDoubleJump = false;
 
-    // Private Variables
-    float mx;
-    bool isFacingRight = true;
 
     void Start() {
         rb = GetComponent<Rigidbody2D>();
@@ -55,6 +63,8 @@ public class playerMovement : MonoBehaviour
     }
 
     void Update(){
+        mx = GetInput().x;
+
         if (isGrounded && Input.GetButtonDown("Jump")) {
             Jump();
         }
@@ -72,7 +82,15 @@ public class playerMovement : MonoBehaviour
     }
 
     void FixedUpdate() {
-        mx = Input.GetAxisRaw("Horizontal");
+
+        MoveCharacter();
+        
+        if (isGrounded) {
+            ApplyLinearDrag();
+        } else {
+            ApplyAirLinearDrag();
+            FallMultiplier();
+        }
 
         if (mx<0) {
             isFacingRight = false;
@@ -82,7 +100,7 @@ public class playerMovement : MonoBehaviour
             transform.localScale = new Vector2(1, transform.localScale.y);
         }
 
-        rb.velocity = new Vector2(mx * moveSpeed, rb.velocity.y);
+        
 
         bool touchingGround = Physics2D.OverlapCircle(groundCheck.position, groundRadius, groundLayer);
 
@@ -185,9 +203,13 @@ public class playerMovement : MonoBehaviour
     }
 
     void Jump(){
-        rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+        CreateDust();
+        rb.velocity = new Vector2(rb.velocity.x, 0f);
+        rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+        
     }
     void DoubleJump(){
+        CreateDust();
         rb.velocity = new Vector2(rb.velocity.x, jumpForce);
     }
     void WallJump(){
@@ -213,5 +235,43 @@ public class playerMovement : MonoBehaviour
 
     void UnDestroy(){
         brokenObjects.SetActive(true);
+    }
+
+    void CreateDust(){
+        dust.Play();
+    }
+
+    private static Vector2 GetInput() {
+        return new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+    }
+
+    private void MoveCharacter() {
+        rb.AddForce(new Vector2(mx, 0f) * _movementAcceleration);
+
+        if(Mathf.Abs(rb.velocity.x) > _maxMoveSpeed) {
+            rb.velocity = new Vector2(Mathf.Sign(rb.velocity.x) * _maxMoveSpeed, rb.velocity.y);
+        }
+    }
+
+    private void ApplyLinearDrag() {
+        if(Mathf.Abs(mx) < 0.4f || _changingDirection) {
+            rb.drag = _linearDrag;
+        } else {
+            rb.drag = 0f;
+        }
+    }
+
+    private void ApplyAirLinearDrag() {
+        rb.drag = _airLinearDrag;
+    }
+
+    private void FallMultiplier(){
+        if (rb.velocity.y < 0) {
+            rb.gravityScale = _fallMultiplier;
+        } else if (rb.velocity.y > 0 && !Input.GetButton("Jump")) {
+            rb.gravityScale = _lowJumpFallMultiplier;
+        } else {
+            rb.gravityScale = 1f;
+        }
     }
 }

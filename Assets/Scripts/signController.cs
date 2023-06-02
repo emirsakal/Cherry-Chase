@@ -9,6 +9,13 @@ public class signController : MonoBehaviour
     private bool isValid;
 
     void Update() {
+        if (isValid && !isOpen) {
+            image.SetActive(true);
+            isOpen = true;
+        } 
+
+        /* TO OPEN WITH E
+        
         if (Input.GetKeyDown(KeyCode.E) && isValid && !isOpen) {
             image.SetActive(true);
             isOpen = true;
@@ -17,7 +24,7 @@ public class signController : MonoBehaviour
             isOpen = false;
         }
 
-
+        */
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
