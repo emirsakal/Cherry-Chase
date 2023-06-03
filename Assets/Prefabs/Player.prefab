@@ -194,7 +194,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementParticle: {fileID: 3210429732636873864}
-  occurAfterVelocity: 1
+  occurAfterVelocity: 2
   dustFormationPeriod: 0.05
   jumpParticle: {fileID: 6031677374702748608}
   rb: {fileID: 178069944895071036}
@@ -264,6 +264,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathSound: {fileID: 7503061198989147980}
+  bgMusic: {fileID: 0}
+  gameOverMenuUI: {fileID: 0}
 --- !u!70 &135041018384748117
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

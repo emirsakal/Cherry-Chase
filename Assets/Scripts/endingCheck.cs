@@ -11,14 +11,15 @@ public class endingCheck : MonoBehaviour
     public ParticleSystem Confetti3;
     public ParticleSystem Confetti4;
     private bool levelCompleted = false;
+    public int nextSceneLoad;
 
     [SerializeField] private AudioSource finishSound;
     [SerializeField] private AudioSource bgMusic;
     public GameObject FinishMenuUI;
 
-    void Update()
+    void Start()
     {
-
+        nextSceneLoad = SceneManager.GetActiveScene().buildIndex + 1;
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
@@ -27,7 +28,11 @@ public class endingCheck : MonoBehaviour
         finishSound.Play();
         if (other.gameObject.CompareTag("User") && !levelCompleted) {
             levelCompleted = true;
-            Invoke("CompleteLevel", 2f);
+            Invoke("CompleteLevel", 1f);
+
+            if(nextSceneLoad > PlayerPrefs.GetInt("levelAt")) {
+                PlayerPrefs.SetInt("levelAt", nextSceneLoad);
+            }
         }
     }
 
