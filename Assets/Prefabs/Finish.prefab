@@ -14753,6 +14753,8 @@ MonoBehaviour:
   Confetti3: {fileID: 5205055434009081316}
   Confetti4: {fileID: 8612707699281281996}
   finishSound: {fileID: 8768631891866876835}
+  bgMusic: {fileID: 0}
+  FinishMenuUI: {fileID: 0}
 --- !u!95 &7833920339309080910
 Animator:
   serializedVersion: 4
@@ -14785,7 +14787,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 2667a0a008b044e218b63df62e2be749, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0

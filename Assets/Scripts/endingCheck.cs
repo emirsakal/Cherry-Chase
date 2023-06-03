@@ -13,6 +13,8 @@ public class endingCheck : MonoBehaviour
     private bool levelCompleted = false;
 
     [SerializeField] private AudioSource finishSound;
+    [SerializeField] private AudioSource bgMusic;
+    public GameObject FinishMenuUI;
 
     void Update()
     {
@@ -21,6 +23,7 @@ public class endingCheck : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other) {
         CreateConfetties();
+        bgMusic.Stop();
         finishSound.Play();
         if (other.gameObject.CompareTag("User") && !levelCompleted) {
             levelCompleted = true;
@@ -29,7 +32,8 @@ public class endingCheck : MonoBehaviour
     }
 
     void CompleteLevel() {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        Time.timeScale = 0f;
+        FinishMenuUI.SetActive(true);
     }
 
     void CreateConfetties(){
