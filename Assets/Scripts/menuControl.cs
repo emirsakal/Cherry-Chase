@@ -7,6 +7,7 @@ public class menuControl : MonoBehaviour
 {
     public static bool GameIsPaused = false;
     public GameObject pauseMenuUI;
+    [SerializeField] private AudioSource bgMusic;
 
     void Update()
     {
@@ -20,12 +21,14 @@ public class menuControl : MonoBehaviour
     }
 
     public void Resume() {
+        bgMusic.Play();
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;
     }
 
     void Pause() {
+        bgMusic.Pause();
         pauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
         GameIsPaused = true;

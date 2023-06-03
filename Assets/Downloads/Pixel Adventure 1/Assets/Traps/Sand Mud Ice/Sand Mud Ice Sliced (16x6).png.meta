@@ -165,7 +165,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -246,6 +246,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1094,8 +1106,7 @@ TextureImporter:
       Sand Mud Ice (16x6)_20: 2689398577134263771
       Sand Mud Ice (16x6)_12: -2762073995133416762
       Sand Mud Ice (16x6)_19: 4263242007108318073
-      Sand Mud Ice (16x6)_32: -7851025316485012550
-      Sand Mud Ice (16x6)_38: -951019687346930432
+      Sand Mud Ice (16x6)_10: -756588449674228840
       Sand Mud Ice (16x6)_36: -3036474563160157822
       Sand Mud Ice (16x6)_26: -8884820511876549848
       Sand Mud Ice (16x6)_3: -1886096266530949241
@@ -1120,13 +1131,14 @@ TextureImporter:
       Sand Mud Ice (16x6)_18: -8813512993246199862
       Sand Mud Ice (16x6)_1: 6167641977362757515
       Sand Mud Ice (16x6)_29: -8170579307771657102
-      Sand Mud Ice (16x6)_7: 3089715790878325539
-      Sand Mud Ice (16x6)_9: -7049460874815310564
-      Sand Mud Ice (16x6)_6: 6231837862191567109
       Sand Mud Ice (16x6)_13: -8137486253352134369
-      Sand Mud Ice (16x6)_28: 7980830890365145323
-      Sand Mud Ice (16x6)_10: -756588449674228840
+      Sand Mud Ice (16x6)_38: -951019687346930432
+      Sand Mud Ice (16x6)_9: -7049460874815310564
+      Sand Mud Ice (16x6)_7: 3089715790878325539
+      Sand Mud Ice (16x6)_32: -7851025316485012550
+      Sand Mud Ice (16x6)_6: 6231837862191567109
       Sand Mud Ice (16x6)_22: 6832011233148574984
+      Sand Mud Ice (16x6)_28: 7980830890365145323
       Sand Mud Ice (16x6)_30: 7668828061770806365
   spritePackingTag: 
   pSDRemoveMatte: 0
