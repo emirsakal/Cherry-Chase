@@ -178,7 +178,7 @@ GameObject:
   m_Component:
   - component: {fileID: 321814289860252614}
   - component: {fileID: 321814289860252633}
-  - component: {fileID: 321814289860252615}
+  - component: {fileID: 3480537259403481620}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Trap
@@ -253,8 +253,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &321814289860252615
-BoxCollider2D:
+--- !u!58 &3480537259403481620
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -266,19 +266,9 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.75, y: 1.75}
-    newSize: {x: 1.75, y: 1.75}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
+  m_Offset: {x: 0.031724453, y: -0.05075836}
   serializedVersion: 2
-  m_Size: {x: 1.75, y: 1.75}
-  m_EdgeRadius: 0
+  m_Radius: 0.8263569
 --- !u!1 &321814290174233885
 GameObject:
   m_ObjectHideFlags: 0
@@ -654,7 +644,7 @@ Transform:
   - {fileID: 321814290483664851}
   - {fileID: 321814290174233882}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &321814290834953830
 SpriteRenderer:

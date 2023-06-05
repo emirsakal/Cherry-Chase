@@ -598,10 +598,10 @@ GameObject:
   m_Component:
   - component: {fileID: 7611342590433959532}
   - component: {fileID: 7611342590433959535}
-  - component: {fileID: 7611342590433959534}
   - component: {fileID: 7611342590433959530}
   - component: {fileID: 7611342590433959533}
   - component: {fileID: 7611342590433959531}
+  - component: {fileID: 5504858188259001472}
   m_Layer: 0
   m_Name: HingeBall
   m_TagString: Trap
@@ -629,7 +629,7 @@ Transform:
   - {fileID: 7611342588802738726}
   - {fileID: 7611342588723059391}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &7611342590433959535
 SpriteRenderer:
@@ -683,32 +683,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &7611342590433959534
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7611342590433959537}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.024303436, y: -0.028353691}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.75, y: 1.75}
-    newSize: {x: 1.75, y: 1.75}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.7013931, y: 1.6932926}
-  m_EdgeRadius: 0
 --- !u!50 &7611342590433959530
 Rigidbody2D:
   serializedVersion: 4
@@ -745,7 +719,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0.02570343, y: 3.4339771}
-  m_ConnectedAnchor: {x: -59.6343, y: 29.463978}
+  m_ConnectedAnchor: {x: -64.49429, y: 22.513977}
   m_UseMotor: 1
   m_Motor:
     m_MotorSpeed: 50
@@ -770,3 +744,19 @@ MonoBehaviour:
   leftPushRange: -0.3
   rightPushRange: 0.3
   velocityTreshold: 120
+--- !u!58 &5504858188259001472
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7611342590433959537}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.02749443, y: -0.061333656}
+  serializedVersion: 2
+  m_Radius: 0.8284712

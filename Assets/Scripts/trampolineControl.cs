@@ -6,7 +6,7 @@ public class trampolineControl : MonoBehaviour
 {
     private Animator anim;
     private bool isWorking;
-    private float bounce = 20f;
+    [SerializeField] private float bounce = 20f;
 
     void Start()
     {

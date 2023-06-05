@@ -21,7 +21,6 @@ public class playerMovement : MonoBehaviour
     [Header("Object References")]
     public Rigidbody2D rb;
     private Animator anim;
-    public GameObject brokenObjects;
 
     [Header("Sound Effects")]
     [SerializeField] private AudioSource jumpSoundEffect;
@@ -288,20 +287,9 @@ public class playerMovement : MonoBehaviour
         if (collision.gameObject.CompareTag("RedButton")){
             transform.position = new Vector2(-72,20);
         }
-        if (collision.gameObject.CompareTag("Broken")){
-            Invoke("Destroy", 1f);
-            Invoke("UnDestroy",3f);
-        }
     }
 
 
-    void Destroy(){
-        brokenObjects.SetActive(false);
-    }
-
-    void UnDestroy(){
-        brokenObjects.SetActive(true);
-    }
 
     private static Vector2 GetInput() {
         return new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));

@@ -8,6 +8,19 @@ public class menuControl : MonoBehaviour
     public static bool GameIsPaused = false;
     public GameObject pauseMenuUI;
     [SerializeField] private AudioSource bgMusic;
+    int isMute;
+
+    void Start()
+    {
+        if(!PlayerPrefs.HasKey("isMute")) {
+            bgMusic.mute = false;
+            PlayerPrefs.SetInt("isMute", 0);
+        } else if(PlayerPrefs.GetInt("isMute") == 0) {
+            bgMusic.mute = false;
+        } else if (PlayerPrefs.GetInt("isMute") == 1) {
+            bgMusic.mute = true;
+        }
+    }
 
     void Update()
     {
