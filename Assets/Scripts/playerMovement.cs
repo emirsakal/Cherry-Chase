@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class playerMovement : MonoBehaviour
 {
-    
     [Header("Particle System")]
+    [SerializeField] ParticleSystem fallParticle;
+    [SerializeField] ParticleSystem fallParticle1;
     [SerializeField] ParticleSystem movementParticle;
 
     [Range(0,10)]
@@ -46,6 +47,9 @@ public class playerMovement : MonoBehaviour
     [SerializeField] private float _jumpBufferLength = .1f;
     private float _hangTimeCounter;
     private float _jumpBufferCounter;
+    [SerializeField] private float jumpInputDelay = 0.18f;
+    private float jumpInputDelayTimer = 0f;
+    private bool readyToJump;
     
 
     [Header("Grounded")]
@@ -84,6 +88,8 @@ public class playerMovement : MonoBehaviour
     void Update(){
         mx = GetInput().x;
         my = GetInput().y;
+        
+        DelayInput();
 
         if (Input.GetButtonDown("Jump")) {
             _jumpBufferCounter = _jumpBufferLength;
@@ -105,7 +111,7 @@ public class playerMovement : MonoBehaviour
 
         if(isGrounded && Mathf.Abs(rb.velocity.x) > occurAfterVelocity) {
             if (counter > dustFormationPeriod) {
-                movementParticle.Play();
+                // movementParticle.Play();
                 counter = 0;
             }
         }
@@ -126,7 +132,8 @@ public class playerMovement : MonoBehaviour
             _hangTimeCounter -= Time.fixedDeltaTime;
         }
 
-        if (_hangTimeCounter > 0f && _jumpBufferCounter > 0f) {
+        if (_hangTimeCounter > 0f && _jumpBufferCounter > 0f && readyToJump) {
+            jumpInputDelayTimer = jumpInputDelay;
             Jump();
         }
         
@@ -134,9 +141,23 @@ public class playerMovement : MonoBehaviour
         if (mx<0) {
             isFacingRight = false;
             transform.localScale = new Vector2(-1, transform.localScale.y);
+            jumpParticle.transform.localScale = new Vector2(-1, transform.localScale.y);
+            movementParticle.transform.localScale = new Vector2(-1, transform.localScale.y);
+            fallParticle.transform.localScale = new Vector2(-1, transform.localScale.y);
+            fallParticle1.transform.localScale = new Vector2(-1, transform.localScale.y);
         } else if (mx>0) {
             isFacingRight = true;
             transform.localScale = new Vector2(1, transform.localScale.y);
+            jumpParticle.transform.localScale = new Vector2(1, transform.localScale.y);
+            movementParticle.transform.localScale = new Vector2(1, transform.localScale.y);
+            fallParticle.transform.localScale = new Vector2(1, transform.localScale.y);
+            fallParticle1.transform.localScale = new Vector2(1, transform.localScale.y);
+        }
+
+        if (rb.velocity.x > 3f && isFacingRight == false && isGrounded && rb.velocity.y <= 0) {
+            movementParticle.Play();
+        } else if (rb.velocity.x < -3f && isFacingRight == true && isGrounded && rb.velocity.y <= 0) {
+            movementParticle.Play();
         }
 
         
@@ -259,7 +280,7 @@ public class playerMovement : MonoBehaviour
         jumpSoundEffect.Play();
         rb.velocity = new Vector2(rb.velocity.x, jumpForce);
     }
-
+  
     private void OnCollisionEnter2D(Collision2D collision) {
         if (collision.gameObject.CompareTag("teleport")){
             transform.position = new Vector2(85,18);
@@ -314,6 +335,20 @@ public class playerMovement : MonoBehaviour
         } else {
             rb.gravityScale = 1f;
         }
+    }
+
+    private void DelayInput()
+    {
+        switch (jumpInputDelayTimer) 
+        {
+            case <= 0:
+                readyToJump = true;
+                break;
+            default:
+                readyToJump = false;
+                jumpInputDelayTimer -= Time.deltaTime;
+                break;
+        }   
     }
 
 }

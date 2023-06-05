@@ -18,6 +18,10 @@ public class menuControl : MonoBehaviour
                 Pause();
             }
         }
+
+        if(!PlayerPrefs.HasKey("isMute")) {
+            PlayerPrefs.SetInt("isMute", 0);
+        }
     }
 
     public void Resume() {
@@ -54,5 +58,15 @@ public class menuControl : MonoBehaviour
     }
     private void NextLevelLoad() {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    public void Mute(){
+        if(PlayerPrefs.GetInt("isMute") == 0) {
+            bgMusic.mute = true;
+            PlayerPrefs.SetInt("isMute", 1);
+        } else if (PlayerPrefs.GetInt("isMute") == 1) {
+            bgMusic.mute = false;
+            PlayerPrefs.SetInt("isMute", 0);
+        }
     }
 }
