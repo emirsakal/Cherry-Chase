@@ -1,2 +1,2 @@
-# 2D-Platformer
- a 2D Platformer Game created using Unity.
+# Cherry Chase
+ Cherry Chase is a 2D Platformer game that I created with using Unity.
