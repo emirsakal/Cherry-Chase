@@ -13,6 +13,7 @@ TagManager:
   - teleport
   - Broken
   - Ground
+  - Cherry
   layers:
   - Default
   - TransparentFX

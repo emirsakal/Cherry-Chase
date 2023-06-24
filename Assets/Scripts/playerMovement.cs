@@ -23,6 +23,7 @@ public class playerMovement : MonoBehaviour
     private Animator anim;
 
     [Header("Sound Effects")]
+    [SerializeField] private AudioSource buttonClick;
     [SerializeField] private AudioSource jumpSoundEffect;
 
     private enum MovementState { idle, running, jumping, falling, sliding }
@@ -251,7 +252,7 @@ public class playerMovement : MonoBehaviour
             anim.SetInteger("state", (int)MovementState.falling);
         }
 
-        if (isTouchingWall) {
+        if (isTouchingWall && !isGrounded) {
             anim.SetInteger("state", (int)MovementState.sliding);
         }
 
@@ -284,8 +285,8 @@ public class playerMovement : MonoBehaviour
         if (collision.gameObject.CompareTag("teleport")){
             transform.position = new Vector2(85,18);
         }
-        if (collision.gameObject.CompareTag("RedButton")){
-            transform.position = new Vector2(-72,20);
+        if (collision.gameObject.CompareTag("YellowButton") || collision.gameObject.CompareTag("RedButton") || collision.gameObject.CompareTag("GreenButton") || collision.gameObject.CompareTag("BlueButton")){
+            buttonClick.Play();
         }
     }
 

@@ -1,0 +1,1338 @@
+fileFormatVersion: 2
+guid: 8b25731da39723d498730f53edbe0d87
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: verticalStrip (2)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 15444
+        width: 639
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c4a78523cb9dc4b890affa8863da82
+      internalID: -970255702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verticalStrip (2)_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 15147
+        width: 639
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee2c71e05a022214199e516afe2244d6
+      internalID: -1191006047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verticalStrip (2)_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 14850
+        width: 639
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e6c9febd9fd4a4dadcf90faeea771e
+      internalID: -766825794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verticalStrip (2)_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 14553
+        width: 639
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b33b65d906ec24eb33335da24e8cce
+      internalID: -1677199173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verticalStrip (2)_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 14256
+        width: 639
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d7ff997354236e4da24db55915b2c78
+      internalID: -1237754749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verticalStrip (2)_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13959
+        width: 639
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df852059f06dd304e8dd1a39c6da2939
+      internalID: 1795507708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verticalStrip (2)_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13662
+        width: 639
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba8421f4cbfb33479d987366799c233
+      internalID: 278433496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verticalStrip (2)_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13365
+        width: 639
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fdac134b3e5a0c4e9ca593fdc7f40a3
+      internalID: 229287905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verticalStrip (2)_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13068
+        width: 639
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f50c2cef2a3ac0419f1cfca68b971f7
+      internalID: -386939658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verticalStrip (2)_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12771
+        width: 639
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed37242a5ca399340bf9054693d6b008
+      internalID: 267172882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verticalStrip (2)_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12474
+        width: 639
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dce53f752e0a534393f73e22d6dbd3c
+      internalID: -665882211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verticalStrip (2)_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12177
+        width: 639
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 307612647e28a014586a4a41ce36a15c
+      internalID: -189882259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verticalStrip (2)_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11880
+        width: 639
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32af4f12f22a19448a57d95bbd8e786e
+      internalID: 1519948219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verticalStrip (2)_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11583
+        width: 639
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac6d2e7ae0e8354ba9bdbee990c2c1d
+      internalID: 1345483725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verticalStrip (2)_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11286
+        width: 639
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50479bd4998c2454f996e60951c3b0c5
+      internalID: 922478638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verticalStrip (2)_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10989
+        width: 639
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04bd0321392d6c046b3b99aaebdfd347
+      internalID: 2008162739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verticalStrip (2)_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10692
+        width: 639
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e59e748438e03644bb995d909bad105d
+      internalID: -1241048885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verticalStrip (2)_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10395
+        width: 639
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e53f4748690454848baf287384460e70
+      internalID: 466095808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verticalStrip (2)_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10098
+        width: 639
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0eb0bf13f82e049ab996f157a7b8cd
+      internalID: -1372233349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verticalStrip (2)_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9801
+        width: 639
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed77a3ef05d5b94da3732bec733c75b
+      internalID: -1862561247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verticalStrip (2)_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9504
+        width: 639
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f45289d6a4ece40a7886308df816fa
+      internalID: -1122941968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verticalStrip (2)_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9207
+        width: 639
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c1f4f0243ca7c4193fbf74c7b56c3a
+      internalID: -2115019206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verticalStrip (2)_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8910
+        width: 639
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092061d3c13302e4a9e420d1aacecd55
+      internalID: 313163044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verticalStrip (2)_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8613
+        width: 639
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccfd607a19bd5854dbf8d0ab9e267338
+      internalID: 140303021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verticalStrip (2)_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8316
+        width: 639
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b19df62776cd8641b5b720431fbbbb3
+      internalID: 741184906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verticalStrip (2)_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8019
+        width: 639
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8dc326c14968d741959b21f63c5b21a
+      internalID: 3283656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verticalStrip (2)_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7722
+        width: 639
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ea6b221fe18484a94c105a8c5396fe
+      internalID: 232738048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verticalStrip (2)_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7425
+        width: 639
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f807ca09466c0f43a9003f6e2f402ca
+      internalID: 370709088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verticalStrip (2)_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7128
+        width: 639
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c969df4120f77fb469f3589c7bc72d27
+      internalID: -1737576393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verticalStrip (2)_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6831
+        width: 639
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e22d6022e47b341bfd161c2094af1b
+      internalID: -1519730490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verticalStrip (2)_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6534
+        width: 639
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14292bbc0e9f842468df262e96e56a47
+      internalID: 81714666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verticalStrip (2)_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6237
+        width: 639
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40eb6b8024fa9cf4d99688768669b4e8
+      internalID: -132862993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verticalStrip (2)_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5940
+        width: 639
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 885e5acf6bae0b74eb98e4e67b475169
+      internalID: -1966147153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verticalStrip (2)_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5643
+        width: 639
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af1646c37824e764b9e7f5ba0c464794
+      internalID: 408135010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verticalStrip (2)_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5346
+        width: 639
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee52e2eadcef6d1478088052a7508c4c
+      internalID: 679374146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verticalStrip (2)_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5049
+        width: 639
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce6fdf80254607c4f8641ad0a323e281
+      internalID: 3086911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verticalStrip (2)_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4752
+        width: 639
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c07454d736b406a43a64ed48e722764e
+      internalID: 2013239278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verticalStrip (2)_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4455
+        width: 639
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e35ba562fb7814cb8d335953f1ddfa
+      internalID: 1538828954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verticalStrip (2)_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4158
+        width: 639
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2ec2c5225a03c43901ed071330c5ca
+      internalID: -505770115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verticalStrip (2)_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3861
+        width: 639
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76055c14e36994b4282decc303b78bad
+      internalID: -1605541801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verticalStrip (2)_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3564
+        width: 639
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2cadb4e29a6d546a65593ef4140a8d
+      internalID: 1537525709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verticalStrip (2)_41
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3267
+        width: 639
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62138cf3871c4c348aa5c228b55a4fd7
+      internalID: 1497627365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verticalStrip (2)_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2970
+        width: 639
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a45e0aeeb8990143b114bfb285d70fd
+      internalID: 1531109768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verticalStrip (2)_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2673
+        width: 639
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 633930638136c214d9503c4520107752
+      internalID: 319450837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verticalStrip (2)_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2376
+        width: 639
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 428449b776e1db548b106a34a7b3cae6
+      internalID: -807275367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verticalStrip (2)_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2079
+        width: 639
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37edf41af649fc945989f771ec49fbef
+      internalID: 1451797927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verticalStrip (2)_46
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1782
+        width: 639
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df843e156daa82b479a0c6c02fa4d9a9
+      internalID: -1201002058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verticalStrip (2)_47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1485
+        width: 639
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf001d5557d800040b4419c253e0c4fa
+      internalID: -1815037697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verticalStrip (2)_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1188
+        width: 639
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f2e12e2a7cfc441b52d29af52763aa
+      internalID: -299052931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verticalStrip (2)_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 891
+        width: 639
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88c2d6128fde84458d0674376f56f57
+      internalID: 208318683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verticalStrip (2)_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 594
+        width: 639
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a0b68eed5cf5f0468e8e0e5c754e4a5
+      internalID: 1264159156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verticalStrip (2)_51
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 297
+        width: 639
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05119c3332d1a274fa77ec3ab899d36e
+      internalID: 1322866899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verticalStrip (2)_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 639
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d45989013276d5145899f8d37907c1dc
+      internalID: 1387264652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      verticalStrip (2)_45: 1451797927
+      verticalStrip (2)_12: 1519948219
+      verticalStrip (2)_16: -1241048885
+      verticalStrip (2)_11: -189882259
+      verticalStrip (2)_35: 3086911
+      verticalStrip (2)_2: -766825794
+      verticalStrip (2)_37: 1538828954
+      verticalStrip (2)_13: 1345483725
+      verticalStrip (2)_4: -1237754749
+      verticalStrip (2)_7: 229287905
+      verticalStrip (2)_22: 313163044
+      verticalStrip (2)_10: -665882211
+      verticalStrip (2)_52: 1387264652
+      verticalStrip (2)_44: -807275367
+      verticalStrip (2)_48: -299052931
+      verticalStrip (2)_51: 1322866899
+      verticalStrip (2)_42: 1531109768
+      verticalStrip (2)_47: -1815037697
+      verticalStrip (2)_46: -1201002058
+      verticalStrip (2)_25: 3283656
+      verticalStrip (2)_26: 232738048
+      verticalStrip (2)_40: 1537525709
+      verticalStrip (2)_24: 741184906
+      verticalStrip (2)_17: 466095808
+      verticalStrip (2)_34: 679374146
+      verticalStrip (2)_8: -386939658
+      verticalStrip (2)_14: 922478638
+      verticalStrip (2)_36: 2013239278
+      verticalStrip (2)_39: -1605541801
+      verticalStrip (2)_19: -1862561247
+      verticalStrip (2)_31: -132862993
+      verticalStrip (2)_1: -1191006047
+      verticalStrip (2)_15: 2008162739
+      verticalStrip (2)_38: -505770115
+      verticalStrip (2)_20: -1122941968
+      verticalStrip (2)_49: 208318683
+      verticalStrip (2)_23: 140303021
+      verticalStrip (2)_50: 1264159156
+      verticalStrip (2)_27: 370709088
+      verticalStrip (2)_0: -970255702
+      verticalStrip (2)_29: -1519730490
+      verticalStrip (2)_9: 267172882
+      verticalStrip (2)_18: -1372233349
+      verticalStrip (2)_21: -2115019206
+      verticalStrip (2)_5: 1795507708
+      verticalStrip (2)_30: 81714666
+      verticalStrip (2)_32: -1966147153
+      verticalStrip (2)_43: 319450837
+      verticalStrip (2)_41: 1497627365
+      verticalStrip (2)_3: -1677199173
+      verticalStrip (2)_33: 408135010
+      verticalStrip (2)_6: 278433496
+      verticalStrip (2)_28: -1737576393
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
