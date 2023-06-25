@@ -11,7 +11,6 @@ public class itemCollector : MonoBehaviour
     private int n;
 
     [SerializeField] private Text cherriesText;
-    [SerializeField] private Text maxCherriesText;
 
     [SerializeField] private AudioSource collectionSoundEffect;
 
