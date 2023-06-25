@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 178069943480652456}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.6898, y: -0.437, z: -12.659163}
+  m_LocalPosition: {x: 0.704, y: -0.437, z: -12.659163}
   m_LocalScale: {x: 0.25000006, y: 0.25000006, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -829,6 +829,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxCherries: 050000000900000005000000090000000a0000000000000000000000000000000000000000000000
   cherriesText: {fileID: 0}
+  maxCherriesText: {fileID: 0}
   collectionSoundEffect: {fileID: 7900667788895349591}
 --- !u!1 &5649056999337520690
 GameObject:
