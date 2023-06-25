@@ -14,7 +14,7 @@ public class levelSelection : MonoBehaviour
     {
         // PlayerPrefs.SetInt("levelAt", 1);
         int levelAt = PlayerPrefs.GetInt("levelAt", 1);
-
+        // PUSHLAMAYI ÖĞRENİYORUM
         float level5Time = PlayerPrefs.GetFloat("level5Time", 0.0f);
         float minutes = Mathf.FloorToInt(level5Time / 60);  
         float seconds = Mathf.FloorToInt(level5Time % 60);
