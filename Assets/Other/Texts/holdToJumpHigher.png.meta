@@ -1,0 +1,964 @@
+fileFormatVersion: 2
+guid: 10d5120e9d80e8a4889ee0635747994c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: holdToJumpHigher_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1765
+        width: 711
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11cd69695c5d96e4584fdc62ec8a0710
+      internalID: 1502729303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdToJumpHigher_1
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 1765
+        width: 711
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75637723b36aad64fa23fc25b67dd8a6
+      internalID: -51232552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdToJumpHigher_2
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 1765
+        width: 711
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b30ee35f73975740998cbb133c7d88e
+      internalID: 1985094788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdToJumpHigher_3
+      rect:
+        serializedVersion: 2
+        x: 2133
+        y: 1765
+        width: 711
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334493e5f196dbf44bbd6c682e7294f7
+      internalID: -1255677490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdToJumpHigher_4
+      rect:
+        serializedVersion: 2
+        x: 2844
+        y: 1765
+        width: 711
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07647f9cda343d742869369aa690b66c
+      internalID: 1243832789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdToJumpHigher_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1514
+        width: 711
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e97a02e8a134646aa99f5a8f18f5f1
+      internalID: 263456169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdToJumpHigher_6
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 1514
+        width: 711
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e54e4fcfa56ca409657992856e93f8
+      internalID: -997911382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdToJumpHigher_7
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 1514
+        width: 711
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c05c9cb85d52a45b49692f0348312e
+      internalID: 900329837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdToJumpHigher_8
+      rect:
+        serializedVersion: 2
+        x: 2133
+        y: 1514
+        width: 711
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c38b46cd3f9100e449e9f7d1656ec67f
+      internalID: -249361043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdToJumpHigher_9
+      rect:
+        serializedVersion: 2
+        x: 2844
+        y: 1514
+        width: 711
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae67c06d6f763034e842bffe7ef01ce7
+      internalID: -1772917787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdToJumpHigher_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1263
+        width: 711
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6fb3bfd93c388f40bb755877a186581
+      internalID: 239018973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdToJumpHigher_11
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 1263
+        width: 711
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdab4b9740e8e65448e4120d70907525
+      internalID: 1119583003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdToJumpHigher_12
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 1263
+        width: 711
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce9e8760bdbb94d4c8c394c8eb0a1b54
+      internalID: 856594613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdToJumpHigher_13
+      rect:
+        serializedVersion: 2
+        x: 2133
+        y: 1263
+        width: 711
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f31e1a427374f374387591f5b00725a5
+      internalID: -2038136000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdToJumpHigher_14
+      rect:
+        serializedVersion: 2
+        x: 2844
+        y: 1263
+        width: 711
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4c58ebcb306e324ba04b2b4889c626b
+      internalID: -983766318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdToJumpHigher_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1012
+        width: 711
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 856c4afc7821fec4b87116a65f684113
+      internalID: 870190701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdToJumpHigher_16
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 1012
+        width: 711
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cad7dbbee4b57342b95fb4010bf11f3
+      internalID: -942055327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdToJumpHigher_17
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 1012
+        width: 711
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72acbd50e973d74429311dfd541f71a2
+      internalID: 241522130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdToJumpHigher_18
+      rect:
+        serializedVersion: 2
+        x: 2133
+        y: 1012
+        width: 711
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1649d19c435125f48abcfcb320347815
+      internalID: 516561227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdToJumpHigher_19
+      rect:
+        serializedVersion: 2
+        x: 2844
+        y: 1012
+        width: 711
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4420a5f0da13ea4b9feeda3ec3ded2b
+      internalID: 1905628095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdToJumpHigher_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 761
+        width: 711
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49cba9794a72b7f439d698f6584c7059
+      internalID: -27390574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdToJumpHigher_21
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 761
+        width: 711
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f133907c0a3e6244902b8e53f4d5d0b
+      internalID: 1147203494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdToJumpHigher_22
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 761
+        width: 711
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f3a65f59206cc419e8a7ca85737e10
+      internalID: 1366599219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdToJumpHigher_23
+      rect:
+        serializedVersion: 2
+        x: 2133
+        y: 761
+        width: 711
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a85cb2050b6c30b4ea942b37a8ee9a6f
+      internalID: 148551902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdToJumpHigher_24
+      rect:
+        serializedVersion: 2
+        x: 2844
+        y: 761
+        width: 711
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d75ab9500470f7944987f6808e2381c1
+      internalID: -83447563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdToJumpHigher_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 510
+        width: 711
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 750f9dfc4e0303740adb583ee42e8975
+      internalID: -1987167671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdToJumpHigher_26
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 510
+        width: 711
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7708b606d8de027428124333c96967a9
+      internalID: -1935839808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdToJumpHigher_27
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 510
+        width: 711
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 682a97c35fc0be04abdcb0d31fd79bdf
+      internalID: 439038832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdToJumpHigher_28
+      rect:
+        serializedVersion: 2
+        x: 2133
+        y: 510
+        width: 711
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb8764372896c8049bc1451b9d16e45f
+      internalID: -1891455280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdToJumpHigher_29
+      rect:
+        serializedVersion: 2
+        x: 2844
+        y: 510
+        width: 711
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 299eaf834d244d346900638b1a6e6aaa
+      internalID: 907318225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdToJumpHigher_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 259
+        width: 711
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f38b8279d7aa78447aaeb238beeef95c
+      internalID: -1720115466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdToJumpHigher_31
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 259
+        width: 711
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a389067697b57a4588e925e1b6cf17c
+      internalID: -402243614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdToJumpHigher_32
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 259
+        width: 711
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de2f0f9ece56b64f964875d86130d93
+      internalID: 1978882279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdToJumpHigher_33
+      rect:
+        serializedVersion: 2
+        x: 2133
+        y: 259
+        width: 711
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4740ef58d7e90940bce03cf970dae95
+      internalID: 1778932739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdToJumpHigher_34
+      rect:
+        serializedVersion: 2
+        x: 2844
+        y: 259
+        width: 711
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f8ff91e8b30294f9ba184c865c178d
+      internalID: -447483067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdToJumpHigher_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 711
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a640c82333459d4cb3b99f325d4672e
+      internalID: -1999934445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      holdToJumpHigher_22: 1366599219
+      holdToJumpHigher_24: -83447563
+      holdToJumpHigher_17: 241522130
+      holdToJumpHigher_16: -942055327
+      holdToJumpHigher_23: 148551902
+      holdToJumpHigher_7: 900329837
+      holdToJumpHigher_21: 1147203494
+      holdToJumpHigher_0: 1502729303
+      holdToJumpHigher_30: -1720115466
+      holdToJumpHigher_2: 1985094788
+      holdToJumpHigher_18: 516561227
+      holdToJumpHigher_28: -1891455280
+      holdToJumpHigher_31: -402243614
+      holdToJumpHigher_8: -249361043
+      holdToJumpHigher_10: 239018973
+      holdToJumpHigher_25: -1987167671
+      holdToJumpHigher_3: -1255677490
+      holdToJumpHigher_1: -51232552
+      holdToJumpHigher_4: 1243832789
+      holdToJumpHigher_11: 1119583003
+      holdToJumpHigher_6: -997911382
+      holdToJumpHigher_12: 856594613
+      holdToJumpHigher_5: 263456169
+      holdToJumpHigher_29: 907318225
+      holdToJumpHigher_34: -447483067
+      holdToJumpHigher_9: -1772917787
+      holdToJumpHigher_32: 1978882279
+      holdToJumpHigher_14: -983766318
+      holdToJumpHigher_35: -1999934445
+      holdToJumpHigher_19: 1905628095
+      holdToJumpHigher_15: 870190701
+      holdToJumpHigher_27: 439038832
+      holdToJumpHigher_26: -1935839808
+      holdToJumpHigher_33: 1778932739
+      holdToJumpHigher_20: -27390574
+      holdToJumpHigher_13: -2038136000
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
