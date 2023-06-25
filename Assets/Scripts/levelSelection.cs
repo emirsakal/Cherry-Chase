@@ -8,12 +8,19 @@ public class levelSelection : MonoBehaviour
     public Button[] lvlButtons;
     public GameObject[] stars;
     public GameObject[] emptyStars;
+    [SerializeField] private Text Level1MinutesText;
 
     void Start()
     {
         // PlayerPrefs.SetInt("levelAt", 1);
         int levelAt = PlayerPrefs.GetInt("levelAt", 1);
+
+        float level5Time = PlayerPrefs.GetFloat("level5Time", 0.0f);
+        float minutes = Mathf.FloorToInt(level5Time / 60);  
+        float seconds = Mathf.FloorToInt(level5Time % 60);
         
+        Level1MinutesText.text = string.Format("{0:0}:{1:00}", minutes, seconds);
+
         for(int i = 0; i < lvlButtons.Length; i++) {
             if (i + 1 > levelAt) {
                 lvlButtons[i].interactable = false;

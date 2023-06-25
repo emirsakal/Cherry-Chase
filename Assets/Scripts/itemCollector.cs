@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class itemCollector : MonoBehaviour
 {
     private int cherries = 0;
+
     public int[] maxCherries;
     private int n;
 
@@ -29,6 +30,9 @@ public class itemCollector : MonoBehaviour
 
     void Update() {
         
+        
+
+ 
         switch(SceneManager.GetActiveScene().name) {
             case "Level1":
                 n = 0;
