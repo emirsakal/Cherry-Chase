@@ -827,6 +827,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 138c1e9bf690a57469a0356455fad489, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxCherries: 050000000900000005000000090000000a0000000000000000000000000000000000000000000000
   cherriesText: {fileID: 0}
   collectionSoundEffect: {fileID: 7900667788895349591}
 --- !u!1 &5649056999337520690
