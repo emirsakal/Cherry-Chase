@@ -5,17 +5,36 @@ using UnityEngine.InputSystem;
 
 public class playerOneWay : MonoBehaviour
 {
-    public bool fallThrough;
+    private GameObject currentOneWayPlatform;
+
+    [SerializeField] private Collider2D playerCollider;
     
     void Update()
     {
-        if(Keyboard.current.downArrowKey.isPressed)
-        {
-            fallThrough = true;
-        } else
-        {
-            fallThrough = false;
+        if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow)){
+            if(currentOneWayPlatform != null) {
+                StartCoroutine(DisableCollision());
+            }
         }
     }
-    
+
+    private void OnCollisionEnter2D(Collision2D other) {
+        if (other.gameObject.CompareTag("OneWayPlatform")) {
+            currentOneWayPlatform = other.gameObject;
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D other) {
+        if(other.gameObject.CompareTag("OneWayPlatform")) {
+            currentOneWayPlatform = null;
+        }
+    }
+
+    private IEnumerator DisableCollision() {
+        BoxCollider2D platformColider = currentOneWayPlatform.GetComponent<BoxCollider2D>(); 
+
+        Physics2D.IgnoreCollision(playerCollider, platformColider);
+        yield return new WaitForSeconds(1f);
+        Physics2D.IgnoreCollision(playerCollider,platformColider, false);
+    }   
 }

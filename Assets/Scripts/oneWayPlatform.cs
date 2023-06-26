@@ -4,30 +4,31 @@ using UnityEngine;
 
 public class oneWayPlatform : MonoBehaviour
 {
-    playerOneWay playerControls;
-    PlatformEffector2D platformEffector;
-    private void Awake()
-    {
-        platformEffector = GetComponent<PlatformEffector2D>();
+    public Collider2D colliderX;
+    public float waitTime;
+    private bool canDo;
+
+    void Start() {
+        colliderX = GetComponent<Collider2D>();
     }
 
-    private void OnCollisionEnter2D(Collision2D collision) {
-        if (collision.collider.CompareTag("Player")) {
-            playerControls = collision.gameObject.GetComponent<playerOneWay>();
+    void Update(){
+        if(waitTime > 0f) {
+            waitTime -= Time.deltaTime;
         }
-    }
-    
-    private void OnCollisionStay2D(Collision2D collision) {
-        if (playerControls == null)
-            return;
-        if(playerControls.fallThrough) {
-            platformEffector.rotationalOffset = 180;
-            playerControls = null;
+        if(canDo && (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))) {
+            colliderX.enabled = false;
+            waitTime = 0.3f;
+        } else if (waitTime <= 0.1f){
+            colliderX.enabled = true;
         }
     }
 
-    private void OnCollisionExit2D(Collision2D collision) {
-        playerControls = null;
-        platformEffector.rotationalOffset = 0;
+    private void OnTriggerEnter2D(Collider2D collision) {
+        if (collision.gameObject.CompareTag("User")) {
+            canDo = true;
+        } else {
+            canDo = false;
+        }
     }
 }
