@@ -9,7 +9,7 @@ public class playerOneWay : MonoBehaviour
     
     void Update()
     {
-        if(Keyboard.current.downArrowKey.isPressed())
+        if(Keyboard.current.downArrowKey.isPressed)
         {
             fallThrough = true;
         } else
