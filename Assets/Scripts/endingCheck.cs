@@ -24,16 +24,6 @@ public class endingCheck : MonoBehaviour
     void Start()
     {
         nextSceneLoad = SceneManager.GetActiveScene().buildIndex + 1;
-        PlayerPrefs.SetFloat("level1Time", 99.99f);
-        PlayerPrefs.SetFloat("level2Time", 99.99f);
-        PlayerPrefs.SetFloat("level3Time", 99.99f);
-        PlayerPrefs.SetFloat("level4Time", 99.99f);
-        PlayerPrefs.SetFloat("level5Time", 99.99f);
-        PlayerPrefs.SetFloat("level6Time", 99.99f);
-        PlayerPrefs.SetFloat("level7Time", 99.99f);
-        PlayerPrefs.SetFloat("level8Time", 99.99f);
-        PlayerPrefs.SetFloat("level9Time", 99.99f);
-        PlayerPrefs.SetFloat("level10Time", 99.99f);
     }
 
     void Update() {

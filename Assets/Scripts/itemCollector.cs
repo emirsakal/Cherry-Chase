@@ -15,7 +15,18 @@ public class itemCollector : MonoBehaviour
 
     [SerializeField] private AudioSource collectionSoundEffect;
 
-    /* void Start() {
+    /*
+    void Start() {
+        PlayerPrefs.SetFloat("level1Time", 999999.0f);
+        PlayerPrefs.SetFloat("level2Time", 999999.0f);
+        PlayerPrefs.SetFloat("level3Time", 999999.0f);
+        PlayerPrefs.SetFloat("level4Time", 999999.0f);
+        PlayerPrefs.SetFloat("level5Time", 999999.0f);
+        PlayerPrefs.SetFloat("level6Time", 999999.0f);
+        PlayerPrefs.SetFloat("level7Time", 999999.0f);
+        PlayerPrefs.SetFloat("level8Time", 999999.0f);
+        PlayerPrefs.SetFloat("level9Time", 999999.0f);
+        PlayerPrefs.SetFloat("level10Time", 999999.0f);
         PlayerPrefs.SetInt("level1Cherries",0);
         PlayerPrefs.SetInt("level2Cherries",0);
         PlayerPrefs.SetInt("level3Cherries",0);
