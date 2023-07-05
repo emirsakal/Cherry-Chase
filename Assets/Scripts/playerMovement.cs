@@ -56,6 +56,7 @@ public class playerMovement : MonoBehaviour
     public int canJump;
     public Transform groundCheck;
     public LayerMask groundLayer;
+    public LayerMask oneWayLayer;
     public float groundRadius = 0.2f;
     public bool isGrounded = false;
 
@@ -80,6 +81,7 @@ public class playerMovement : MonoBehaviour
     public bool isTouchingDoubleJump = false;
 
 
+
     void Start() {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
@@ -98,7 +100,7 @@ public class playerMovement : MonoBehaviour
         }
 
         if (isTouchingDoubleJump && Input.GetButtonDown("Jump")) {
-            DoubleJump();
+            Jump(); // This was DoubleJump() but I removed it since it causes duplicate jump sound effects.
             canJump--;
         }
 
@@ -163,6 +165,11 @@ public class playerMovement : MonoBehaviour
         
 
         bool touchingGround = Physics2D.OverlapCircle(groundCheck.position, groundRadius, groundLayer);
+        bool touchingOneWay = Physics2D.OverlapCircle(groundCheck.position, groundRadius, oneWayLayer);
+
+        if(touchingOneWay) {
+            
+        }
 
         if(touchingGround) {
             isGrounded = true;
@@ -188,8 +195,9 @@ public class playerMovement : MonoBehaviour
 
         bool touchingDoubleJump = Physics2D.OverlapCircle(groundCheck.position, groundRadius, doubleLayer);
 
-        if (touchingDoubleJump) {
+        if (touchingDoubleJump) { // I added the isGrounded = true; because of the running animation bug when the characther does a double jump. (Between first and second jump)
             isTouchingDoubleJump = true;
+            isGrounded = true;
             canJump = 1;
         } else {
             isTouchingDoubleJump = false;
@@ -235,7 +243,7 @@ public class playerMovement : MonoBehaviour
 
     void UpdateAnimation() {
 
-        if (isGrounded || isTouchingDoubleJump) {
+        if (isGrounded) {
             if (mx != 0 && rb.velocity.y < 0.1f)
                 {
                     anim.SetInteger("state", (int)MovementState.running);
@@ -271,11 +279,13 @@ public class playerMovement : MonoBehaviour
         _hangTimeCounter = 0f;
         _jumpBufferCounter = 0f;
     }
-    void DoubleJump(){
+
+    /* void DoubleJump(){                                           I removed this because of the twice jump sound problem.
         jumpParticle.Play();
         jumpSoundEffect.Play();
         rb.velocity = new Vector2(rb.velocity.x, jumpForce);
-    }
+    } */
+
     void WallJump(){
         jumpSoundEffect.Play();
         rb.velocity = new Vector2(rb.velocity.x, jumpForce);
@@ -289,7 +299,6 @@ public class playerMovement : MonoBehaviour
             buttonClick.Play();
         }
     }
-
 
 
     private static Vector2 GetInput() {
