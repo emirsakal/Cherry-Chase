@@ -1,0 +1,1712 @@
+fileFormatVersion: 2
+guid: d5391a8524e840e4dbb329b5158ff143
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: oneWay2Text_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3861
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcca31f8a0c32de42bf912cf3e353781
+      internalID: -1913602824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_1
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 3861
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134bdf258750a8e4a99b22243dcdb8d8
+      internalID: -993192884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_2
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 3861
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cba271c813f9544a82b94ca8ae4f07d
+      internalID: -1070137300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_3
+      rect:
+        serializedVersion: 2
+        x: 2403
+        y: 3861
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f94386185a68a8f4595a98c88c1b2f95
+      internalID: 1227171175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_4
+      rect:
+        serializedVersion: 2
+        x: 3204
+        y: 3861
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6777ec63a1c249947bc18042c7e57e68
+      internalID: 696478267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3564
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d7c829f5dcec5a47adb607fb982f59e
+      internalID: 2066120973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_6
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 3564
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98cd21cb181eca24eb5941c529dec649
+      internalID: -2147323520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_7
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 3564
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519a8fca65bc4934a9aad8a85f05b813
+      internalID: 287023480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_8
+      rect:
+        serializedVersion: 2
+        x: 2403
+        y: 3564
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e2f60dc83185a48a934072e154d792
+      internalID: 1849999097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_9
+      rect:
+        serializedVersion: 2
+        x: 3204
+        y: 3564
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e01efc93f837c48958d7153d303d54
+      internalID: 961418638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3267
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e8fd562f71249419ebc30914c00f8b
+      internalID: 1899652189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_11
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 3267
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6687f7bd645be4f4ca3b0ebac47c372b
+      internalID: 1911646168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_12
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 3267
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef78fe2827a91fa4cbb05c141deb585d
+      internalID: -268883959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_13
+      rect:
+        serializedVersion: 2
+        x: 2403
+        y: 3267
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4261e587b406c2b40ac9a511a8c6290f
+      internalID: -578215267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_14
+      rect:
+        serializedVersion: 2
+        x: 3204
+        y: 3267
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f2951bb5a6c43a43a86abf1a50919d6
+      internalID: 583435105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2970
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e95b3de8fe413ad448d158a7cda7396e
+      internalID: 1662230721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_16
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 2970
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbbc882459c2a164a8cddfbba4017b4e
+      internalID: 1390836425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_17
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 2970
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b19c6ff5220a846b8c5df75386ad21
+      internalID: 967169284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_18
+      rect:
+        serializedVersion: 2
+        x: 2403
+        y: 2970
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f861022733db7f4bb271a21e7a7dfdc
+      internalID: 383659983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_19
+      rect:
+        serializedVersion: 2
+        x: 3204
+        y: 2970
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0083077dd37de648b6a27f56546505c
+      internalID: 132621351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2673
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e72a4e8ed83545d4897e58cd38a5b29a
+      internalID: -744801656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_21
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 2673
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f5b6aa8153aba24685fc4649365c21a
+      internalID: 100210065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_22
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 2673
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b6d6306fd531574b89008c5e339bd37
+      internalID: 185077827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_23
+      rect:
+        serializedVersion: 2
+        x: 2403
+        y: 2673
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d70f82f853da94fb239678c4996b92
+      internalID: -1036643065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_24
+      rect:
+        serializedVersion: 2
+        x: 3204
+        y: 2673
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c0193f41c82094783400d0c112cf7c
+      internalID: -991113244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2376
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3257e892977ac154a8777d7f07475305
+      internalID: 1231405516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_26
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 2376
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99216a42c0b6a3942abd6cf21312ba28
+      internalID: -450365158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_27
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 2376
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2641a1ba568729b46986e6c9da292df6
+      internalID: -1005680020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_28
+      rect:
+        serializedVersion: 2
+        x: 2403
+        y: 2376
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b850a8aed79c84899d65fdcf0187ef
+      internalID: -1665765876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_29
+      rect:
+        serializedVersion: 2
+        x: 3204
+        y: 2376
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c81e9a148e80c4892cfe7b9a97d90e
+      internalID: 217815503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2079
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd15a8c1609217145a980fd078545d8d
+      internalID: 195246617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_31
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 2079
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31631ac903b1bf142990916269fc3f18
+      internalID: 689864931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_32
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 2079
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3bf84cf592c1fa4a8e093bffa62d80a
+      internalID: 267990961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_33
+      rect:
+        serializedVersion: 2
+        x: 2403
+        y: 2079
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9caac7c71439b974886d7518a4619314
+      internalID: -1942660682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_34
+      rect:
+        serializedVersion: 2
+        x: 3204
+        y: 2079
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a7733f51b968d042b660930e40cbeb3
+      internalID: 500619154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1782
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4386529af5450e547a6bf90c6f311511
+      internalID: 2061419854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_36
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 1782
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d7a377653d657e44a70e905d888cb88
+      internalID: -1220500175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_37
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 1782
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a86f3e5d98dd6d44980309546556367
+      internalID: -1764300304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_38
+      rect:
+        serializedVersion: 2
+        x: 2403
+        y: 1782
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d409c03add33440860db5283ba6d97
+      internalID: 577168083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_39
+      rect:
+        serializedVersion: 2
+        x: 3204
+        y: 1782
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc8724732b65f948bd5836bd85b4b40
+      internalID: 683056306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1485
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba1db1fd56465f4da7ddc6dde8d93df
+      internalID: 2140352145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_41
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 1485
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad5e706705e085444b7df1e6352ae127
+      internalID: 1132305221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_42
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 1485
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bedcc77c3a973b24db6a6a416e23f339
+      internalID: 1265078283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_43
+      rect:
+        serializedVersion: 2
+        x: 2403
+        y: 1485
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35eb8342539d11e47a68e0b7fc408cd5
+      internalID: 236246102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_44
+      rect:
+        serializedVersion: 2
+        x: 3204
+        y: 1485
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db115f333f83c06458fc3919073d70a8
+      internalID: -248527413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1188
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc73a17708344ca49966eab33e40c250
+      internalID: -1722766779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_46
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 1188
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4e2b181aca7654590ba874378a4c29
+      internalID: 241690096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_47
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 1188
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e5baf0e86779ce40a77111773f4b4ae
+      internalID: -1594782433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_48
+      rect:
+        serializedVersion: 2
+        x: 2403
+        y: 1188
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b730663f91e9f4d8d05c42881acb02
+      internalID: 274459451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_49
+      rect:
+        serializedVersion: 2
+        x: 3204
+        y: 1188
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61832125f66a59f4997a8310353b2b62
+      internalID: 1355643143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 891
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 698248dab9496464a82f39b79a279881
+      internalID: -299058202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_51
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 891
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3478171cc786d994ab4affdc8b2f0831
+      internalID: -1831480423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_52
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 891
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea569359d1cef19418445ccc30866f7b
+      internalID: -288202507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_53
+      rect:
+        serializedVersion: 2
+        x: 2403
+        y: 891
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00f04ba31f306b141bd815352e2c4c1c
+      internalID: -557438850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_54
+      rect:
+        serializedVersion: 2
+        x: 3204
+        y: 891
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d291a654ad4c934fbdd4ee3ed532522
+      internalID: -1508633012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 594
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c913cc5b93a278f498cc6b2bf56c9c92
+      internalID: -1820631385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_56
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 594
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c2f2471f85e5942bdf14854039fe0d
+      internalID: 1646455301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_57
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 594
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec950e5230f99c42a0004c7e2bed4ed
+      internalID: 1811496664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_58
+      rect:
+        serializedVersion: 2
+        x: 2403
+        y: 594
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033bf4122222cdf4ab6dae2453ad5e5d
+      internalID: 2132186469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_59
+      rect:
+        serializedVersion: 2
+        x: 3204
+        y: 594
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e73daa820ba60d2429920d608bc7ff6f
+      internalID: -539360412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 297
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e218e16604bf840af9b9fa4ce7fc13
+      internalID: 878216023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_61
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 297
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a4ff60238514de4680c7a7b4b140dac
+      internalID: 1796919544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_62
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 297
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 175c0371492219e42bf1e84f86a1e05f
+      internalID: 679657363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_63
+      rect:
+        serializedVersion: 2
+        x: 2403
+        y: 297
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6714d8ac9de4d15418a07452b0ef6828
+      internalID: -1944938311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_64
+      rect:
+        serializedVersion: 2
+        x: 3204
+        y: 297
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba7c95a2826d15478f8dd5a160f7ed8
+      internalID: -837665939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0699cdb55d08e543b6a400ae1d578d1
+      internalID: -295246029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_66
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 0
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e34579a2e28124e94c7ec06059205a
+      internalID: -1499466811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_67
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 0
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 541953ecf70af834987638e2c6e520ce
+      internalID: 2104176847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_68
+      rect:
+        serializedVersion: 2
+        x: 2403
+        y: 0
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 858d481b023a5354fa83be05f6464b80
+      internalID: 1042758660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWay2Text_69
+      rect:
+        serializedVersion: 2
+        x: 3204
+        y: 0
+        width: 801
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db515861fe00a5a43a838e2d7600f033
+      internalID: -425427490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      oneWay2Text_60: 878216023
+      oneWay2Text_38: 577168083
+      oneWay2Text_1: -993192884
+      oneWay2Text_42: 1265078283
+      oneWay2Text_14: 583435105
+      oneWay2Text_52: -288202507
+      oneWay2Text_2: -1070137300
+      oneWay2Text_64: -837665939
+      oneWay2Text_67: 2104176847
+      oneWay2Text_68: 1042758660
+      oneWay2Text_17: 967169284
+      oneWay2Text_12: -268883959
+      oneWay2Text_19: 132621351
+      oneWay2Text_43: 236246102
+      oneWay2Text_3: 1227171175
+      oneWay2Text_7: 287023480
+      oneWay2Text_44: -248527413
+      oneWay2Text_53: -557438850
+      oneWay2Text_23: -1036643065
+      oneWay2Text_30: 195246617
+      oneWay2Text_33: -1942660682
+      oneWay2Text_61: 1796919544
+      oneWay2Text_16: 1390836425
+      oneWay2Text_18: 383659983
+      oneWay2Text_50: -299058202
+      oneWay2Text_39: 683056306
+      oneWay2Text_58: 2132186469
+      oneWay2Text_45: -1722766779
+      oneWay2Text_48: 274459451
+      oneWay2Text_63: -1944938311
+      oneWay2Text_15: 1662230721
+      oneWay2Text_5: 2066120973
+      oneWay2Text_6: -2147323520
+      oneWay2Text_9: 961418638
+      oneWay2Text_25: 1231405516
+      oneWay2Text_26: -450365158
+      oneWay2Text_31: 689864931
+      oneWay2Text_47: -1594782433
+      oneWay2Text_10: 1899652189
+      oneWay2Text_57: 1811496664
+      oneWay2Text_36: -1220500175
+      oneWay2Text_62: 679657363
+      oneWay2Text_11: 1911646168
+      oneWay2Text_24: -991113244
+      oneWay2Text_8: 1849999097
+      oneWay2Text_13: -578215267
+      oneWay2Text_35: 2061419854
+      oneWay2Text_0: -1913602824
+      oneWay2Text_29: 217815503
+      oneWay2Text_28: -1665765876
+      oneWay2Text_37: -1764300304
+      oneWay2Text_51: -1831480423
+      oneWay2Text_49: 1355643143
+      oneWay2Text_34: 500619154
+      oneWay2Text_55: -1820631385
+      oneWay2Text_46: 241690096
+      oneWay2Text_59: -539360412
+      oneWay2Text_32: 267990961
+      oneWay2Text_41: 1132305221
+      oneWay2Text_69: -425427490
+      oneWay2Text_20: -744801656
+      oneWay2Text_21: 100210065
+      oneWay2Text_27: -1005680020
+      oneWay2Text_66: -1499466811
+      oneWay2Text_4: 696478267
+      oneWay2Text_54: -1508633012
+      oneWay2Text_56: 1646455301
+      oneWay2Text_65: -295246029
+      oneWay2Text_22: 185077827
+      oneWay2Text_40: 2140352145
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

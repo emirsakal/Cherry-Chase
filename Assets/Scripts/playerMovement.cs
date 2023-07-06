@@ -167,10 +167,6 @@ public class playerMovement : MonoBehaviour
         bool touchingGround = Physics2D.OverlapCircle(groundCheck.position, groundRadius, groundLayer);
         bool touchingOneWay = Physics2D.OverlapCircle(groundCheck.position, groundRadius, oneWayLayer);
 
-        if(touchingOneWay) {
-            
-        }
-
         if(touchingGround) {
             isGrounded = true;
         } else {
