@@ -217,6 +217,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -777,7 +789,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Checkpoint (Flag Out) (64x64)_23: -5557025883363775598
+      Checkpoint (Flag Out) (64x64)_9: 6265099083614238658
       Checkpoint (Flag Out) (64x64)_15: -4370090337520481786
       Checkpoint (Flag Out) (64x64)_11: -5774344071365144885
       Checkpoint (Flag Out) (64x64)_0: -4184586705055241392
@@ -802,7 +814,7 @@ TextureImporter:
       Checkpoint (Flag Out) (64x64)_22: -991047635057653830
       Checkpoint (Flag Out) (64x64)_16: -1711207211420887195
       Checkpoint (Flag Out) (64x64)_19: -8069447969666600582
-      Checkpoint (Flag Out) (64x64)_9: 6265099083614238658
+      Checkpoint (Flag Out) (64x64)_23: -5557025883363775598
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 
