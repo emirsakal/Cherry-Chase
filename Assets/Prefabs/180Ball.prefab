@@ -600,10 +600,10 @@ GameObject:
   - component: {fileID: 7611342590433959535}
   - component: {fileID: 7611342590433959530}
   - component: {fileID: 7611342590433959533}
-  - component: {fileID: 7611342590433959531}
   - component: {fileID: 5504858188259001472}
+  - component: {fileID: 4880576226492730799}
   m_Layer: 0
-  m_Name: HingeBall
+  m_Name: 180Ball
   m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -719,7 +719,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0.02570343, y: 3.4339771}
-  m_ConnectedAnchor: {x: -64.49429, y: 22.513977}
+  m_ConnectedAnchor: {x: -13.504296, y: 56.443977}
   m_UseMotor: 1
   m_Motor:
     m_MotorSpeed: 50
@@ -728,22 +728,6 @@ HingeJoint2D:
   m_AngleLimits:
     m_LowerAngle: 180
     m_UpperAngle: 360
---- !u!114 &7611342590433959531
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7611342590433959537}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2adcd65082a83654ea0201acd289ab74, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  body2d: {fileID: 0}
-  leftPushRange: -0.3
-  rightPushRange: 0.3
-  velocityTreshold: 120
 --- !u!58 &5504858188259001472
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -760,3 +744,19 @@ CircleCollider2D:
   m_Offset: {x: 0.02749443, y: -0.061333656}
   serializedVersion: 2
   m_Radius: 0.8284712
+--- !u!114 &4880576226492730799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7611342590433959537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2adcd65082a83654ea0201acd289ab74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  body2d: {fileID: 7611342590433959530}
+  leftPushRange: -0.3
+  rightPushRange: 0.3
+  velocityTreshold: 120

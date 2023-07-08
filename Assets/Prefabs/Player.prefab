@@ -115,7 +115,6 @@ GameObject:
   - component: {fileID: 7503061198989147980}
   - component: {fileID: 5611558155791826653}
   - component: {fileID: 317477551044454021}
-  - component: {fileID: 6816951796325189106}
   m_Layer: 0
   m_Name: Player
   m_TagString: User
@@ -253,6 +252,9 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
+  oneWayLayer:
+    serializedVersion: 2
+    m_Bits: 0
   groundRadius: 0.2
   isGrounded: 0
   wallCheck: {fileID: 178069943480652459}
@@ -831,18 +833,6 @@ MonoBehaviour:
   maxCherries: 050000000500000005000000090000000a0000000000000000000000000000000000000000000000
   cherriesText: {fileID: 0}
   collectionSoundEffect: {fileID: 7900667788895349591}
---- !u!114 &6816951796325189106
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 178069944895071011}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29bb0db653b014444b338f7e2078e049, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &5649056999337520690
 GameObject:
   m_ObjectHideFlags: 0
