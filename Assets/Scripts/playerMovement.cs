@@ -54,9 +54,9 @@ public class playerMovement : MonoBehaviour
 
     [Header("Grounded")]
     public int canJump;
+    public int canDoubleJump;
     public Transform groundCheck;
     public LayerMask groundLayer;
-    public LayerMask oneWayLayer;
     public float groundRadius = 0.2f;
     public bool isGrounded = false;
 
@@ -99,9 +99,15 @@ public class playerMovement : MonoBehaviour
             _jumpBufferCounter -= Time.deltaTime; 
         }
 
-        if (isTouchingDoubleJump && Input.GetButtonDown("Jump")) {
+        if(canJump < 0) {
+            canJump = 0;
+        }
+        if(canDoubleJump < 0) {
+            canDoubleJump = 0;
+        }
+        
+        if (canDoubleJump >= 1 && Input.GetButtonDown("Jump")) { // canDoubleJump'ı canJump variable'ına çevirip double jump için de canJump'ı kullanırsan ve bu if statement'ı silersen karakter sadece hangTimer'ın içindeyken zıplayabilir.
             Jump(); // This was DoubleJump() but I removed it since it causes duplicate jump sound effects.
-            canJump--;
         }
 
         if (isWallSliding && Input.GetButtonDown("Jump") && canWallJump) {
@@ -136,6 +142,7 @@ public class playerMovement : MonoBehaviour
 
         if (_hangTimeCounter > 0f && _jumpBufferCounter > 0f && readyToJump) {
             jumpInputDelayTimer = jumpInputDelay;
+            canJump--;
             Jump();
         }
         
@@ -165,7 +172,6 @@ public class playerMovement : MonoBehaviour
         
 
         bool touchingGround = Physics2D.OverlapCircle(groundCheck.position, groundRadius, groundLayer);
-        bool touchingOneWay = Physics2D.OverlapCircle(groundCheck.position, groundRadius, oneWayLayer);
 
         if(touchingGround) {
             isGrounded = true;
@@ -194,16 +200,9 @@ public class playerMovement : MonoBehaviour
         if (touchingDoubleJump) { // I added the isGrounded = true; because of the running animation bug when the characther does a double jump. (Between first and second jump)
             isTouchingDoubleJump = true;
             isGrounded = true;
-            canJump = 1;
-        } else {
-            isTouchingDoubleJump = false;
         }
 
-        if (canJump == 1) {
-            isTouchingDoubleJump = true;
-        } else {
-            isTouchingDoubleJump = false;
-        }
+        
 
         // Wall Jump
         if(isFacingRight) {
@@ -267,6 +266,8 @@ public class playerMovement : MonoBehaviour
     }
 
     void Jump(){
+        canJump--;
+        canDoubleJump--;
         jumpParticle.Play();
         jumpSoundEffect.Play();
         ApplyLinearDrag();
@@ -293,6 +294,12 @@ public class playerMovement : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("YellowButton") || collision.gameObject.CompareTag("RedButton") || collision.gameObject.CompareTag("GreenButton") || collision.gameObject.CompareTag("BlueButton")){
             buttonClick.Play();
+        }
+        if(collision.gameObject.layer == 6 || collision.gameObject.layer == 7){
+            canJump = 1;
+        }
+        if(collision.gameObject.layer == 8) {
+            canDoubleJump = 2;
         }
     }
 
@@ -344,5 +351,5 @@ public class playerMovement : MonoBehaviour
                 break;
         }   
     }
-
+    
 }
