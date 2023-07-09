@@ -8,7 +8,7 @@ public class brokenObject : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision) {
         if (collision.gameObject.CompareTag("User")){
-            Invoke("Destroy", 1f);
+            Invoke("Destroy", 0.5f);
             Invoke("UnDestroy",3f);
         }
     }

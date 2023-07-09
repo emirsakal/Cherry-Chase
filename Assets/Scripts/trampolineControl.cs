@@ -6,6 +6,8 @@ public class trampolineControl : MonoBehaviour
 {
     private Animator anim;
     private bool isWorking;
+    public Animator animPlayer;
+    private enum MovementState { idle, running, jumping, falling, sliding, doubleJumping }
     [SerializeField] private float bounce = 20f;
 
     void Start()
@@ -23,7 +25,7 @@ public class trampolineControl : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("User"))
         {
-            collision.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.up * bounce, ForceMode2D.Impulse);
+            collision.gameObject.GetComponent<Rigidbody2D>().velocity = (Vector2.up * bounce); // Old bounce system collision.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.up * bounce, ForceMode2D.Impulse);
             isWorking = true;
         }
     }
@@ -31,6 +33,7 @@ public class trampolineControl : MonoBehaviour
     private void OnCollisionExit2D(Collision2D other) {
         if (other.gameObject.CompareTag("User"))
         {
+            animPlayer.SetInteger("state", (int)MovementState.jumping);
             isWorking = false;
         }
     }
