@@ -64,8 +64,8 @@ public class playerMovement : MonoBehaviour
     public Transform wallCheck;
     public LayerMask wallLayer;
     public float wallRadius = 0.2f;
-    public float wallJumpTime = 0.05f;
-    public float wallSlideSpeed = 0.3f;
+    public float wallJumpTime = 0.2f;
+    public float wallSlideSpeed = -0.8f;
     public float wallDistance = 0.9f;
     public bool isWallSliding = false;
     public bool isTouchingWall = false;
@@ -73,7 +73,7 @@ public class playerMovement : MonoBehaviour
     float jumpTime;
 
     bool canWallJump;
-    public float canWallJumpTimer = 0.7f;
+    public float canWallJumpTimer = 2f;
     bool timer;
 
     [Header("Double Jump")]
@@ -214,14 +214,16 @@ public class playerMovement : MonoBehaviour
             // Debug.DrawRay(transform.position, new Vector2(wallDistance, 0), Color.red);
         }
 
-        if (WallCheckHit && mx != 0) {
+        if (WallCheckHit) {
             isWallSliding = true;
             jumpTime = Time.time + wallJumpTime;
         } else if (jumpTime < Time.time) {
             isWallSliding = false;
         }
 
-        if (isWallSliding) {
+        if (isWallSliding) { // && mx != 0 eğer A ve D tuşuna basarak durmasını istiyorsan
+            if(mx != 0) {wallSlideSpeed = -0.3f;}
+            else{wallSlideSpeed = -1f;}
             rb.velocity = new Vector2(rb.velocity.x, Mathf.Clamp(rb.velocity.y, wallSlideSpeed, float.MaxValue));
         }
 
