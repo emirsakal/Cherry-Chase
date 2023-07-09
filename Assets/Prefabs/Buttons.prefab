@@ -110,6 +110,7 @@ GameObject:
   - component: {fileID: 7797323001279379155}
   - component: {fileID: 7797323001279379154}
   - component: {fileID: 7797323001279379157}
+  - component: {fileID: 3868013497894004457}
   m_Layer: 6
   m_Name: green_button_on
   m_TagString: GreenButton
@@ -210,6 +211,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.74173737, y: 0.44044018}
   m_EdgeRadius: 0
+--- !u!114 &3868013497894004457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7797323001279379152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 020bec4ae0a69be49af4c54d1d9af198, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ButtonOn: {fileID: 7797323001279379152}
+  ButtonOff: {fileID: 7797323002336070700}
+  Door: {fileID: 0}
 --- !u!1 &7797323001367135033
 GameObject:
   m_ObjectHideFlags: 0
@@ -254,6 +270,7 @@ GameObject:
   - component: {fileID: 7797323001401459508}
   - component: {fileID: 7797323001401459509}
   - component: {fileID: 7797323001401459511}
+  - component: {fileID: 8477276804187855396}
   m_Layer: 6
   m_Name: blue_button_on
   m_TagString: BlueButton
@@ -354,6 +371,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.75154114, y: 0.4427414}
   m_EdgeRadius: 0
+--- !u!114 &8477276804187855396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7797323001401459506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 020bec4ae0a69be49af4c54d1d9af198, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ButtonOn: {fileID: 7797323001401459506}
+  ButtonOff: {fileID: 7797323002404996946}
+  Door: {fileID: 0}
 --- !u!1 &7797323001895646643
 GameObject:
   m_ObjectHideFlags: 0
@@ -622,6 +654,7 @@ GameObject:
   - component: {fileID: 7797323002000897370}
   - component: {fileID: 7797323002000897373}
   - component: {fileID: 7797323002000897375}
+  - component: {fileID: 8747485437245038574}
   m_Layer: 6
   m_Name: red_button_on
   m_TagString: RedButton
@@ -722,6 +755,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.7465477, y: 0.4409113}
   m_EdgeRadius: 0
+--- !u!114 &8747485437245038574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7797323002000897371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 020bec4ae0a69be49af4c54d1d9af198, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ButtonOn: {fileID: 7797323002000897371}
+  ButtonOff: {fileID: 7797323001895646643}
+  Door: {fileID: 0}
 --- !u!1 &7797323002115985517
 GameObject:
   m_ObjectHideFlags: 0
@@ -733,6 +781,7 @@ GameObject:
   - component: {fileID: 7797323002115985516}
   - component: {fileID: 7797323002115985519}
   - component: {fileID: 7797323002115985518}
+  - component: {fileID: 1330037338818362012}
   m_Layer: 6
   m_Name: yellow_button_on
   m_TagString: YellowButton
@@ -833,6 +882,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.75034904, y: 0.44474506}
   m_EdgeRadius: 0
+--- !u!114 &1330037338818362012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7797323002115985517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 020bec4ae0a69be49af4c54d1d9af198, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ButtonOn: {fileID: 7797323002115985517}
+  ButtonOff: {fileID: 7797323001912505153}
+  Door: {fileID: 0}
 --- !u!1 &7797323002336070700
 GameObject:
   m_ObjectHideFlags: 0
