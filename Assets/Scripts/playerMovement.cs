@@ -26,7 +26,7 @@ public class playerMovement : MonoBehaviour
     [SerializeField] private AudioSource buttonClick;
     [SerializeField] private AudioSource jumpSoundEffect;
 
-    private enum MovementState { idle, running, jumping, falling, sliding }
+    private enum MovementState { idle, running, jumping, falling, sliding, doubleJumping }
     private MovementState state = MovementState.idle;
 
     [Header("Horizontal Movement")]
@@ -103,11 +103,12 @@ public class playerMovement : MonoBehaviour
             canJump = 0;
         }
         if(canDoubleJump < 0) {
+            isTouchingDoubleJump = false;
             canDoubleJump = 0;
         }
         
-        if (canDoubleJump >= 1 && Input.GetButtonDown("Jump")) { // canDoubleJump'ı canJump variable'ına çevirip double jump için de canJump'ı kullanırsan ve bu if statement'ı silersen karakter sadece hangTimer'ın içindeyken zıplayabilir.
-            Jump(); // This was DoubleJump() but I removed it since it causes duplicate jump sound effects.
+        if (canDoubleJump == 1 && Input.GetButtonDown("Jump") && canJump == 0) { // canDoubleJump'ı canJump variable'ına çevirip double jump için de canJump'ı kullanırsan ve bu if statement'ı silersen karakter sadece hangTimer'ın içindeyken zıplayabilir.
+            DoubleJump(); // This was DoubleJump() but I removed it since it causes duplicate jump sound effects.
         }
 
         if (isWallSliding && Input.GetButtonDown("Jump") && canWallJump) {
@@ -247,10 +248,6 @@ public class playerMovement : MonoBehaviour
                 {
                     anim.SetInteger("state", (int)MovementState.idle);
                 }
-        }
-
-        else if (rb.velocity.y > 0f ) {
-            anim.SetInteger("state", (int)MovementState.jumping);
         } else if (rb.velocity.y < 0f ) {
             anim.SetInteger("state", (int)MovementState.falling);
         }
@@ -266,6 +263,7 @@ public class playerMovement : MonoBehaviour
     }
 
     void Jump(){
+        anim.SetInteger("state", (int)MovementState.jumping);
         canJump--;
         canDoubleJump--;
         jumpParticle.Play();
@@ -277,11 +275,19 @@ public class playerMovement : MonoBehaviour
         _jumpBufferCounter = 0f;
     }
 
-    /* void DoubleJump(){                                           I removed this because of the twice jump sound problem.
+    void DoubleJump(){        // I removed this because of the twice jump sound problem.
+        anim.SetInteger("state", (int)MovementState.doubleJumping);
+        canJump--;
+        canDoubleJump--;
         jumpParticle.Play();
         jumpSoundEffect.Play();
-        rb.velocity = new Vector2(rb.velocity.x, jumpForce);
-    } */
+        ApplyLinearDrag();
+        rb.velocity = new Vector2(rb.velocity.x, 0f);
+        rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+        _hangTimeCounter = 0f;
+        _jumpBufferCounter = 0f;
+        isTouchingDoubleJump = false;
+    }
 
     void WallJump(){
         jumpSoundEffect.Play();
@@ -297,6 +303,7 @@ public class playerMovement : MonoBehaviour
         }
         if(collision.gameObject.layer == 6 || collision.gameObject.layer == 7){
             canJump = 1;
+            canDoubleJump = 0;
         }
         if(collision.gameObject.layer == 8) {
             canDoubleJump = 2;
