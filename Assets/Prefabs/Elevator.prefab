@@ -63,7 +63,7 @@ Transform:
   - {fileID: 84978689393612219}
   - {fileID: 84978687782321137}
   m_Father: {fileID: 0}
-  m_RootOrder: -1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &84978689288263813
 GameObject:
@@ -140,8 +140,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 359494023
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 113249620649802049, guid: e242b62e7e6caee439fa1d024a8fa5bb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
