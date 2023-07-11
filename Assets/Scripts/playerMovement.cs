@@ -132,14 +132,23 @@ public class playerMovement : MonoBehaviour
 
         MoveCharacter();
         
-        if (isGrounded) {
-            ApplyLinearDrag();
+        if (isGrounded)
+        {
+            rb.drag = _linearDrag;
             _hangTimeCounter = _hangTime;
-        } else {
-            ApplyAirLinearDrag();
+
+            // Adjust movement acceleration and maximum move speed for consistent feel
+            float targetVelocityX = mx * _maxMoveSpeed;
+            float acceleration = Mathf.Abs(targetVelocityX - rb.velocity.x) < 0.01f ? 0f : _movementAcceleration;
+            rb.AddForce(new Vector2((targetVelocityX - rb.velocity.x) * acceleration, 0f));
+        }
+        else
+        {
+            rb.drag = _airLinearDrag;
             FallMultiplier();
             _hangTimeCounter -= Time.fixedDeltaTime;
         }
+
 
         if (_hangTimeCounter > 0f && _jumpBufferCounter > 0f && readyToJump) {
             jumpInputDelayTimer = jumpInputDelay;
@@ -270,9 +279,12 @@ public class playerMovement : MonoBehaviour
         canDoubleJump--;
         jumpParticle.Play();
         jumpSoundEffect.Play();
-        ApplyLinearDrag();
         rb.velocity = new Vector2(rb.velocity.x, 0f);
-        rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+
+        // Apply the same jump force regardless of the movement speed
+        float jumpForceMultiplier = Mathf.Sqrt(2f * jumpForce * Physics2D.gravity.magnitude);
+        rb.AddForce(Vector2.up * jumpForceMultiplier, ForceMode2D.Impulse);
+
         _hangTimeCounter = 0f;
         _jumpBufferCounter = 0f;
     }
@@ -283,9 +295,12 @@ public class playerMovement : MonoBehaviour
         canDoubleJump--;
         jumpParticle.Play();
         jumpSoundEffect.Play();
-        ApplyLinearDrag();
         rb.velocity = new Vector2(rb.velocity.x, 0f);
-        rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+
+        // Apply the same jump force regardless of the movement speed
+        float doubleJumpForceMultiplier = Mathf.Sqrt(jumpForce * -2f * Physics2D.gravity.y);
+        rb.AddForce(Vector2.up * doubleJumpForceMultiplier, ForceMode2D.Impulse);
+
         _hangTimeCounter = 0f;
         _jumpBufferCounter = 0f;
         isTouchingDoubleJump = false;
@@ -312,15 +327,28 @@ public class playerMovement : MonoBehaviour
         }
     }
 
+    private void OnTriggerStay2D(Collider2D other) {
+        if(other.gameObject.CompareTag("Fan") && rb.velocity.y > 0.1f){
+            anim.SetInteger("state", (int)MovementState.jumping);
+        }
+    }
+
 
     private static Vector2 GetInput() {
         return new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
     }
 
     private void MoveCharacter() {
-        rb.AddForce(new Vector2(mx, 0f) * _movementAcceleration);
+        float moveSpeed = Mathf.Abs(rb.velocity.x);
+        float targetVelocityX = mx * _maxMoveSpeed;
 
-        if(Mathf.Abs(rb.velocity.x) > _maxMoveSpeed) {
+        // Apply acceleration based on the target velocity
+        float acceleration = moveSpeed < Mathf.Abs(targetVelocityX) ? _movementAcceleration : _linearDrag;
+        rb.AddForce(new Vector2((targetVelocityX - rb.velocity.x) * acceleration, 0f));
+
+        // Limit the maximum move speed
+        if (moveSpeed > _maxMoveSpeed)
+        {
             rb.velocity = new Vector2(Mathf.Sign(rb.velocity.x) * _maxMoveSpeed, rb.velocity.y);
         }
     }
