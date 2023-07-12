@@ -8,9 +8,7 @@ public class playerMovement : MonoBehaviour
     [SerializeField] ParticleSystem fallParticle;
     [SerializeField] ParticleSystem fallParticle1;
     [SerializeField] ParticleSystem movementParticle;
-    [SerializeField] ParticleSystem movementSwitchParticle;
 
-    private float particleTimer = 0f;
     [Range(0,10)]
     [SerializeField] int occurAfterVelocity;
 
@@ -82,13 +80,14 @@ public class playerMovement : MonoBehaviour
     public LayerMask doubleLayer;
     public bool isTouchingDoubleJump = false;
 
-    private float switchCooldown = 1f; // Cooldown time before player can trigger the particle effect again
+    private float switchCooldown = 0.5f; // Cooldown time before player can trigger the particle effect again
     private float switchTimer = 0f;
 
     void Start() {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         movementParticle.Stop();
+        anim.SetInteger("state", (int)MovementState.idle);
     }
 
     void Update(){
@@ -180,7 +179,6 @@ public class playerMovement : MonoBehaviour
             transform.localScale = new Vector2(-1, transform.localScale.y);
             jumpParticle.transform.localScale = new Vector2(-1, transform.localScale.y);
             movementParticle.transform.localScale = new Vector2(-1, transform.localScale.y);
-            movementSwitchParticle.transform.localScale = new Vector2(1, transform.localScale.y);
             fallParticle.transform.localScale = new Vector2(-1, transform.localScale.y);
             fallParticle1.transform.localScale = new Vector2(-1, transform.localScale.y);
         } else if (mx>0) {
@@ -188,7 +186,6 @@ public class playerMovement : MonoBehaviour
             transform.localScale = new Vector2(1, transform.localScale.y);
             jumpParticle.transform.localScale = new Vector2(1, transform.localScale.y);
             movementParticle.transform.localScale = new Vector2(1, transform.localScale.y);
-            movementSwitchParticle.transform.localScale = new Vector2(1, transform.localScale.y);
             fallParticle.transform.localScale = new Vector2(1, transform.localScale.y);
             fallParticle1.transform.localScale = new Vector2(1, transform.localScale.y);
         }

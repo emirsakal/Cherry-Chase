@@ -228,17 +228,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b0f7bacc9f5d09479a2ffc161142334, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fallParticle: {fileID: 5427587637361954561}
+  fallParticle: {fileID: 6031677374702748608}
   fallParticle1: {fileID: 6312375751089157826}
   movementParticle: {fileID: 3210429732636873864}
-  occurAfterVelocity: 1
+  movementSwitchParticle: {fileID: 0}
+  occurAfterVelocity: 2
   dustFormationPeriod: 0.05
   jumpParticle: {fileID: 6031677374702748608}
   rb: {fileID: 178069944895071036}
   buttonClick: {fileID: 5611558155791826653}
   jumpSoundEffect: {fileID: 5263086722024229919}
   _movementAcceleration: 30
-  _maxMoveSpeed: 6
+  _maxMoveSpeed: 7
   _linearDrag: 7
   jumpForce: 8
   _airLinearDrag: 2
@@ -262,7 +263,7 @@ MonoBehaviour:
   wallRadius: 0.2
   wallJumpTime: 0.2
   wallSlideSpeed: -0.8
-  wallDistance: 0.8
+  wallDistance: 0.7
   isWallSliding: 0
   isTouchingWall: 0
   canWallJumpTimer: 2
