@@ -8,7 +8,9 @@ public class playerMovement : MonoBehaviour
     [SerializeField] ParticleSystem fallParticle;
     [SerializeField] ParticleSystem fallParticle1;
     [SerializeField] ParticleSystem movementParticle;
+    [SerializeField] ParticleSystem movementSwitchParticle;
 
+    private float particleTimer = 0f;
     [Range(0,10)]
     [SerializeField] int occurAfterVelocity;
 
@@ -30,8 +32,8 @@ public class playerMovement : MonoBehaviour
     private MovementState state = MovementState.idle;
 
     [Header("Horizontal Movement")]
-    [SerializeField] private float _movementAcceleration = 50f;
-    [SerializeField] private float _maxMoveSpeed = 10f;
+    [SerializeField] private float _movementAcceleration = 30f; // 50f 
+    [SerializeField] private float _maxMoveSpeed = 7f; // 7f
     [SerializeField] private float _linearDrag = 7f;
     private float mx;
     private float my;
@@ -39,10 +41,10 @@ public class playerMovement : MonoBehaviour
     private bool isFacingRight = true;
 
     [Header("Vertical Movement")]
-    public float jumpForce = 12f;
-    [SerializeField] private float _airLinearDrag = 2.5f;
-    [SerializeField] private float _fallMultiplier = 8f;
-    [SerializeField] private float _lowJumpFallMultiplier = 5f;
+    public float jumpForce = 8f;
+    [SerializeField] private float _airLinearDrag = 2f; // 2.5f
+    [SerializeField] private float _fallMultiplier = 3f; // 8f
+    [SerializeField] private float _lowJumpFallMultiplier = 2f; // 2f
     [SerializeField] private float _hangTime = .15f;
     [SerializeField] private float _jumpBufferLength = .1f;
     private float _hangTimeCounter;
@@ -66,7 +68,7 @@ public class playerMovement : MonoBehaviour
     public float wallRadius = 0.2f;
     public float wallJumpTime = 0.2f;
     public float wallSlideSpeed = -0.8f;
-    public float wallDistance = 0.9f;
+    public float wallDistance = 0.7f; // 0.9f
     public bool isWallSliding = false;
     public bool isTouchingWall = false;
     RaycastHit2D WallCheckHit;
@@ -80,17 +82,33 @@ public class playerMovement : MonoBehaviour
     public LayerMask doubleLayer;
     public bool isTouchingDoubleJump = false;
 
-
+    private float switchCooldown = 1f; // Cooldown time before player can trigger the particle effect again
+    private float switchTimer = 0f;
 
     void Start() {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        movementParticle.Stop();
     }
 
     void Update(){
         mx = GetInput().x;
         my = GetInput().y;
         
+        switchTimer += Time.deltaTime;
+
+        // Detect player direction change with cooldown
+        if (switchTimer >= switchCooldown)
+        {
+            if ((isFacingRight && Input.GetAxis("Horizontal") < 0 && isGrounded) ||
+                (!isFacingRight && Input.GetAxis("Horizontal") > 0 && isGrounded))
+            {
+                isFacingRight = !isFacingRight;
+                movementParticle.Play();
+                switchTimer = 0f; // Reset the timer
+            }
+        }
+
         DelayInput();
 
         if (Input.GetButtonDown("Jump")) {
@@ -162,6 +180,7 @@ public class playerMovement : MonoBehaviour
             transform.localScale = new Vector2(-1, transform.localScale.y);
             jumpParticle.transform.localScale = new Vector2(-1, transform.localScale.y);
             movementParticle.transform.localScale = new Vector2(-1, transform.localScale.y);
+            movementSwitchParticle.transform.localScale = new Vector2(1, transform.localScale.y);
             fallParticle.transform.localScale = new Vector2(-1, transform.localScale.y);
             fallParticle1.transform.localScale = new Vector2(-1, transform.localScale.y);
         } else if (mx>0) {
@@ -169,17 +188,11 @@ public class playerMovement : MonoBehaviour
             transform.localScale = new Vector2(1, transform.localScale.y);
             jumpParticle.transform.localScale = new Vector2(1, transform.localScale.y);
             movementParticle.transform.localScale = new Vector2(1, transform.localScale.y);
+            movementSwitchParticle.transform.localScale = new Vector2(1, transform.localScale.y);
             fallParticle.transform.localScale = new Vector2(1, transform.localScale.y);
             fallParticle1.transform.localScale = new Vector2(1, transform.localScale.y);
         }
-
-        if (rb.velocity.x > 3f && isFacingRight == false && isGrounded && rb.velocity.y <= 0) {
-            movementParticle.Play();
-        } else if (rb.velocity.x < -3f && isFacingRight == true && isGrounded && rb.velocity.y <= 0) {
-            movementParticle.Play();
-        }
-
-        
+  
 
         bool touchingGround = Physics2D.OverlapCircle(groundCheck.position, groundRadius, groundLayer);
 
@@ -230,9 +243,8 @@ public class playerMovement : MonoBehaviour
             isWallSliding = false;
         }
 
-        if (isWallSliding) { // && mx != 0 eğer A ve D tuşuna basarak durmasını istiyorsan
-            if(mx != 0) {wallSlideSpeed = -0.3f;}
-            else{wallSlideSpeed = -1f;}
+        if (isWallSliding && mx != 0) { // && mx != 0 eğer A ve D tuşuna basarak durmasını istiyorsan
+            anim.SetInteger("state", (int)MovementState.jumping);
             rb.velocity = new Vector2(rb.velocity.x, Mathf.Clamp(rb.velocity.y, wallSlideSpeed, float.MaxValue));
         }
 
@@ -263,7 +275,7 @@ public class playerMovement : MonoBehaviour
             anim.SetInteger("state", (int)MovementState.falling);
         }
 
-        if (isTouchingWall && !isGrounded) {
+        if (isTouchingWall && !isGrounded && rb.velocity.y < 0.1f) {
             anim.SetInteger("state", (int)MovementState.sliding);
         }
 
@@ -308,7 +320,8 @@ public class playerMovement : MonoBehaviour
 
     void WallJump(){
         jumpSoundEffect.Play();
-        rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+        float wallJumpForceMultiplier = Mathf.Sqrt(2f * jumpForce * Physics2D.gravity.magnitude);
+        rb.AddForce(Vector2.up * wallJumpForceMultiplier, ForceMode2D.Impulse);
     }
   
     private void OnCollisionEnter2D(Collision2D collision) {
