@@ -231,7 +231,6 @@ MonoBehaviour:
   fallParticle: {fileID: 6031677374702748608}
   fallParticle1: {fileID: 6312375751089157826}
   movementParticle: {fileID: 3210429732636873864}
-  movementSwitchParticle: {fileID: 0}
   occurAfterVelocity: 2
   dustFormationPeriod: 0.05
   jumpParticle: {fileID: 6031677374702748608}
@@ -319,8 +318,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.00035476685, y: -0.24844527}
-  m_Size: {x: 1.3767166, y: 1.4946742}
+  m_Offset: {x: 0.00035476685, y: -0.24397373}
+  m_Size: {x: 1.3767166, y: 1.4857311}
   m_Direction: 0
 --- !u!96 &3454460297419234939
 TrailRenderer:

@@ -9,6 +9,10 @@ public class levelSelection : MonoBehaviour
     public GameObject[] stars;
     public GameObject[] emptyStars;
     public Text[] levelTimers;
+    [SerializeField] Text totalTimeText;
+    [SerializeField] Text levelNumberText;
+    public float totalTime = 0;
+    public int levelNumber = 0;
 
     void Start()
     {
@@ -18,55 +22,58 @@ public class levelSelection : MonoBehaviour
 
         // Level 1
         float level1Time = PlayerPrefs.GetFloat("level1Time", 0.0f);
-        if(level1Time > 999998.0f) { level1Time = 0.0f;}
+        if(level1Time > 999998.0f) { level1Time = 0.0f;} else { totalTime += level1Time; levelNumber += 1;}
         float minutes1 = Mathf.FloorToInt(level1Time / 60);  
         float seconds1 = Mathf.FloorToInt(level1Time % 60);
         // Level 2
         float level2Time = PlayerPrefs.GetFloat("level2Time", 0.0f);
-        if(level2Time > 999998.0f) { level2Time = 0.0f;}
+        if(level2Time > 999998.0f) { level2Time = 0.0f;} else { totalTime += level2Time; levelNumber += 1;}
         float minutes2 = Mathf.FloorToInt(level2Time / 60);  
         float seconds2 = Mathf.FloorToInt(level2Time % 60);
         //
         float level3Time = PlayerPrefs.GetFloat("level3Time", 0.0f);
-        if(level3Time > 999998.0f) { level3Time = 0.0f;}
+        if(level3Time > 999998.0f) { level3Time = 0.0f;} else { totalTime += level3Time; levelNumber += 1;}
         float minutes3 = Mathf.FloorToInt(level3Time / 60);  
         float seconds3 = Mathf.FloorToInt(level3Time % 60);
         // Level 4
         float level4Time = PlayerPrefs.GetFloat("level4Time", 0.0f);
-        if(level4Time > 999998.0f) { level4Time = 0.0f;}
+        if(level4Time > 999998.0f) { level4Time = 0.0f;} else { totalTime += level4Time; levelNumber += 1;}
         float minutes4 = Mathf.FloorToInt(level4Time / 60);  
         float seconds4 = Mathf.FloorToInt(level4Time % 60);
         // Level 5
         float level5Time = PlayerPrefs.GetFloat("level5Time", 0.0f);
-        if(level5Time > 999998.0f) { level5Time = 0.0f;}
+        if(level5Time > 999998.0f) { level5Time = 0.0f;} else { totalTime += level5Time; levelNumber += 1;}
         float minutes5 = Mathf.FloorToInt(level5Time / 60);  
         float seconds5 = Mathf.FloorToInt(level5Time % 60);
         // Level 6
         float level6Time = PlayerPrefs.GetFloat("level6Time", 0.0f);
-        if(level6Time > 999998.0f) { level6Time = 0.0f;}
+        if(level6Time > 999998.0f) { level6Time = 0.0f;} else { totalTime += level6Time; levelNumber += 1;}
         float minutes6 = Mathf.FloorToInt(level6Time / 60);  
         float seconds6 = Mathf.FloorToInt(level6Time % 60);
         // Level 7
         float level7Time = PlayerPrefs.GetFloat("level7Time", 0.0f);
-        if(level7Time > 999998.0f) { level7Time = 0.0f;}
+        if(level7Time > 999998.0f) { level7Time = 0.0f;} else { totalTime += level7Time; levelNumber += 1;}
         float minutes7 = Mathf.FloorToInt(level7Time / 60);  
         float seconds7 = Mathf.FloorToInt(level7Time % 60);
         // Level 8
         float level8Time = PlayerPrefs.GetFloat("level8Time", 0.0f);
-        if(level8Time > 999998.0f) { level8Time = 0.0f;}
+        if(level8Time > 999998.0f) { level8Time = 0.0f;} else { totalTime += level8Time; levelNumber += 1;}
         float minutes8 = Mathf.FloorToInt(level8Time / 60);  
         float seconds8 = Mathf.FloorToInt(level8Time % 60);
         // Level 9
         float level9Time = PlayerPrefs.GetFloat("level9Time", 0.0f);
-        if(level9Time > 999998.0f) { level9Time = 0.0f;}
+        if(level9Time > 999998.0f) { level9Time = 0.0f;} else { totalTime += level9Time; levelNumber += 1;}
         float minutes9 = Mathf.FloorToInt(level9Time / 60);  
         float seconds9 = Mathf.FloorToInt(level9Time % 60);
         // Level 5
         float level10Time = PlayerPrefs.GetFloat("level10Time", 0.0f);
-        if(level10Time > 999998.0f) { level10Time = 0.0f;}
+        if(level10Time > 999998.0f) { level10Time = 0.0f;} else { totalTime += level10Time; levelNumber += 1;}
         float minutes10 = Mathf.FloorToInt(level10Time / 60);  
         float seconds10 = Mathf.FloorToInt(level10Time % 60);
         
+        float minutesTotal = Mathf.FloorToInt(totalTime / 60);  
+        float secondsTotal = Mathf.FloorToInt(totalTime % 60);
+
         levelTimers[0].text = string.Format("{0:0}:{1:00}", minutes1, seconds1);
         levelTimers[1].text = string.Format("{0:0}:{1:00}", minutes2, seconds2);
         levelTimers[2].text = string.Format("{0:0}:{1:00}", minutes3, seconds3);
@@ -77,6 +84,10 @@ public class levelSelection : MonoBehaviour
         levelTimers[7].text = string.Format("{0:0}:{1:00}", minutes8, seconds8);
         levelTimers[8].text = string.Format("{0:0}:{1:00}", minutes9, seconds9);
         levelTimers[9].text = string.Format("{0:0}:{1:00}", minutes10, seconds10);
+
+        totalTimeText.text = string.Format("{0:0}:{1:00}", minutesTotal, secondsTotal);
+        levelNumberText.text = levelNumber + "/10";
+        
         for(int i = 0; i < lvlButtons.Length; i++) {
             if (i + 1 > levelAt) {
                 lvlButtons[i].interactable = false;
@@ -162,8 +173,6 @@ public class levelSelection : MonoBehaviour
             stars[9].SetActive(false);
             emptyStars[9].SetActive(true);
         }
-
-        
         
     }
 
