@@ -1,0 +1,1492 @@
+fileFormatVersion: 2
+guid: 2471728f5d87f3040980bbbd7dc1a9f9
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: brokenPlatformText_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 3888
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54788343a8e0b8f4b909ca13fa87bb82
+      internalID: -1885525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_1
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 3888
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e84b69a6385f36646ba165b81c89f40f
+      internalID: -1365632742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_2
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 3888
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3f39919f2a997479597e170d1bdefe
+      internalID: 1342423001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_3
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 3888
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74652b877f28bf647b6e8b2b2cfcacf7
+      internalID: -961119603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_4
+      rect:
+        serializedVersion: 2
+        x: 2421
+        y: 3888
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a68634e017df156429f3858151b13aef
+      internalID: 1000636212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_5
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 3537
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda12613b735cfa49b3d53ad1daaaad8
+      internalID: 2001560620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_6
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 3537
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f742df306a10d844f8f8f70f2d0ee99e
+      internalID: 1136806932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_7
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 3537
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d1c0f6c79793bb48926dd8a3d9d7f9a
+      internalID: -397933730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_8
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 3537
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b1fb73dd636a441bed102bc8cfa959
+      internalID: -829309253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_9
+      rect:
+        serializedVersion: 2
+        x: 2421
+        y: 3537
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eda9c3f2ee69d84e98226b8bddccb45
+      internalID: -872878283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_10
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 3186
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d299fb4e0f5a07844b0cd169f9be6db0
+      internalID: -1574147966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_11
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 3186
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9adf2eff21541294e9ea2ca6cd54ab28
+      internalID: 766374109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_12
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 3186
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b3a170169f2dd04aaf3aaccf004fb05
+      internalID: -890352081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_13
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 3186
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 521838593f13b054fa3bf405a3503210
+      internalID: 240153275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_14
+      rect:
+        serializedVersion: 2
+        x: 2421
+        y: 3186
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e4232706d495e498356e96aa5e2f68
+      internalID: -519451424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_15
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2835
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5949aa3911daea74490ca181023d78ac
+      internalID: -1304917852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_16
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 2835
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 361ddc6a0be0de549b1aa1c61aac41eb
+      internalID: -2068063765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_17
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 2835
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4314d2e1e96865446b058ea1fe6d0a3c
+      internalID: -2107054181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_18
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 2835
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 536fc857e5ce8cc4691af42b9fb91a64
+      internalID: -1132902840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_19
+      rect:
+        serializedVersion: 2
+        x: 2421
+        y: 2835
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f10c73f3e2e77144a5f975649743f66
+      internalID: 1954064226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_20
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2484
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1192d9dc2bb6d148a863abb54cd5242
+      internalID: 1548291469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_21
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 2484
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23cb3abbb90607e4284054a352310c4a
+      internalID: 636980214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_22
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 2484
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91545cb9c5e20d148afcf420dc9308ac
+      internalID: 1452802372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_23
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 2484
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45cdd0ee388507e4d91f9503a85a60f3
+      internalID: -1367976508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_24
+      rect:
+        serializedVersion: 2
+        x: 2421
+        y: 2484
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571554cec681c334aab3c8c14e1fdef6
+      internalID: -2072633261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_25
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2133
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d85b8100932b1e4dac667a148bd7c45
+      internalID: 1618836173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_26
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 2133
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b57717dd0cf4904c882d7b40790e76a
+      internalID: 1433877685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_27
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 2133
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b960bf493f06e2c45bb62048a384d9bb
+      internalID: 1731740879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_28
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 2133
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3112db1a2ec446d4fbe3aa5c430a3b1e
+      internalID: -1059472158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_29
+      rect:
+        serializedVersion: 2
+        x: 2421
+        y: 2133
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad479754ba607441b8a583fb7b3067b
+      internalID: 151519256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_30
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1782
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3d65b6baf57aa488fa3095999ee0b8
+      internalID: -610893827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_31
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1782
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7920d1f32bd31a7479633c083a4517a9
+      internalID: 1423641865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_32
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 1782
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 867cd3fe465db474d8d027fd8f07ba70
+      internalID: -1787435387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_33
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 1782
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea7cbe45e23006c4d9400cdb9036f5bc
+      internalID: -831498808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_34
+      rect:
+        serializedVersion: 2
+        x: 2421
+        y: 1782
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a37950b5b3e344d9d2b752cb0316f5
+      internalID: -1110424245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_35
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1431
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b16acdb287fc8bd4abbb83453b737375
+      internalID: -867006850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_36
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1431
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45fd32b37d5ee2243bb1eaa73b18a58c
+      internalID: 1580339399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_37
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 1431
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c9d25990ff90524689c1234352f0465
+      internalID: -552496551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_38
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 1431
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e06bee7f11c944ebea01a306d67383
+      internalID: 1748947899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_39
+      rect:
+        serializedVersion: 2
+        x: 2421
+        y: 1431
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c3d5634cdc5184c9907d7a108cf7cb
+      internalID: 2142751384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_40
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1080
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0adc956d850d5eb49b674554f45ac45a
+      internalID: -49355806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_41
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1080
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcf326a14e976b846bd97d7390b418c1
+      internalID: 288952224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_42
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 1080
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ae46b71ef463e418f9d1225ef513a7
+      internalID: 1369497633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_43
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 1080
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6652935244d904ca61348da54221b3
+      internalID: -425770716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_44
+      rect:
+        serializedVersion: 2
+        x: 2421
+        y: 1080
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba5e92c501f63b4d83602c62dceb9ef
+      internalID: -2013616906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_45
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 729
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd5dfe2ba22fa144092517b26e07c6f8
+      internalID: -643968937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_46
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 729
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9588f8092017d3344b024b17658a111c
+      internalID: -1741872779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_47
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 729
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 789609708fcd82f43823659e6a30a86a
+      internalID: 1806751442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_48
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 729
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e5c1036d540f24a9de99c509fbc4bd
+      internalID: 583220547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_49
+      rect:
+        serializedVersion: 2
+        x: 2421
+        y: 729
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc90ba1ef35c1c42a06b4e1e9058904
+      internalID: -1667488676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_50
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 378
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d67db5f8abff7ea45adf036c38802d83
+      internalID: 2094856713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_51
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 378
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1dae100921359b459d401f63becf20a
+      internalID: -1648708344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_52
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 378
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fbc98c76e5b3e246a7014e5e7cb84cc
+      internalID: -2007822285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_53
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 378
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaaa6115badc6ce4baf87f7df2b78361
+      internalID: -1280561179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_54
+      rect:
+        serializedVersion: 2
+        x: 2421
+        y: 378
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1361dede2e068604d851b71b37bfacd6
+      internalID: 214670965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_55
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 27
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 838335bcda6d569449998e28cf90f391
+      internalID: 440217309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_56
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 27
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cdb81e4123686543b00a015ce0f85e3
+      internalID: 1154118550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_57
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 27
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab61021dbf993f947973f1a639fe513e
+      internalID: 1743264233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_58
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 27
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d0e228edb02a54d95bb1a7a69eb628
+      internalID: -96083617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brokenPlatformText_59
+      rect:
+        serializedVersion: 2
+        x: 2421
+        y: 27
+        width: 585
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 625a39550474d31448dbb11ec09729ff
+      internalID: 2061158950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      brokenPlatformText_5: 2001560620
+      brokenPlatformText_25: 1618836173
+      brokenPlatformText_46: -1741872779
+      brokenPlatformText_6: 1136806932
+      brokenPlatformText_38: 1748947899
+      brokenPlatformText_22: 1452802372
+      brokenPlatformText_39: 2142751384
+      brokenPlatformText_55: 440217309
+      brokenPlatformText_31: 1423641865
+      brokenPlatformText_1: -1365632742
+      brokenPlatformText_58: -96083617
+      brokenPlatformText_0: -1885525
+      brokenPlatformText_21: 636980214
+      brokenPlatformText_15: -1304917852
+      brokenPlatformText_26: 1433877685
+      brokenPlatformText_33: -831498808
+      brokenPlatformText_7: -397933730
+      brokenPlatformText_52: -2007822285
+      brokenPlatformText_51: -1648708344
+      brokenPlatformText_53: -1280561179
+      brokenPlatformText_10: -1574147966
+      brokenPlatformText_44: -2013616906
+      brokenPlatformText_56: 1154118550
+      brokenPlatformText_59: 2061158950
+      brokenPlatformText_18: -1132902840
+      brokenPlatformText_36: 1580339399
+      brokenPlatformText_29: 151519256
+      brokenPlatformText_40: -49355806
+      brokenPlatformText_57: 1743264233
+      brokenPlatformText_17: -2107054181
+      brokenPlatformText_34: -1110424245
+      brokenPlatformText_3: -961119603
+      brokenPlatformText_41: 288952224
+      brokenPlatformText_47: 1806751442
+      brokenPlatformText_16: -2068063765
+      brokenPlatformText_54: 214670965
+      brokenPlatformText_4: 1000636212
+      brokenPlatformText_12: -890352081
+      brokenPlatformText_11: 766374109
+      brokenPlatformText_28: -1059472158
+      brokenPlatformText_30: -610893827
+      brokenPlatformText_13: 240153275
+      brokenPlatformText_2: 1342423001
+      brokenPlatformText_49: -1667488676
+      brokenPlatformText_48: 583220547
+      brokenPlatformText_14: -519451424
+      brokenPlatformText_43: -425770716
+      brokenPlatformText_35: -867006850
+      brokenPlatformText_27: 1731740879
+      brokenPlatformText_45: -643968937
+      brokenPlatformText_37: -552496551
+      brokenPlatformText_23: -1367976508
+      brokenPlatformText_32: -1787435387
+      brokenPlatformText_50: 2094856713
+      brokenPlatformText_20: 1548291469
+      brokenPlatformText_24: -2072633261
+      brokenPlatformText_42: 1369497633
+      brokenPlatformText_19: 1954064226
+      brokenPlatformText_8: -829309253
+      brokenPlatformText_9: -872878283
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
