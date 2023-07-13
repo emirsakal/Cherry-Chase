@@ -14,6 +14,12 @@ public class playerLife : MonoBehaviour
     private void Start() {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        
+        if(PlayerPrefs.GetInt("isTrailEffectOn") == 0) {
+            gameObject.GetComponent<TrailRenderer>().enabled = false;
+        } else if(PlayerPrefs.GetInt("isTrailEffectOn") == 1) {
+            gameObject.GetComponent<TrailRenderer>().enabled = true;
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision) {

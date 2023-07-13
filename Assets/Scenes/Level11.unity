@@ -290,7 +290,7 @@ GameObject:
   - component: {fileID: 578147073}
   - component: {fileID: 578147072}
   - component: {fileID: 578147071}
-  - component: {fileID: 578147070}
+  - component: {fileID: 578147075}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -298,20 +298,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &578147070
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 578147069}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c57f5e9f3ceb68e49a503e233e83c999, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pauseMenuUI: {fileID: 0}
-  bgMusic: {fileID: 0}
 --- !u!114 &578147071
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -396,6 +382,26 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &578147075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 578147069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f63186290e1673a41aaeba9299a6010d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lvlButtons: []
+  stars: []
+  emptyStars: []
+  levelTimers: []
+  totalTimeText: {fileID: 0}
+  levelNumberText: {fileID: 0}
+  totalTime: 0
+  levelNumber: 0
 --- !u!1 &1469796353
 GameObject:
   m_ObjectHideFlags: 0
@@ -551,7 +557,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 578147070}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: menuControl, Assembly-CSharp
         m_MethodName: LoadMenu
         m_Mode: 1

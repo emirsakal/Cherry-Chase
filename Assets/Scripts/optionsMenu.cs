@@ -7,6 +7,7 @@ public class optionsMenu : MonoBehaviour
 {   
     public Dropdown resolutionDropDown;
     Resolution[] resolutions;
+    public Toggle trailEffectToggle;
 
     void Start() {
         resolutions = Screen.resolutions;
@@ -28,6 +29,9 @@ public class optionsMenu : MonoBehaviour
         resolutionDropDown.AddOptions(options);
         resolutionDropDown.value = currentResolutionIndex;
         resolutionDropDown.RefreshShownValue();
+
+        bool isTrailOn = (PlayerPrefs.GetInt("isTrailEffectOn") == 1) ? true : false;
+        trailEffectToggle.isOn = isTrailOn;
     }
 
     public void SetFullScreen(bool isFullscreen) {
@@ -41,6 +45,7 @@ public class optionsMenu : MonoBehaviour
 
     public void SetTrailEffect (bool isTrailEffect) {
         if(isTrailEffect){
+            
             PlayerPrefs.SetInt("isTrailEffectOn", 1);   
         } else {
             PlayerPrefs.SetInt("isTrailEffectOn", 0);
