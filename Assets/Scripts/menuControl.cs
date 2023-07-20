@@ -66,8 +66,7 @@ public class menuControl : MonoBehaviour
     }
 
     public void NextLevel() {
-        Time.timeScale = 1f;
-        Invoke ("NextLevelLoad", 1.5f);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
     private void NextLevelLoad() {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);

@@ -27,7 +27,7 @@ public class endingCheck : MonoBehaviour
     }
 
     void Update() {
-        time += Time.deltaTime;
+        if(!levelCompleted){time += Time.deltaTime;}
         float minutes = Mathf.FloorToInt(time / 60);  
         float seconds = Mathf.FloorToInt(time % 60);
         minutesText.text = string.Format("{0:0}:", minutes);
