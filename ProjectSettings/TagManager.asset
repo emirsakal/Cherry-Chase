@@ -15,6 +15,7 @@ TagManager:
   - Ground
   - Cherry
   - OneWayPlatform
+  - Fan
   layers:
   - Default
   - TransparentFX

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class playerLife : MonoBehaviour
@@ -10,11 +11,14 @@ public class playerLife : MonoBehaviour
     public GameObject gameOverMenuUI;
     private Rigidbody2D rb;
     private Animator anim;
+    [SerializeField] private Text deathText;
+
+    private int numberOfDeath;
 
     private void Start() {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        
+
         if(PlayerPrefs.GetInt("isTrailEffectOn") == 0) {
             gameObject.GetComponent<TrailRenderer>().enabled = false;
         } else if(PlayerPrefs.GetInt("isTrailEffectOn") == 1) {
@@ -22,6 +26,10 @@ public class playerLife : MonoBehaviour
         }
     }
 
+    private void Update() {
+        numberOfDeath = PlayerPrefs.GetInt("DeathNumber", 0);
+        deathText.text = numberOfDeath + "";        
+    }
     private void OnCollisionEnter2D(Collision2D collision) {
         if (collision.gameObject.CompareTag("Trap")){
             bgMusic.Pause();
@@ -31,6 +39,7 @@ public class playerLife : MonoBehaviour
     }
 
     private void Die(){
+        PlayerPrefs.SetInt("DeathNumber", numberOfDeath + 1);
         rb.bodyType = RigidbodyType2D.Static;
         anim.SetTrigger("death");
     }

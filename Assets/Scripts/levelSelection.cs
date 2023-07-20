@@ -11,6 +11,7 @@ public class levelSelection : MonoBehaviour
     public Text[] levelTimers;
     [SerializeField] Text totalTimeText;
     [SerializeField] Text levelNumberText;
+    [SerializeField] Text deathText;
     public float totalTime = 0;
     public int levelNumber = 0;
 
@@ -18,6 +19,7 @@ public class levelSelection : MonoBehaviour
     {
         // PlayerPrefs.SetInt("levelAt", 1);
         int levelAt = PlayerPrefs.GetInt("levelAt", 1);
+        deathText.text = PlayerPrefs.GetInt("DeathNumber", 0) + "";        
 
 
         // Level 1
