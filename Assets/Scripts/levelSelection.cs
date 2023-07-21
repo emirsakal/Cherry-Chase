@@ -10,7 +10,7 @@ public class levelSelection : MonoBehaviour
     public GameObject[] emptyStars;
     public Text[] levelTimers;
     [SerializeField] Text totalTimeText;
-    [SerializeField] Text levelNumberText;
+    // [SerializeField] Text levelNumberText;
     [SerializeField] Text deathText;
     public float totalTime = 0;
     public int levelNumber = 0;
@@ -88,7 +88,7 @@ public class levelSelection : MonoBehaviour
         levelTimers[9].text = string.Format("{0:0}:{1:00}", minutes10, seconds10);
 
         totalTimeText.text = string.Format("{0:0}:{1:00}", minutesTotal, secondsTotal);
-        levelNumberText.text = levelNumber + "/10";
+        // levelNumberText.text = levelNumber + "/10";
         
         for(int i = 0; i < lvlButtons.Length; i++) {
             if (i + 1 > levelAt) {

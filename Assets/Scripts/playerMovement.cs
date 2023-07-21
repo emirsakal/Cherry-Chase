@@ -84,6 +84,7 @@ public class playerMovement : MonoBehaviour
     private float switchTimer = 0f;
 
     void Start() {
+        Time.timeScale = 1f;
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         movementParticle.Stop();
@@ -128,7 +129,7 @@ public class playerMovement : MonoBehaviour
             DoubleJump(); // This was DoubleJump() but I removed it since it causes duplicate jump sound effects.
         }
 
-        if (isWallSliding && Input.GetButtonDown("Jump") && canWallJump) {
+        if (isWallSliding && Input.GetButtonDown("Jump") && canWallJump && !isGrounded) {
             WallJump();
             canWallJumpTimer = 0.7f;
         }

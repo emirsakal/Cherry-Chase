@@ -17,8 +17,7 @@ public class endingCheck : MonoBehaviour
     [SerializeField] private AudioSource finishSound;
     [SerializeField] private AudioSource bgMusic;
     public GameObject FinishMenuUI;
-    [SerializeField] private Text minutesText;
-    [SerializeField] private Text secondsText;
+    [SerializeField] Text timeText;
     private float time = 0;
 
     void Start()
@@ -30,8 +29,7 @@ public class endingCheck : MonoBehaviour
         if(!levelCompleted){time += Time.deltaTime;}
         float minutes = Mathf.FloorToInt(time / 60);  
         float seconds = Mathf.FloorToInt(time % 60);
-        minutesText.text = string.Format("{0:0}:", minutes);
-        secondsText.text = string.Format("{0:00}", seconds);
+        timeText.text = string.Format("{0:0}:{1:00}", minutes, seconds);
     }
 
     private void OnTriggerEnter2D(Collider2D other) {

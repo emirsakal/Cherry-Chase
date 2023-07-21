@@ -399,7 +399,7 @@ MonoBehaviour:
   emptyStars: []
   levelTimers: []
   totalTimeText: {fileID: 0}
-  levelNumberText: {fileID: 0}
+  deathText: {fileID: 0}
   totalTime: 0
   levelNumber: 0
 --- !u!1 &1469796353
@@ -557,9 +557,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: menuControl, Assembly-CSharp
-        m_MethodName: LoadMenu
+      - m_Target: {fileID: 1469796355}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: GoMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

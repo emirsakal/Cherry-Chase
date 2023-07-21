@@ -5,8 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    
+    public void GoMenu() {
+        Invoke("GoBackMenu", 0.3f);
+    }
 
+    private void GoBackMenu() {
+        SceneManager.LoadScene("Menu");
+    }
+    
     public void PlayGame() {
         Invoke("PlayGameLoad", 0.3f);
     }
