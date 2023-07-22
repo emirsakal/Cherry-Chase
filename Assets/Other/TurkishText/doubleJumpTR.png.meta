@@ -1,0 +1,1360 @@
+fileFormatVersion: 2
+guid: 893f88ba69243d14d9ef7b4b2651327f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: doubleJumpTR_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2997
+        width: 576
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d3481c74d237443bea0ace69a1d84b
+      internalID: 993613849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleJumpTR_1
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 2997
+        width: 576
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 544ee1e5dd1ac474ebbe4c107927c592
+      internalID: -576757507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleJumpTR_2
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 2997
+        width: 576
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a490657e7fdb184f9137ee151e4e1f4
+      internalID: 2015738525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleJumpTR_3
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 2997
+        width: 576
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db98a66831826be479d99a15057f754e
+      internalID: 249766849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleJumpTR_4
+      rect:
+        serializedVersion: 2
+        x: 2385
+        y: 2997
+        width: 576
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e99ec36e9fcd4458333cd58ac290b6
+      internalID: 814385702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleJumpTR_5
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2700
+        width: 576
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ac4c097f709c64d978df1a92ce9140
+      internalID: 643515396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleJumpTR_6
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 2700
+        width: 576
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf766f5869fe0f4ea0adaa1a7c89701
+      internalID: 542165654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleJumpTR_7
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 2700
+        width: 576
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14370ccd677ea584d95a78d2c13ded5c
+      internalID: -1414591258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleJumpTR_8
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 2700
+        width: 576
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eae9611cc347c54d87007c440293f0f
+      internalID: 864130340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleJumpTR_9
+      rect:
+        serializedVersion: 2
+        x: 2385
+        y: 2700
+        width: 576
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c72471d9faff4bb48ac6a4349cf4bd95
+      internalID: -302786646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleJumpTR_10
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2403
+        width: 576
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68cbfb42693de9d4bbd982459ef79eb5
+      internalID: 511297678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleJumpTR_11
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 2403
+        width: 576
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 049a517badf100f4492c0e636bfdfb2b
+      internalID: 753566776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleJumpTR_12
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 2403
+        width: 576
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b225ae3bbe562a446b56011fde29c9cf
+      internalID: -111068873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleJumpTR_13
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 2403
+        width: 576
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2617684b273419c439ab0688ca71edfa
+      internalID: 1776471571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleJumpTR_14
+      rect:
+        serializedVersion: 2
+        x: 2385
+        y: 2403
+        width: 576
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d760c7ad1eb675d4987846b8a2627f73
+      internalID: -893706057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleJumpTR_15
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2106
+        width: 576
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d46b54c2e0cdbbc4ab4620b6f9e3b0a1
+      internalID: 2087644946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleJumpTR_16
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 2106
+        width: 576
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b4bf5dd01901c47a505ebec94b21b8
+      internalID: 377535525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleJumpTR_17
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 2106
+        width: 576
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1961553196679444ab0871566534e2be
+      internalID: 1388424016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleJumpTR_18
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 2106
+        width: 576
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bbd689631cf68b4e9cf96008f72b63a
+      internalID: -145744980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleJumpTR_19
+      rect:
+        serializedVersion: 2
+        x: 2385
+        y: 2106
+        width: 576
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d87aaf32ea4d74c8048725cf041b7b
+      internalID: 1857849671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleJumpTR_20
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1809
+        width: 576
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c332945b60f902140b290442ebe9e5b7
+      internalID: 1163077428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleJumpTR_21
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1809
+        width: 576
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcaaf9cfb25ae8c46ad4dcd48f7ee596
+      internalID: 1214774574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleJumpTR_22
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 1809
+        width: 576
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed47cf08ce259c42851fc387c9d62b6
+      internalID: 117793511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleJumpTR_23
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 1809
+        width: 576
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a7cc3debeb7cc43b5ae84ca4a0047b
+      internalID: 1680588904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleJumpTR_24
+      rect:
+        serializedVersion: 2
+        x: 2385
+        y: 1809
+        width: 576
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba01f12679db0840b26b79e3b02fca7
+      internalID: -1516714212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleJumpTR_25
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1512
+        width: 576
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 927c487f3d278b34f9cdc492795fbc86
+      internalID: 293459914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleJumpTR_26
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1512
+        width: 576
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b052b3876ee3b458f8bfbc01f18008
+      internalID: 471021564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleJumpTR_27
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 1512
+        width: 576
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c9f81ec49b84ec4d80641999f62782d
+      internalID: -306235755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleJumpTR_28
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 1512
+        width: 576
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1726845d7678c3e449f52657ea9f964b
+      internalID: 1082808032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleJumpTR_29
+      rect:
+        serializedVersion: 2
+        x: 2385
+        y: 1512
+        width: 576
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557efa05cdafe4c44a699011d175975c
+      internalID: 794900404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleJumpTR_30
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1215
+        width: 576
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 401fa4f998a2f56409f22ea9aaf439ff
+      internalID: -1844974881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleJumpTR_31
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1215
+        width: 576
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05cc7962b9a0b2e4a88675cf0f697c3b
+      internalID: -820131279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleJumpTR_32
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 1215
+        width: 576
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d97d52e004a0b14a911128d38f7976f
+      internalID: 234086642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleJumpTR_33
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 1215
+        width: 576
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85e99bfd0cc08a4cb78bcf2a2516d6c
+      internalID: 322442317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleJumpTR_34
+      rect:
+        serializedVersion: 2
+        x: 2385
+        y: 1215
+        width: 576
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a460213ed94775a4dab00a0fee6520d6
+      internalID: 1811301128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleJumpTR_35
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 918
+        width: 576
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d47e8e39538b13741a3ee54ff8373df5
+      internalID: 1233295526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleJumpTR_36
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 918
+        width: 576
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac5b13c6cbd10464d9521c6c9a23b6b3
+      internalID: -817034986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleJumpTR_37
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 918
+        width: 576
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a04ed0ab43d8d47b6a17082b2fc480
+      internalID: -852442322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleJumpTR_38
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 918
+        width: 576
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df0ca7952ea5f2d47a7f08501f9660d4
+      internalID: -448512631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleJumpTR_39
+      rect:
+        serializedVersion: 2
+        x: 2385
+        y: 918
+        width: 576
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7294f3361a91e44c8e884ca0aee108d
+      internalID: -356060890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleJumpTR_40
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 621
+        width: 576
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a14cbed09732ecd4e973cb9fd02c069d
+      internalID: 1374152688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleJumpTR_41
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 621
+        width: 576
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5394438238a59484d89e7e07e462f23c
+      internalID: 434340629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleJumpTR_42
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 621
+        width: 576
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 657a1cade5b365e479b76da2473b71ff
+      internalID: -1868223137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleJumpTR_43
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 621
+        width: 576
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba23c98aea0ac14d951ce47455c8a41
+      internalID: -849800298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleJumpTR_44
+      rect:
+        serializedVersion: 2
+        x: 2385
+        y: 621
+        width: 576
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c6b74f57629df449ce72030aa307fe
+      internalID: 1018378525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleJumpTR_45
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 324
+        width: 576
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f5d4086ddcdc8479f24a48e882aadd
+      internalID: 463612697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleJumpTR_46
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 324
+        width: 576
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a578e8d005b01e4ea5523e1cf43dd05
+      internalID: 205597008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleJumpTR_47
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 324
+        width: 576
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c2f2dbd69eab4489866c9fcbcaf917
+      internalID: -1170248861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleJumpTR_48
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 324
+        width: 576
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243e773851256bf4a895d0c06eabefa5
+      internalID: 112151315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleJumpTR_49
+      rect:
+        serializedVersion: 2
+        x: 2385
+        y: 324
+        width: 576
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f95921d358d9b3d4aaeb56cc2469a9d6
+      internalID: -587509914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleJumpTR_50
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 27
+        width: 576
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47f2e4580c0ba0c43b03d87f61985cab
+      internalID: 1657518509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleJumpTR_51
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 27
+        width: 576
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97651a5f7cbf1fd45852a84613d29619
+      internalID: 1015104962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleJumpTR_52
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 27
+        width: 576
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d7dec35b43efc40a9eb47f74e2cecd
+      internalID: 1481585458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleJumpTR_53
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 27
+        width: 576
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 166ca28bf78168642816a72aca84b653
+      internalID: 632874980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      doubleJumpTR_5: 643515396
+      doubleJumpTR_19: 1857849671
+      doubleJumpTR_44: 1018378525
+      doubleJumpTR_15: 2087644946
+      doubleJumpTR_16: 377535525
+      doubleJumpTR_0: 993613849
+      doubleJumpTR_1: -576757507
+      doubleJumpTR_48: 112151315
+      doubleJumpTR_18: -145744980
+      doubleJumpTR_27: -306235755
+      doubleJumpTR_10: 511297678
+      doubleJumpTR_22: 117793511
+      doubleJumpTR_43: -849800298
+      doubleJumpTR_32: 234086642
+      doubleJumpTR_47: -1170248861
+      doubleJumpTR_7: -1414591258
+      doubleJumpTR_26: 471021564
+      doubleJumpTR_6: 542165654
+      doubleJumpTR_3: 249766849
+      doubleJumpTR_37: -852442322
+      doubleJumpTR_28: 1082808032
+      doubleJumpTR_30: -1844974881
+      doubleJumpTR_2: 2015738525
+      doubleJumpTR_14: -893706057
+      doubleJumpTR_21: 1214774574
+      doubleJumpTR_41: 434340629
+      doubleJumpTR_38: -448512631
+      doubleJumpTR_49: -587509914
+      doubleJumpTR_29: 794900404
+      doubleJumpTR_11: 753566776
+      doubleJumpTR_39: -356060890
+      doubleJumpTR_8: 864130340
+      doubleJumpTR_31: -820131279
+      doubleJumpTR_33: 322442317
+      doubleJumpTR_17: 1388424016
+      doubleJumpTR_50: 1657518509
+      doubleJumpTR_52: 1481585458
+      doubleJumpTR_51: 1015104962
+      doubleJumpTR_13: 1776471571
+      doubleJumpTR_53: 632874980
+      doubleJumpTR_46: 205597008
+      doubleJumpTR_23: 1680588904
+      doubleJumpTR_12: -111068873
+      doubleJumpTR_24: -1516714212
+      doubleJumpTR_36: -817034986
+      doubleJumpTR_4: 814385702
+      doubleJumpTR_45: 463612697
+      doubleJumpTR_20: 1163077428
+      doubleJumpTR_25: 293459914
+      doubleJumpTR_42: -1868223137
+      doubleJumpTR_9: -302786646
+      doubleJumpTR_34: 1811301128
+      doubleJumpTR_35: 1233295526
+      doubleJumpTR_40: 1374152688
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

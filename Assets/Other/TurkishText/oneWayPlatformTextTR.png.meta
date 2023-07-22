@@ -1,0 +1,2328 @@
+fileFormatVersion: 2
+guid: 5570e4c7b8e99f445b099a2646a7b136
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 7551
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed0b563a43c15945902b6f35175c92f
+      internalID: 1900622046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_1
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 7551
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aeeaccefed3842469afbd19657105c2
+      internalID: -560299184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_2
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 7551
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5b038b5376b144fbb8122e9bf1d4ba
+      internalID: 878206959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_3
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 7551
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a0d881d4648db94abca36f6aa856302
+      internalID: 979939699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_4
+      rect:
+        serializedVersion: 2
+        x: 2709
+        y: 7551
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 663f27408c0dab9428e037f24db5517a
+      internalID: -1638872856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_5
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 7155
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e22c96752325d439000d8c974a0016
+      internalID: 662324747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_6
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 7155
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1de32f1a62b0f249b5a61b373001ecd
+      internalID: -1394864550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_7
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 7155
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e22dd87f1b76a0c4cbad5b7b4e3eafd5
+      internalID: -1898777409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_8
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 7155
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6b961b9b658bc54baaa5c073fea472f
+      internalID: -91660235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_9
+      rect:
+        serializedVersion: 2
+        x: 2709
+        y: 7155
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b1fb1ea39e16504abe7fe14a5f3e6bf
+      internalID: -223971476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_10
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 6759
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0765e815f2f6bc34aa25ac287463cf69
+      internalID: -1813125598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_11
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 6759
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d61d4434a8f73d4a93122bbb8dcc876
+      internalID: -617609608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_12
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 6759
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 480ffaeeac7317b49a7434d7aa926688
+      internalID: -498353239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_13
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 6759
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41fab57d826d8eb4e8ac7882c1475de0
+      internalID: -1144579562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_14
+      rect:
+        serializedVersion: 2
+        x: 2709
+        y: 6759
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5ac16f2bbbd704499ead11826972cd
+      internalID: 1383337590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_15
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 6363
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 853a360a7ab63474cb2b03e366c25f8b
+      internalID: 1098781509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_16
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 6363
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d75009aa1cbc842bf5f5187a485f09
+      internalID: -1802051405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_17
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 6363
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a1da7ad89ef66442abfcf8658a9803c
+      internalID: -1254762071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_18
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 6363
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc443c74707bca45af438d3cb6d6cd3
+      internalID: 1014652206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_19
+      rect:
+        serializedVersion: 2
+        x: 2709
+        y: 6363
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9b777f886030240b83bedfa64673a0
+      internalID: -1565354594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_20
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 5967
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598592278a8ab4b4fa65cb4ae95a71c3
+      internalID: -765869988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_21
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 5967
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f56f439334b5fc44c98da9b0e8ad8850
+      internalID: -84388526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_22
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 5967
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b8297d2b88c4c4f94fdbac64a03520
+      internalID: 79669355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_23
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 5967
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f43cc85b6dbe1044ebe584e78c8b878d
+      internalID: -1052740629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_24
+      rect:
+        serializedVersion: 2
+        x: 2709
+        y: 5967
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def95c93797a97646b3c4acaf3ffc4fe
+      internalID: -421766833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_25
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 5571
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa7e2bca01135140985e50a4e850cae
+      internalID: 1608521189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_26
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 5571
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab85dfa08a5c24b4ebf48c8936e8ee8b
+      internalID: 1295741151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_27
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 5571
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc41686129e05946bc763ae998b0ef9
+      internalID: 562837840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_28
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 5571
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4fe0abd842371b45903d0943ee42678
+      internalID: -1701848811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_29
+      rect:
+        serializedVersion: 2
+        x: 2709
+        y: 5571
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9612c30c1225946a2e8ab2645bde93
+      internalID: 1208050401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_30
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 5175
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 110b88b14f3cb574cb17f2d444917e60
+      internalID: -1215016623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_31
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 5175
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae324c332f9e884dae867a9191f2ae9
+      internalID: -1172614381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_32
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 5175
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9967b1b63bb2aa4d82f32cd46506b1f
+      internalID: 684568737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_33
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 5175
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80144232591fc414fb9d94f323f2cf0f
+      internalID: 891860636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_34
+      rect:
+        serializedVersion: 2
+        x: 2709
+        y: 5175
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e5fd0882681fe94b87434d40761ece8
+      internalID: -55904595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_35
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 4779
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ada545d7bd940a84ea368994589086ab
+      internalID: 212416858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_36
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 4779
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b8b2b9247bd8347bca631082ae517b
+      internalID: 778073716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_37
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 4779
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c233a1a5ded5d2342871152daaa2d116
+      internalID: -1807278791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_38
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 4779
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e02e598d90a931e43aff4c0810cf65ec
+      internalID: -355167919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_39
+      rect:
+        serializedVersion: 2
+        x: 2709
+        y: 4779
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022654ae9410f0a4c8aa48959fdaf4b6
+      internalID: 101175420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_40
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 4383
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec6e857bbde16049a21237c273f50ea
+      internalID: 158863890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_41
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 4383
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b110b26861b562f4399ddaca3060f6f1
+      internalID: -964494867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_42
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 4383
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12fcfd7e3c033744096a8565a427cfa3
+      internalID: 1012721284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_43
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 4383
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7863e4c507484ca439b22cb6852db189
+      internalID: -890938028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_44
+      rect:
+        serializedVersion: 2
+        x: 2709
+        y: 4383
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042f2693ddc3bb343b325c26d76e39ec
+      internalID: -1380190657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_45
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 3987
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342720a32d9a79249b5bd4d268691787
+      internalID: -1374973074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_46
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 3987
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9cb32ac3c1005f4c9f30de36673a2e1
+      internalID: -1468814890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_47
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 3987
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a62298ecd9aff43aaf5ede835f9b9f
+      internalID: -1304328816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_48
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 3987
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b1802d4fbb59d043adf76b5de849882
+      internalID: -425673656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_49
+      rect:
+        serializedVersion: 2
+        x: 2709
+        y: 3987
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937cbeab4a876eb43b2ea3427ebc7320
+      internalID: 765905409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_50
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 3591
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e0e925a7231dd49ba886d5c5836a95
+      internalID: -235495778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_51
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 3591
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ecf447f8ab8f34cad37620c84aed2b
+      internalID: -1656263632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_52
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 3591
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b73921f374021543bdde2f93737e8cf
+      internalID: -2080056036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_53
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 3591
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b4478d7f7d053641ab8ecd0fb9203d0
+      internalID: -2062535355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_54
+      rect:
+        serializedVersion: 2
+        x: 2709
+        y: 3591
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8474f05cb3a62345af84c014b0ccedd
+      internalID: 1203719157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_55
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 3195
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c81577f8b601d82488d99212de7e5975
+      internalID: 1055401034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_56
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 3195
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 060624b7a140e9741a58b918a25bb548
+      internalID: 1174335069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_57
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 3195
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3709193dbef3664c86eaa4e41ededa6
+      internalID: -348286746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_58
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 3195
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a29cc2ed0ac2a99418bca138374f3909
+      internalID: 1352797612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_59
+      rect:
+        serializedVersion: 2
+        x: 2709
+        y: 3195
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca3a2f9913e34f4499494c06749a713
+      internalID: -1102915148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_60
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2799
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c563f549a42744bb2253979b2dc733
+      internalID: 1449204839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_61
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 2799
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6ef5113412568439244df5d331a2c1
+      internalID: -1734338268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_62
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 2799
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a154134d10480ec47b60ce915f7b56cd
+      internalID: -2011384587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_63
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 2799
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73d6866c54c28f244885d97fcc51ea37
+      internalID: 1141357894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_64
+      rect:
+        serializedVersion: 2
+        x: 2709
+        y: 2799
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb0024a07a941243abba7ad26db82b8
+      internalID: -1374378580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_65
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2403
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3930e3a64a637e845aaf35109ad602a8
+      internalID: -460000189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_66
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 2403
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 911e1d1bf4ed80f458aacc667bb2383a
+      internalID: 1788234220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_67
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 2403
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e122322e7c734b40abc0612163a9b97
+      internalID: -351054619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_68
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 2403
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddcf1ef8f6601584ca72e01738c80eff
+      internalID: -1356987319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_69
+      rect:
+        serializedVersion: 2
+        x: 2709
+        y: 2403
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65d3c89b098cf541a827b8bdf1c6466
+      internalID: -184599585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_70
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2007
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5446dcec3038cfe41a1cde0c49fffb01
+      internalID: -338548629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_71
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 2007
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76aead212a32768418a6fdbade66cc0b
+      internalID: 1874169241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_72
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 2007
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483f177e8a4dfcb46900eeb0ba3d5191
+      internalID: -1733881319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_73
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 2007
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 674a5a3e7cb306f4c8db6af779a81cf9
+      internalID: -1660240958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_74
+      rect:
+        serializedVersion: 2
+        x: 2709
+        y: 2007
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc9bf32203143149a5ac42082d2b7d9
+      internalID: 1992236904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_75
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1611
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a977a275689419845a829df11af8013f
+      internalID: -256581300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_76
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 1611
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: affcaf6c1f43a1e42a35115dce17296a
+      internalID: 203838701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_77
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 1611
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: befefcba1bbc93443aa0f64e20aa4723
+      internalID: -1050584285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_78
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 1611
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10547338e63a92f4d9411d5f08e932f8
+      internalID: 1566125394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_79
+      rect:
+        serializedVersion: 2
+        x: 2709
+        y: 1611
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38faf393d544c584db917f8aec974d14
+      internalID: 1792627213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_80
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1215
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 890db8980d7f27e40b3299a2686fc6d9
+      internalID: -608538594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_81
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 1215
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec3bfcbeae6e10646b7223ec1cd7e98e
+      internalID: 276063315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_82
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 1215
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d429d1cd33beaa4c9b056bd4ca63774
+      internalID: -321094608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_83
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 1215
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da62bcf0e577d8a4f84f3fdfadf39114
+      internalID: -2089013234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_84
+      rect:
+        serializedVersion: 2
+        x: 2709
+        y: 1215
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a552f69e7fa9cd4aa082a43012c68c6
+      internalID: 2099428856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_85
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 819
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed08b6b6362fdb94980222f642d681d4
+      internalID: -1768797204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_86
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 819
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c87d733100aa146ba5269849344a03
+      internalID: 1243218608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_87
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 819
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43166013f6d6e7d4dbe220cecd7b2ea4
+      internalID: 384824086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_88
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 819
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a35e00a200a01141830ab4e047c3280
+      internalID: -2020651718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_89
+      rect:
+        serializedVersion: 2
+        x: 2709
+        y: 819
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25d35cb2d23b4f4587e87be690c5ce0
+      internalID: 1356836647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_90
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 423
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd84949475499e242817d0a9b34f663d
+      internalID: -109122625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_91
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 423
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 377d7fa59a8691c40a6ffac83043351e
+      internalID: -1974780787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_92
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 423
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384fca83f57f8e4468a8c7dde821660e
+      internalID: -528752760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_93
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 423
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a536737f7c3c34eb964d8890daf531
+      internalID: 1221410986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_94
+      rect:
+        serializedVersion: 2
+        x: 2709
+        y: 423
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5546ef9feaac25f4a91ad638f16aa217
+      internalID: -1390679862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_95
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 27
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c360298be8c1cc941ba1b31a4401af4a
+      internalID: 1161455851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_96
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 27
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a967504a939a6a8479c86bb8ef6d0a6f
+      internalID: -2077050010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatformTextTR_97
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 27
+        width: 657
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd5c6ea9902edd6409c9618675beb39e
+      internalID: -1948079638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      oneWayPlatformTextTR_89: 1356836647
+      oneWayPlatformTextTR_13: -1144579562
+      oneWayPlatformTextTR_25: 1608521189
+      oneWayPlatformTextTR_76: 203838701
+      oneWayPlatformTextTR_2: 878206959
+      oneWayPlatformTextTR_34: -55904595
+      oneWayPlatformTextTR_37: -1807278791
+      oneWayPlatformTextTR_85: -1768797204
+      oneWayPlatformTextTR_16: -1802051405
+      oneWayPlatformTextTR_64: -1374378580
+      oneWayPlatformTextTR_72: -1733881319
+      oneWayPlatformTextTR_48: -425673656
+      oneWayPlatformTextTR_0: 1900622046
+      oneWayPlatformTextTR_67: -351054619
+      oneWayPlatformTextTR_59: -1102915148
+      oneWayPlatformTextTR_58: 1352797612
+      oneWayPlatformTextTR_27: 562837840
+      oneWayPlatformTextTR_43: -890938028
+      oneWayPlatformTextTR_68: -1356987319
+      oneWayPlatformTextTR_14: 1383337590
+      oneWayPlatformTextTR_40: 158863890
+      oneWayPlatformTextTR_92: -528752760
+      oneWayPlatformTextTR_90: -109122625
+      oneWayPlatformTextTR_39: 101175420
+      oneWayPlatformTextTR_22: 79669355
+      oneWayPlatformTextTR_41: -964494867
+      oneWayPlatformTextTR_60: 1449204839
+      oneWayPlatformTextTR_11: -617609608
+      oneWayPlatformTextTR_47: -1304328816
+      oneWayPlatformTextTR_50: -235495778
+      oneWayPlatformTextTR_93: 1221410986
+      oneWayPlatformTextTR_79: 1792627213
+      oneWayPlatformTextTR_15: 1098781509
+      oneWayPlatformTextTR_66: 1788234220
+      oneWayPlatformTextTR_18: 1014652206
+      oneWayPlatformTextTR_81: 276063315
+      oneWayPlatformTextTR_57: -348286746
+      oneWayPlatformTextTR_36: 778073716
+      oneWayPlatformTextTR_33: 891860636
+      oneWayPlatformTextTR_53: -2062535355
+      oneWayPlatformTextTR_56: 1174335069
+      oneWayPlatformTextTR_91: -1974780787
+      oneWayPlatformTextTR_95: 1161455851
+      oneWayPlatformTextTR_46: -1468814890
+      oneWayPlatformTextTR_83: -2089013234
+      oneWayPlatformTextTR_54: 1203719157
+      oneWayPlatformTextTR_70: -338548629
+      oneWayPlatformTextTR_69: -184599585
+      oneWayPlatformTextTR_77: -1050584285
+      oneWayPlatformTextTR_24: -421766833
+      oneWayPlatformTextTR_19: -1565354594
+      oneWayPlatformTextTR_96: -2077050010
+      oneWayPlatformTextTR_97: -1948079638
+      oneWayPlatformTextTR_63: 1141357894
+      oneWayPlatformTextTR_51: -1656263632
+      oneWayPlatformTextTR_65: -460000189
+      oneWayPlatformTextTR_52: -2080056036
+      oneWayPlatformTextTR_94: -1390679862
+      oneWayPlatformTextTR_62: -2011384587
+      oneWayPlatformTextTR_29: 1208050401
+      oneWayPlatformTextTR_44: -1380190657
+      oneWayPlatformTextTR_12: -498353239
+      oneWayPlatformTextTR_87: 384824086
+      oneWayPlatformTextTR_88: -2020651718
+      oneWayPlatformTextTR_21: -84388526
+      oneWayPlatformTextTR_86: 1243218608
+      oneWayPlatformTextTR_9: -223971476
+      oneWayPlatformTextTR_26: 1295741151
+      oneWayPlatformTextTR_23: -1052740629
+      oneWayPlatformTextTR_55: 1055401034
+      oneWayPlatformTextTR_1: -560299184
+      oneWayPlatformTextTR_75: -256581300
+      oneWayPlatformTextTR_42: 1012721284
+      oneWayPlatformTextTR_35: 212416858
+      oneWayPlatformTextTR_49: 765905409
+      oneWayPlatformTextTR_78: 1566125394
+      oneWayPlatformTextTR_31: -1172614381
+      oneWayPlatformTextTR_3: 979939699
+      oneWayPlatformTextTR_84: 2099428856
+      oneWayPlatformTextTR_28: -1701848811
+      oneWayPlatformTextTR_82: -321094608
+      oneWayPlatformTextTR_30: -1215016623
+      oneWayPlatformTextTR_61: -1734338268
+      oneWayPlatformTextTR_71: 1874169241
+      oneWayPlatformTextTR_74: 1992236904
+      oneWayPlatformTextTR_4: -1638872856
+      oneWayPlatformTextTR_7: -1898777409
+      oneWayPlatformTextTR_5: 662324747
+      oneWayPlatformTextTR_8: -91660235
+      oneWayPlatformTextTR_32: 684568737
+      oneWayPlatformTextTR_10: -1813125598
+      oneWayPlatformTextTR_6: -1394864550
+      oneWayPlatformTextTR_38: -355167919
+      oneWayPlatformTextTR_80: -608538594
+      oneWayPlatformTextTR_20: -765869988
+      oneWayPlatformTextTR_17: -1254762071
+      oneWayPlatformTextTR_45: -1374973074
+      oneWayPlatformTextTR_73: -1660240958
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

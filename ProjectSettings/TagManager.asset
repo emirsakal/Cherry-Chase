@@ -14,8 +14,8 @@ TagManager:
   - Broken
   - Ground
   - Cherry
-  - OneWayPlatform
   - Fan
+  - Finished
   layers:
   - Default
   - TransparentFX

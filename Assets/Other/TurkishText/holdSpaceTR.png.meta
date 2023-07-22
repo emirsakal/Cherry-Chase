@@ -1,0 +1,1426 @@
+fileFormatVersion: 2
+guid: e92bce8498b42f84d9445bf099a5421d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: holdSpaceTR_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 3294
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ac549abdc8d59429e634560c2ee47e
+      internalID: -2052622639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_1
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 3294
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096ec19621c77c74f80bcf0380a6172c
+      internalID: 1834756953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_2
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 3294
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a9d2ab623a5dd498c5fd5bff900914
+      internalID: 741783357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_3
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 3294
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553dd9feb08e62445943da5e85777c27
+      internalID: 38800899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_4
+      rect:
+        serializedVersion: 2
+        x: 2565
+        y: 3294
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e634e232bd0b65049add6e1473300f8c
+      internalID: -783954441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_5
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2997
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dcbd75184e77914d9a0ee02ce6c1693
+      internalID: 309937018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_6
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 2997
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 309e18599549c4344a9fc16d5f60d034
+      internalID: 128840623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_7
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 2997
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786be8dc580c32d4e84b3e0ae1a98b0a
+      internalID: -1045544138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_8
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 2997
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 867fe659df150354b9c504fae98817ce
+      internalID: 211387068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_9
+      rect:
+        serializedVersion: 2
+        x: 2565
+        y: 2997
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b665458e117b74795e07ae5601a006
+      internalID: 240447538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_10
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2700
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70dd2594b314a3a4bbd8b3fdeea83ac3
+      internalID: 1714807153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_11
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 2700
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf3210cd92cebe418066b96e206184a
+      internalID: -124149367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_12
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 2700
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a89bbbd53fa805644a30a6c47da43b00
+      internalID: -1678300910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_13
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 2700
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dfd378d5428d1e4193fda3b3cbeb552
+      internalID: 831676370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_14
+      rect:
+        serializedVersion: 2
+        x: 2565
+        y: 2700
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da124033f21b264c9d1847c79f53961
+      internalID: -1907428971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_15
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2403
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b747f4fe7b6ee4abcedda8e6b1e8aa
+      internalID: -303324132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_16
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 2403
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b720285954fd67340b8a16a13d7ae024
+      internalID: 448865993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_17
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 2403
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16ca7d341172714c8c49ecebd383252
+      internalID: 705679898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_18
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 2403
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4880376f76b9fce4fbdf6a1f8cee5c2d
+      internalID: 671699744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_19
+      rect:
+        serializedVersion: 2
+        x: 2565
+        y: 2403
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b4cc90f31af0ad44ad9c4d07e57caf9
+      internalID: 1278241418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_20
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2106
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb060d57ad4a4e147bceb257285656bb
+      internalID: -1790478600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_21
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 2106
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 871875a7d0179ae4a9095fb9e6cd8ba5
+      internalID: 188504929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_22
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 2106
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f377ab07f556f4cb9cd983164f3a67
+      internalID: 2134613896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_23
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 2106
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 239efa4d6e56d754cafefad0515eda79
+      internalID: 279670405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_24
+      rect:
+        serializedVersion: 2
+        x: 2565
+        y: 2106
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 136e8ca742c0a5240b75ea3e4da4d705
+      internalID: -546424091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_25
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1809
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 977d4ad6b7220814e9c33fbe331dc601
+      internalID: -118427701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_26
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1809
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ef8c5c2cbf0314285104458f0e2401
+      internalID: -1712691510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_27
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 1809
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d205d1cf583a1543b86de85634125c1
+      internalID: 615799754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_28
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 1809
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82cba6105f1701a448b7884bca36743a
+      internalID: -363642603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_29
+      rect:
+        serializedVersion: 2
+        x: 2565
+        y: 1809
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 140a754aa8f345249b1af1bb16a84717
+      internalID: -67904165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_30
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1512
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9982cdb63ce8fb4bafb3d8be906d95e
+      internalID: -347243626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_31
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1512
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 205e788ce1063454d9782c7f2102705f
+      internalID: 680427271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_32
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 1512
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e2a64b324f9a9447b4e25b12195e7b9
+      internalID: 1296505644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_33
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 1512
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019a7f5c32e0f7941aee6b0f028d2dd8
+      internalID: 1961855966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_34
+      rect:
+        serializedVersion: 2
+        x: 2565
+        y: 1512
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bfa64555b7413d49877115e46c86f40
+      internalID: 1414549270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_35
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1215
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a859ec7bf8ef73e42a64050885641c33
+      internalID: -2129342377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_36
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1215
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1142617f0ee69104693a03c86260dde1
+      internalID: -1512296987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_37
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 1215
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d01938e285612647b17ed12d4c5090c
+      internalID: 1096340023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_38
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 1215
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab239980a6a46c045903fd7eb7702e8c
+      internalID: -32327118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_39
+      rect:
+        serializedVersion: 2
+        x: 2565
+        y: 1215
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b09357c8e5b7a489ce8d5abf8dec8b
+      internalID: -1232962435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_40
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 918
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c41e8aa75a7104285c26bfd22d4584
+      internalID: 516822129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_41
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 918
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a7d5e64132d9d64c8100168a89c561d
+      internalID: -2053663808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_42
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 918
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d37e4844539f2b44b3ef501ec5eda19
+      internalID: 1679911054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_43
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 918
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5b4866977d9af4abd9c7f7ecd1dee5
+      internalID: -2009737606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_44
+      rect:
+        serializedVersion: 2
+        x: 2565
+        y: 918
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee357f52b43c174198efbff6cefdef8
+      internalID: -753871051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_45
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 621
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c924edb0533854b8669bd246b5d54c
+      internalID: 1275336271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_46
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 621
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f55205c546559468980e31d4a5cd4e
+      internalID: 285312312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_47
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 621
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 837dfa4bb80bb5f45b1b1b5a0c83727f
+      internalID: 1934796762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_48
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 621
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c43542e5dba614498ccbaba1f748c3
+      internalID: -361457735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_49
+      rect:
+        serializedVersion: 2
+        x: 2565
+        y: 621
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde73795ac3949f4d86cef0312030d1d
+      internalID: 756824371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_50
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 324
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574b4e847abcf124bbe187841af15291
+      internalID: 2056082432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_51
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 324
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f43f9b48b269506468a35eb04ad588da
+      internalID: 1207216914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_52
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 324
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aea7d30c7ee09c478ee552f8809f16f
+      internalID: -224395121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_53
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 324
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e142ff9a2da4d4fab7ceafc7d0b2e3
+      internalID: -2135935340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_54
+      rect:
+        serializedVersion: 2
+        x: 2565
+        y: 324
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ee4f09bf107af43b98ba5be17baf50
+      internalID: -1423708770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_55
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 27
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b71dbd1a782734ebf006c4c578d13a
+      internalID: -1151460301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holdSpaceTR_56
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 27
+        width: 621
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c59c0d6bb203242bcf6beeece7dbb0
+      internalID: -960158031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      holdSpaceTR_37: 1096340023
+      holdSpaceTR_26: -1712691510
+      holdSpaceTR_50: 2056082432
+      holdSpaceTR_47: 1934796762
+      holdSpaceTR_6: 128840623
+      holdSpaceTR_34: 1414549270
+      holdSpaceTR_14: -1907428971
+      holdSpaceTR_51: 1207216914
+      holdSpaceTR_44: -753871051
+      holdSpaceTR_33: 1961855966
+      holdSpaceTR_3: 38800899
+      holdSpaceTR_27: 615799754
+      holdSpaceTR_52: -224395121
+      holdSpaceTR_17: 705679898
+      holdSpaceTR_0: -2052622639
+      holdSpaceTR_19: 1278241418
+      holdSpaceTR_24: -546424091
+      holdSpaceTR_28: -363642603
+      holdSpaceTR_11: -124149367
+      holdSpaceTR_39: -1232962435
+      holdSpaceTR_1: 1834756953
+      holdSpaceTR_40: 516822129
+      holdSpaceTR_49: 756824371
+      holdSpaceTR_12: -1678300910
+      holdSpaceTR_4: -783954441
+      holdSpaceTR_5: 309937018
+      holdSpaceTR_21: 188504929
+      holdSpaceTR_7: -1045544138
+      holdSpaceTR_20: -1790478600
+      holdSpaceTR_2: 741783357
+      holdSpaceTR_36: -1512296987
+      holdSpaceTR_54: -1423708770
+      holdSpaceTR_46: 285312312
+      holdSpaceTR_9: 240447538
+      holdSpaceTR_55: -1151460301
+      holdSpaceTR_32: 1296505644
+      holdSpaceTR_23: 279670405
+      holdSpaceTR_10: 1714807153
+      holdSpaceTR_42: 1679911054
+      holdSpaceTR_18: 671699744
+      holdSpaceTR_35: -2129342377
+      holdSpaceTR_30: -347243626
+      holdSpaceTR_48: -361457735
+      holdSpaceTR_13: 831676370
+      holdSpaceTR_8: 211387068
+      holdSpaceTR_29: -67904165
+      holdSpaceTR_16: 448865993
+      holdSpaceTR_31: 680427271
+      holdSpaceTR_53: -2135935340
+      holdSpaceTR_22: 2134613896
+      holdSpaceTR_56: -960158031
+      holdSpaceTR_45: 1275336271
+      holdSpaceTR_41: -2053663808
+      holdSpaceTR_38: -32327118
+      holdSpaceTR_43: -2009737606
+      holdSpaceTR_15: -303324132
+      holdSpaceTR_25: -118427701
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

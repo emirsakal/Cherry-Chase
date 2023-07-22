@@ -14632,7 +14632,7 @@ GameObject:
   - component: {fileID: 8768631891866876835}
   m_Layer: 0
   m_Name: Finish
-  m_TagString: Untagged
+  m_TagString: Finished
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14752,9 +14752,11 @@ MonoBehaviour:
   Confetti2: {fileID: 461283096099558985}
   Confetti3: {fileID: 5205055434009081316}
   Confetti4: {fileID: 8612707699281281996}
+  nextSceneLoad: 0
   finishSound: {fileID: 8768631891866876835}
   bgMusic: {fileID: 0}
   FinishMenuUI: {fileID: 0}
+  timeText: {fileID: 0}
 --- !u!95 &7833920339309080910
 Animator:
   serializedVersion: 4

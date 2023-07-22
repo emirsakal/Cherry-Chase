@@ -1,0 +1,2020 @@
+fileFormatVersion: 2
+guid: 0a53801738feab844902e4361ab03181
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: oneWayPlatform_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 6363
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e7826c7949f1141928708ec74d6430
+      internalID: 403710036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_1
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 6363
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a2dd29dd40d84d4c919e118d0bc9ab5
+      internalID: -1233705464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_2
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 6363
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0ac2e1563fc76443803c3131f558618
+      internalID: -1434667615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_3
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 6363
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949875d8593a71d4f9912a7b0002b1a3
+      internalID: -622680013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_4
+      rect:
+        serializedVersion: 2
+        x: 2637
+        y: 6363
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 184475cc7eb6b1c4095073dea01e0cff
+      internalID: -1854856768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_5
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 5967
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb32ee1482cdcc4aaf06a5ff72d7be6
+      internalID: 64287892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_6
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 5967
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 844f78348dd97cc478c2a6c6d71f455b
+      internalID: -829953738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_7
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 5967
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba25a795dd09a504b96d4e20edd6c27e
+      internalID: -787521085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_8
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 5967
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aa2b47ee75b562409e2b3fbb08ae562
+      internalID: 1218884080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_9
+      rect:
+        serializedVersion: 2
+        x: 2637
+        y: 5967
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843b591147cda7f46beac61a3b66fded
+      internalID: -1203255967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_10
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 5571
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 737785889c249cf419d2949d76965b64
+      internalID: 389680744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_11
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 5571
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f96fa3bf50b1dea4f9095ba94d5302e0
+      internalID: 1690785113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_12
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 5571
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d3687018dfa814ab68634698be15f2
+      internalID: 1738676874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_13
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 5571
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56d81d5357163324da33a5c2ea4347e3
+      internalID: 520597883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_14
+      rect:
+        serializedVersion: 2
+        x: 2637
+        y: 5571
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe14a03f839fa045934d613ddc2ceb1
+      internalID: 498730876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_15
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 5175
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a863c38602d104a8d8a3094260b342
+      internalID: 1651971604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_16
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 5175
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785b5e3e8d66e1f4bb0d0af89d62d02b
+      internalID: 829526581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_17
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 5175
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f44a948ba8ab3c845ade06f55c264727
+      internalID: 438733525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_18
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 5175
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c9e1376248da0f48863282cba54a79e
+      internalID: -1631776875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_19
+      rect:
+        serializedVersion: 2
+        x: 2637
+        y: 5175
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2926f67245fad1c458031f47cee32a5c
+      internalID: 1078815019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_20
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 4779
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f5c6c527a2a5d4d8acf6bf642a09ed
+      internalID: -1172742308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_21
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 4779
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5bf3907e33450349a8c80d980322ca3
+      internalID: -1448221246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_22
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 4779
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 821ecd8775f9e4b4baa239db9bc4f4ba
+      internalID: 1215214881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_23
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 4779
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52536eeebe7b24f479e83bd065b91b90
+      internalID: 1487793991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_24
+      rect:
+        serializedVersion: 2
+        x: 2637
+        y: 4779
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf8ca6f0a9930244d9d62b64fcc361f7
+      internalID: 1126620072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_25
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 4383
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1076766dbfea7d847b407df0c83b1b3f
+      internalID: -1269205319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_26
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 4383
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d77d12e9a070d49917271623339b13
+      internalID: 142723946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_27
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 4383
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c897988b5a3c2409f611e413648cfc
+      internalID: 126051114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_28
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 4383
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 121247b00328f95499e64797ae58597e
+      internalID: 173357322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_29
+      rect:
+        serializedVersion: 2
+        x: 2637
+        y: 4383
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1df6ec6971c4384a92b11faf6b0e6ee
+      internalID: -1997928693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_30
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 3987
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd5c91a015351942886298dca364731
+      internalID: -1551147576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_31
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 3987
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f316c1798d10294383f1fe75225b070
+      internalID: 1169329585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_32
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 3987
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e639378560888d143b5594ad3dae61d1
+      internalID: 1358718932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_33
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 3987
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b523ea8e49f49384689aca18fdfab837
+      internalID: 556864554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_34
+      rect:
+        serializedVersion: 2
+        x: 2637
+        y: 3987
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58772e56ea2aaed4cb318fbec88d2b09
+      internalID: 425767583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_35
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 3591
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786cfd298d99cee4ebac746e6598ecc8
+      internalID: -176001773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_36
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 3591
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 918c915c7e75ebe4da72fbeae3d8d687
+      internalID: -1065491307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_37
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 3591
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a18454a9889fa479e2c5e5100e09c2
+      internalID: 386751222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_38
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 3591
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac5a7ec924902c74780c6b7f4118ba82
+      internalID: -1771692721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_39
+      rect:
+        serializedVersion: 2
+        x: 2637
+        y: 3591
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9fbffaa90db0f448c68f77758ea622
+      internalID: 2031988250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_40
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 3195
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 745045e9948b8ac43979bfaf18a61923
+      internalID: -1204691612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_41
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 3195
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 014f10c45661fac4bb01bd1d1db4a883
+      internalID: 2141731411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_42
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 3195
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3572590fa418d4785b2086745ebd7f
+      internalID: 1302125083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_43
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 3195
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5086d4ffcbc2c438888420ffcdc93c
+      internalID: 921039841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_44
+      rect:
+        serializedVersion: 2
+        x: 2637
+        y: 3195
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7fb237bfc7b6ff4589da7e6241b4b5d
+      internalID: -1039847139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_45
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2799
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9125239f62fc04c4db8f6ab2869691be
+      internalID: 1728923162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_46
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 2799
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f6513852b867d64a92289ae7227ad31
+      internalID: -2136623321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_47
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 2799
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2bfb0d2261688643937f30526ea2be2
+      internalID: 1607368016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_48
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 2799
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d33d43a813dad5c4e8990ae06070ae19
+      internalID: 141954376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_49
+      rect:
+        serializedVersion: 2
+        x: 2637
+        y: 2799
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b4ebf96af84a04cb53f4eebdedddc7
+      internalID: -846334165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_50
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2403
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d3b2831c10ef24bbe614e2fec6c5f9
+      internalID: 1446339454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_51
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 2403
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f25869c676994241affc9d632cb4663
+      internalID: 92108605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_52
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 2403
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5903e40ef18ef24f9fb0d65d8e3b516
+      internalID: 266358713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_53
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 2403
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb44113aeca9e44b9ba735bc8d23db1
+      internalID: -1117610858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_54
+      rect:
+        serializedVersion: 2
+        x: 2637
+        y: 2403
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980f2f88f0a03314b96887373f439c1d
+      internalID: 888652774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_55
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2007
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e81faa221da674f89b41973a4f37fc
+      internalID: 691147620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_56
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 2007
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e03e8f3fd0b90c3488fae4500954a9b6
+      internalID: 306293275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_57
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 2007
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d34c0eecafd7349a0d7df8efd48c3c
+      internalID: 197337191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_58
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 2007
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a97cba2f7634a74e84f17ba6be5d375
+      internalID: -2003098889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_59
+      rect:
+        serializedVersion: 2
+        x: 2637
+        y: 2007
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e52aee2897e6419499a44c0003990576
+      internalID: -1712949358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_60
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1611
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ba318f891e3cf498c36377115538aa
+      internalID: -1578176608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_61
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 1611
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16932a052acaee54f98d9f16cba7f2f6
+      internalID: -580178096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_62
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 1611
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ecace74152ef140973b4cc01ff84f3
+      internalID: 2130831723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_63
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 1611
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed573086a92c2844bdac9c73e858df2
+      internalID: 1449920914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_64
+      rect:
+        serializedVersion: 2
+        x: 2637
+        y: 1611
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7652d13d854605740ba1c1a3a3f4ab18
+      internalID: -2132476175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_65
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1215
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd91fd49d8d08245911068f72184604
+      internalID: -569278824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_66
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 1215
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e896a85e3c2483f40aa7776133f69d14
+      internalID: 522971822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_67
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 1215
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 720e2476fd0fffa4aab8221c7554cd6a
+      internalID: 96666545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_68
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 1215
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e090d2edb83c6040adcc07c251418a6
+      internalID: -1900794067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_69
+      rect:
+        serializedVersion: 2
+        x: 2637
+        y: 1215
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a539ef2628a8b640a872fb06c8c2e1c
+      internalID: 1618027789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_70
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 819
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9841a3571ee63c44ca60eaf799583c47
+      internalID: -789898607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_71
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 819
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6167318875e0a6146b9ee918bd0d2fa7
+      internalID: -2141457924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_72
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 819
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f3713510d17d14fb4a0af9a48a8880
+      internalID: 1349546926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_73
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 819
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f1f90beefcc2d4d9e094b8a6748672
+      internalID: -236336587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_74
+      rect:
+        serializedVersion: 2
+        x: 2637
+        y: 819
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f4032424945bba42ab699402815685b
+      internalID: -1694600028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_75
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 423
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da5a412c24278d842aeccc63b99f4f1d
+      internalID: 508532690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_76
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 423
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5798eb55fc430be4b9d4ed54767e62d1
+      internalID: -690246402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_77
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 423
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f57b446efb90824d8643279ed8f5654
+      internalID: -1966082357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_78
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 423
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 191252d22436802489cdaebc8340e2a5
+      internalID: -388225737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_79
+      rect:
+        serializedVersion: 2
+        x: 2637
+        y: 423
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b9df70a36c7eec4bb51285b9204d5fd
+      internalID: -1869884044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_80
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 27
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac6e6684a2c9e94592d6a023af3ed1f
+      internalID: -1519399736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_81
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 27
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 793ea1ef63f549e43bada0d49c80942c
+      internalID: -1115397621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_82
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 27
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6461a575a5b0a2b4c96912c5eba1cc81
+      internalID: 76084678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneWayPlatform_83
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 27
+        width: 639
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e737e809c960d143bce9c7c00d00b64
+      internalID: 145347688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      oneWayPlatform_82: 76084678
+      oneWayPlatform_11: 1690785113
+      oneWayPlatform_25: -1269205319
+      oneWayPlatform_30: -1551147576
+      oneWayPlatform_73: -236336587
+      oneWayPlatform_16: 829526581
+      oneWayPlatform_79: -1869884044
+      oneWayPlatform_27: 126051114
+      oneWayPlatform_45: 1728923162
+      oneWayPlatform_35: -176001773
+      oneWayPlatform_43: 921039841
+      oneWayPlatform_1: -1233705464
+      oneWayPlatform_12: 1738676874
+      oneWayPlatform_46: -2136623321
+      oneWayPlatform_80: -1519399736
+      oneWayPlatform_14: 498730876
+      oneWayPlatform_52: 266358713
+      oneWayPlatform_54: 888652774
+      oneWayPlatform_74: -1694600028
+      oneWayPlatform_18: -1631776875
+      oneWayPlatform_21: -1448221246
+      oneWayPlatform_75: 508532690
+      oneWayPlatform_17: 438733525
+      oneWayPlatform_7: -787521085
+      oneWayPlatform_26: 142723946
+      oneWayPlatform_69: 1618027789
+      oneWayPlatform_13: 520597883
+      oneWayPlatform_56: 306293275
+      oneWayPlatform_34: 425767583
+      oneWayPlatform_71: -2141457924
+      oneWayPlatform_76: -690246402
+      oneWayPlatform_60: -1578176608
+      oneWayPlatform_2: -1434667615
+      oneWayPlatform_9: -1203255967
+      oneWayPlatform_4: -1854856768
+      oneWayPlatform_10: 389680744
+      oneWayPlatform_33: 556864554
+      oneWayPlatform_50: 1446339454
+      oneWayPlatform_22: 1215214881
+      oneWayPlatform_63: 1449920914
+      oneWayPlatform_24: 1126620072
+      oneWayPlatform_31: 1169329585
+      oneWayPlatform_44: -1039847139
+      oneWayPlatform_36: -1065491307
+      oneWayPlatform_48: 141954376
+      oneWayPlatform_81: -1115397621
+      oneWayPlatform_68: -1900794067
+      oneWayPlatform_58: -2003098889
+      oneWayPlatform_19: 1078815019
+      oneWayPlatform_78: -388225737
+      oneWayPlatform_55: 691147620
+      oneWayPlatform_62: 2130831723
+      oneWayPlatform_64: -2132476175
+      oneWayPlatform_72: 1349546926
+      oneWayPlatform_41: 2141731411
+      oneWayPlatform_29: -1997928693
+      oneWayPlatform_37: 386751222
+      oneWayPlatform_38: -1771692721
+      oneWayPlatform_3: -622680013
+      oneWayPlatform_53: -1117610858
+      oneWayPlatform_6: -829953738
+      oneWayPlatform_70: -789898607
+      oneWayPlatform_47: 1607368016
+      oneWayPlatform_39: 2031988250
+      oneWayPlatform_66: 522971822
+      oneWayPlatform_51: 92108605
+      oneWayPlatform_77: -1966082357
+      oneWayPlatform_20: -1172742308
+      oneWayPlatform_65: -569278824
+      oneWayPlatform_23: 1487793991
+      oneWayPlatform_32: 1358718932
+      oneWayPlatform_42: 1302125083
+      oneWayPlatform_5: 64287892
+      oneWayPlatform_15: 1651971604
+      oneWayPlatform_40: -1204691612
+      oneWayPlatform_49: -846334165
+      oneWayPlatform_8: 1218884080
+      oneWayPlatform_28: 173357322
+      oneWayPlatform_0: 403710036
+      oneWayPlatform_83: 145347688
+      oneWayPlatform_59: -1712949358
+      oneWayPlatform_61: -580178096
+      oneWayPlatform_57: 197337191
+      oneWayPlatform_67: 96666545
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

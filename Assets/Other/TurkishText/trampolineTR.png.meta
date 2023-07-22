@@ -1,0 +1,1162 @@
+fileFormatVersion: 2
+guid: 94a6f886193ff874a9e579323fe008a8
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: trampolineTR_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2043
+        width: 675
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61933e26f2d5ae44eb7899530717e548
+      internalID: -2055599977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trampolineTR_1
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 2043
+        width: 675
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da6a4a06cbf96984aa69b485daf41d15
+      internalID: 870465714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trampolineTR_2
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 2043
+        width: 675
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c5fa309ac8825442bcd69f33bcee210
+      internalID: -70270053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trampolineTR_3
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 2043
+        width: 675
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10600143e4539d142a7609d5a2cf0295
+      internalID: 574812331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trampolineTR_4
+      rect:
+        serializedVersion: 2
+        x: 2781
+        y: 2043
+        width: 675
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f664b432ca13b67459254ac6dc87f533
+      internalID: -230665325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trampolineTR_5
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1791
+        width: 675
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61efcb0b77f846544b3b61ee55a17cd6
+      internalID: -739928520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trampolineTR_6
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 1791
+        width: 675
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d202c5f4b654bb4686239018efbdcff
+      internalID: -1760617606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trampolineTR_7
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 1791
+        width: 675
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29b4803daa41bf42a4b3d9205cdba77
+      internalID: -1455046290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trampolineTR_8
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 1791
+        width: 675
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c144094c08299f4a9a02b8a93823bdb
+      internalID: 1933466831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trampolineTR_9
+      rect:
+        serializedVersion: 2
+        x: 2781
+        y: 1791
+        width: 675
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c567e4f690f7941ae935c8d4e6a94f
+      internalID: -604464102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trampolineTR_10
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1539
+        width: 675
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fedb85e76ea98244fb8b047ce96b75c8
+      internalID: -676241352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trampolineTR_11
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 1539
+        width: 675
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3711337f4c218e843ada283a4651463d
+      internalID: 1806477856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trampolineTR_12
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 1539
+        width: 675
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3a75a39c5ca94c41a9304c38c2cc132
+      internalID: 1002960707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trampolineTR_13
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 1539
+        width: 675
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b78ac9ca2e3378a4594b678b9251b501
+      internalID: 346599061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trampolineTR_14
+      rect:
+        serializedVersion: 2
+        x: 2781
+        y: 1539
+        width: 675
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a494a1d9708ae40b760d1962a6ae35
+      internalID: 1775999850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trampolineTR_15
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1287
+        width: 675
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee16b762747b31047b27c5a3b1c3e57f
+      internalID: 26729785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trampolineTR_16
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 1287
+        width: 675
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 041c5dbe360670b43bfd98ebe0916975
+      internalID: 1837508202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trampolineTR_17
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 1287
+        width: 675
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c29cb538d035b142ac5b5f8c368e02f
+      internalID: -1868272016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trampolineTR_18
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 1287
+        width: 675
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25545d9a266287548ba7e8902c37ab77
+      internalID: 964190226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trampolineTR_19
+      rect:
+        serializedVersion: 2
+        x: 2781
+        y: 1287
+        width: 675
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a60ec232b276074cbab0c09d571a112
+      internalID: 544055220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trampolineTR_20
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1035
+        width: 675
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca7186962f163554b9c7cbcefe838448
+      internalID: -252980762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trampolineTR_21
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 1035
+        width: 675
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb50d0d43ae68d4890d20fa463557ec
+      internalID: -1768217465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trampolineTR_22
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 1035
+        width: 675
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c2c60b87bc560d47a422ec723b8c4b5
+      internalID: -2106822040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trampolineTR_23
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 1035
+        width: 675
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63136df9c7cfaec41b022aa923457669
+      internalID: 896309725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trampolineTR_24
+      rect:
+        serializedVersion: 2
+        x: 2781
+        y: 1035
+        width: 675
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 747d311f74a3f9b418bd9c78a74deb19
+      internalID: -1911951437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trampolineTR_25
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 783
+        width: 675
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7fffb8a46c6b814298cc4162085e78e
+      internalID: -838321826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trampolineTR_26
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 783
+        width: 675
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5884906b0453754880ba2184078cbd4
+      internalID: -1058266600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trampolineTR_27
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 783
+        width: 675
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3cd01c786a7cfb4c957fb7ec71f3ca6
+      internalID: -1965311177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trampolineTR_28
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 783
+        width: 675
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c5971539f44f747b01d2008f42968e
+      internalID: -847679681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trampolineTR_29
+      rect:
+        serializedVersion: 2
+        x: 2781
+        y: 783
+        width: 675
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b033f1bbe1e004db8a329beb3698e6
+      internalID: 1509622444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trampolineTR_30
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 531
+        width: 675
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 596084c6462ed1442901ce00f6123d4e
+      internalID: 56095080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trampolineTR_31
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 531
+        width: 675
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b59eb39979624714d8e6bfd3b119d9b3
+      internalID: -958548550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trampolineTR_32
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 531
+        width: 675
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7068cdc432c214f8493471a372a9ae
+      internalID: 268459342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trampolineTR_33
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 531
+        width: 675
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2f14d0c9c2c8c448eed2b5af61d3a0
+      internalID: -62953697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trampolineTR_34
+      rect:
+        serializedVersion: 2
+        x: 2781
+        y: 531
+        width: 675
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e622133d3fcd747b8c58bcf7589bfb
+      internalID: -1619682819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trampolineTR_35
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 279
+        width: 675
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecdeda96b91fc454eb4c5ca9f8b12065
+      internalID: 819871428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trampolineTR_36
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 279
+        width: 675
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbfd655b365c89e40aee0b3d1b299eb1
+      internalID: 1060515094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trampolineTR_37
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 279
+        width: 675
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e563caec67f3fe49a8a794dee712870
+      internalID: 1850656531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trampolineTR_38
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 279
+        width: 675
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ec17c348c70c74b887a1df7898a403
+      internalID: -2066283811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trampolineTR_39
+      rect:
+        serializedVersion: 2
+        x: 2781
+        y: 279
+        width: 675
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6103dff607630824fbbd3a6731d199de
+      internalID: -75580026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trampolineTR_40
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 27
+        width: 675
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 867f62cbd67cf13498ceba3ca76a57be
+      internalID: -1868169806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trampolineTR_41
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 27
+        width: 675
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde517ea32d4933418397e007475c947
+      internalID: -1637708387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trampolineTR_42
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 27
+        width: 675
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5979bdd67373add48beb0c54aa98c3b0
+      internalID: -1030590476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trampolineTR_43
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 27
+        width: 675
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a01f848af6fb2104a854a89eaa3f5fbb
+      internalID: -371009523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trampolineTR_44
+      rect:
+        serializedVersion: 2
+        x: 2781
+        y: 27
+        width: 675
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd1912eb0aa8994faed7c0a37e2630b
+      internalID: -247756403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      trampolineTR_19: 544055220
+      trampolineTR_44: -247756403
+      trampolineTR_0: -2055599977
+      trampolineTR_6: -1760617606
+      trampolineTR_23: 896309725
+      trampolineTR_26: -1058266600
+      trampolineTR_28: -847679681
+      trampolineTR_42: -1030590476
+      trampolineTR_29: 1509622444
+      trampolineTR_7: -1455046290
+      trampolineTR_36: 1060515094
+      trampolineTR_25: -838321826
+      trampolineTR_31: -958548550
+      trampolineTR_10: -676241352
+      trampolineTR_41: -1637708387
+      trampolineTR_32: 268459342
+      trampolineTR_15: 26729785
+      trampolineTR_34: -1619682819
+      trampolineTR_16: 1837508202
+      trampolineTR_3: 574812331
+      trampolineTR_43: -371009523
+      trampolineTR_38: -2066283811
+      trampolineTR_18: 964190226
+      trampolineTR_33: -62953697
+      trampolineTR_20: -252980762
+      trampolineTR_5: -739928520
+      trampolineTR_24: -1911951437
+      trampolineTR_2: -70270053
+      trampolineTR_21: -1768217465
+      trampolineTR_30: 56095080
+      trampolineTR_1: 870465714
+      trampolineTR_27: -1965311177
+      trampolineTR_17: -1868272016
+      trampolineTR_22: -2106822040
+      trampolineTR_4: -230665325
+      trampolineTR_12: 1002960707
+      trampolineTR_39: -75580026
+      trampolineTR_35: 819871428
+      trampolineTR_40: -1868169806
+      trampolineTR_37: 1850656531
+      trampolineTR_14: 1775999850
+      trampolineTR_13: 346599061
+      trampolineTR_8: 1933466831
+      trampolineTR_9: -604464102
+      trampolineTR_11: 1806477856
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
