@@ -1,0 +1,1492 @@
+fileFormatVersion: 2
+guid: 063f2b28f86ec3e4392ed67e4e4224a6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: wasdTR_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2898
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc80d2039222ea4794bcb053c19f1bc
+      internalID: 79561326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_1
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 2898
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 438c31d474f2c9d458510967e026a7a2
+      internalID: -1822823020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_2
+      rect:
+        serializedVersion: 2
+        x: 1773
+        y: 2898
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d9a9e41b994f40498adfd06800355c2
+      internalID: -574922989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_3
+      rect:
+        serializedVersion: 2
+        x: 2655
+        y: 2898
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c110553e90a6caa4095b677dac121c49
+      internalID: -1639316681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_4
+      rect:
+        serializedVersion: 2
+        x: 3537
+        y: 2898
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d632404be24b2a4eae2ddedb4ad3649
+      internalID: -1199488483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_5
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2637
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dbf6a9f8de5b5f48ad8c90b4fc0fb47
+      internalID: 1858201415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_6
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 2637
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b1034cf94329142a7f168d40dbd9a8
+      internalID: 1474239617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_7
+      rect:
+        serializedVersion: 2
+        x: 1773
+        y: 2637
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790e7c87e7289854f8a048fbfed78372
+      internalID: 973751081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_8
+      rect:
+        serializedVersion: 2
+        x: 2655
+        y: 2637
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8310cd269cd484545a8fb86ca110f688
+      internalID: 906094978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_9
+      rect:
+        serializedVersion: 2
+        x: 3537
+        y: 2637
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 527baecf91516c340994a99750df9644
+      internalID: -837917203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_10
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2376
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa2ef8fc539f1d46bfc4e19637fbbc8
+      internalID: 394450726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_11
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 2376
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa5a6e58b0eb1845aedab3497faa700
+      internalID: -1235579776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_12
+      rect:
+        serializedVersion: 2
+        x: 1773
+        y: 2376
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ca488b94162fe40b584570b5a11760
+      internalID: 300318390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_13
+      rect:
+        serializedVersion: 2
+        x: 2655
+        y: 2376
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f7d634bbbf7fd49af2866e48c173c9
+      internalID: -1891381061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_14
+      rect:
+        serializedVersion: 2
+        x: 3537
+        y: 2376
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98bb51201fecd854cbfa3d190e0281bd
+      internalID: 1765559944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_15
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2115
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10754dfa71a69fd48808912d7b07f8da
+      internalID: 1296885541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_16
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 2115
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2f22961bccec5348bfa549d3b7e5665
+      internalID: 1096148260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_17
+      rect:
+        serializedVersion: 2
+        x: 1773
+        y: 2115
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3557791e8ae945742b0532e72b7f361c
+      internalID: -54569185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_18
+      rect:
+        serializedVersion: 2
+        x: 2655
+        y: 2115
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3326cb57fb24148a4442881be77af4
+      internalID: 1024108025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_19
+      rect:
+        serializedVersion: 2
+        x: 3537
+        y: 2115
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa7b01b602ceb1b4a853c7b779a61cba
+      internalID: -1237565369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_20
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1854
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a3183a99c1fb444915dc311c0e9266
+      internalID: 351353103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_21
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 1854
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf67be857133e54ba408a7c05909a9a
+      internalID: -1921579206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_22
+      rect:
+        serializedVersion: 2
+        x: 1773
+        y: 1854
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185f0fa1a1896f94d998568a76c4dc2a
+      internalID: 1824363737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_23
+      rect:
+        serializedVersion: 2
+        x: 2655
+        y: 1854
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15aa8904e77b39940932f735b5690d77
+      internalID: 460468080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_24
+      rect:
+        serializedVersion: 2
+        x: 3537
+        y: 1854
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b65484a561a2644984818b329bee69
+      internalID: -751841655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_25
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1593
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e079d03aec91064b9475bae607705f8
+      internalID: -514022199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_26
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 1593
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52d62953b24f85e4fbda2f792a1cf56d
+      internalID: -1764525189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_27
+      rect:
+        serializedVersion: 2
+        x: 1773
+        y: 1593
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1951fed94425aaa4c971559c6cfa417f
+      internalID: 117127235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_28
+      rect:
+        serializedVersion: 2
+        x: 2655
+        y: 1593
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec2e492a4f0fbe41a9f7993c0b44249
+      internalID: 2108937369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_29
+      rect:
+        serializedVersion: 2
+        x: 3537
+        y: 1593
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c3d400283fa28e4faee8cf14dd8a801
+      internalID: -1439379434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_30
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1332
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae6dbf094c696a14896e5f96f6aec0b7
+      internalID: 1768754833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_31
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 1332
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7096f76453a8e6f41a2c8487234d83ab
+      internalID: -186953735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_32
+      rect:
+        serializedVersion: 2
+        x: 1773
+        y: 1332
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb6e4a8d985da542adea2f153ed7468
+      internalID: 1003741210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_33
+      rect:
+        serializedVersion: 2
+        x: 2655
+        y: 1332
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2cbc8a5177f5b459affcdfae85f212
+      internalID: -1564432168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_34
+      rect:
+        serializedVersion: 2
+        x: 3537
+        y: 1332
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e806577e3dc800a48a1ba6e5646243e0
+      internalID: -648288205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_35
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1071
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35b62388ce47304cac537b2bddbc957
+      internalID: 253743901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_36
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 1071
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2313e2d6ddf979c478863d7b40188ee3
+      internalID: 1398299512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_37
+      rect:
+        serializedVersion: 2
+        x: 1773
+        y: 1071
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4b7f171cfafed4a86a3d7681abe8f4
+      internalID: 618869724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_38
+      rect:
+        serializedVersion: 2
+        x: 2655
+        y: 1071
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a3cc45e086fd434db10d4d33b18778a
+      internalID: -1659205988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_39
+      rect:
+        serializedVersion: 2
+        x: 3537
+        y: 1071
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b4bed2356a0d7a4fab3c59ada8c677f
+      internalID: 1186777777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_40
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 810
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff6db1e35da32e4d865df0156083221
+      internalID: -167294745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_41
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 810
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b448c7b809984c844a02213a02736c2b
+      internalID: -1888513621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_42
+      rect:
+        serializedVersion: 2
+        x: 1773
+        y: 810
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccaeacccc0038394f9c7894e29dcb12b
+      internalID: -1476624815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_43
+      rect:
+        serializedVersion: 2
+        x: 2655
+        y: 810
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb08df57ebf9e4648a0468a090a3f0e3
+      internalID: -6765645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_44
+      rect:
+        serializedVersion: 2
+        x: 3537
+        y: 810
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7212dd2666417043ba15ffece99ecfd
+      internalID: -682114511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_45
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 549
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f7ffbcaeb47845489943d0ed52cb213
+      internalID: 441454722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_46
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 549
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd0571922a3e3540bde2842c72c3b83
+      internalID: 1610682767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_47
+      rect:
+        serializedVersion: 2
+        x: 1773
+        y: 549
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678bee0faabd319409774d097c36b826
+      internalID: 1171783427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_48
+      rect:
+        serializedVersion: 2
+        x: 2655
+        y: 549
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d6bfaf1c92220418891e169b9f60d3
+      internalID: 1396973250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_49
+      rect:
+        serializedVersion: 2
+        x: 3537
+        y: 549
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8afff9a076e80445a75f5e25513b92a
+      internalID: 1043626234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_50
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 288
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f90d6556b45d58e4ea389eabee16956f
+      internalID: 39465648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_51
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 288
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6bf3b31043fe8a448c3f1962c205ba7
+      internalID: 1642233386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_52
+      rect:
+        serializedVersion: 2
+        x: 1773
+        y: 288
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8e14eb73c81ca469eb53749ad623e3
+      internalID: 653725727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_53
+      rect:
+        serializedVersion: 2
+        x: 2655
+        y: 288
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d93a129131c8723468798f617e89b2fe
+      internalID: -258618765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_54
+      rect:
+        serializedVersion: 2
+        x: 3537
+        y: 288
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff46723aad5ea24696ba4f469131399
+      internalID: 603030006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_55
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 27
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045468b6cb16693408cde0c4eeab787c
+      internalID: 74280498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_56
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 27
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d63ea3bbfc0eaef4db005db1e1d2181b
+      internalID: 15323529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_57
+      rect:
+        serializedVersion: 2
+        x: 1773
+        y: 27
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c0423968083984fa384d92ac1da378
+      internalID: -501365129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_58
+      rect:
+        serializedVersion: 2
+        x: 2655
+        y: 27
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4cfdac65c9f64649ba326d0b36895a5
+      internalID: -1531007807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdTR_59
+      rect:
+        serializedVersion: 2
+        x: 3537
+        y: 27
+        width: 864
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c07fa265f1a2ae4da265ff50b231f0e
+      internalID: -1195324117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      wasdTR_1: -1822823020
+      wasdTR_30: 1768754833
+      wasdTR_53: -258618765
+      wasdTR_9: -837917203
+      wasdTR_35: 253743901
+      wasdTR_21: -1921579206
+      wasdTR_47: 1171783427
+      wasdTR_20: 351353103
+      wasdTR_26: -1764525189
+      wasdTR_6: 1474239617
+      wasdTR_29: -1439379434
+      wasdTR_3: -1639316681
+      wasdTR_13: -1891381061
+      wasdTR_56: 15323529
+      wasdTR_24: -751841655
+      wasdTR_25: -514022199
+      wasdTR_23: 460468080
+      wasdTR_45: 441454722
+      wasdTR_37: 618869724
+      wasdTR_11: -1235579776
+      wasdTR_5: 1858201415
+      wasdTR_44: -682114511
+      wasdTR_55: 74280498
+      wasdTR_38: -1659205988
+      wasdTR_19: -1237565369
+      wasdTR_43: -6765645
+      wasdTR_40: -167294745
+      wasdTR_46: 1610682767
+      wasdTR_8: 906094978
+      wasdTR_36: 1398299512
+      wasdTR_42: -1476624815
+      wasdTR_54: 603030006
+      wasdTR_50: 39465648
+      wasdTR_59: -1195324117
+      wasdTR_18: 1024108025
+      wasdTR_22: 1824363737
+      wasdTR_14: 1765559944
+      wasdTR_28: 2108937369
+      wasdTR_57: -501365129
+      wasdTR_32: 1003741210
+      wasdTR_15: 1296885541
+      wasdTR_4: -1199488483
+      wasdTR_39: 1186777777
+      wasdTR_52: 653725727
+      wasdTR_10: 394450726
+      wasdTR_41: -1888513621
+      wasdTR_12: 300318390
+      wasdTR_16: 1096148260
+      wasdTR_49: 1043626234
+      wasdTR_51: 1642233386
+      wasdTR_48: 1396973250
+      wasdTR_2: -574922989
+      wasdTR_34: -648288205
+      wasdTR_7: 973751081
+      wasdTR_0: 79561326
+      wasdTR_33: -1564432168
+      wasdTR_31: -186953735
+      wasdTR_27: 117127235
+      wasdTR_17: -54569185
+      wasdTR_58: -1531007807
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

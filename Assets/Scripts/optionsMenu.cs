@@ -8,7 +8,8 @@ public class optionsMenu : MonoBehaviour
     public Dropdown resolutionDropDown;
     Resolution[] resolutions;
     public Toggle trailEffectToggle;
-
+    public Dropdown languageDropdown;
+    
     void Start() {
         resolutions = Screen.resolutions;
 
@@ -30,6 +31,9 @@ public class optionsMenu : MonoBehaviour
         resolutionDropDown.value = currentResolutionIndex;
         resolutionDropDown.RefreshShownValue();
 
+        languageDropdown.value = PlayerPrefs.GetInt("Language", 0);
+        languageDropdown.RefreshShownValue();
+
         bool isTrailOn = (PlayerPrefs.GetInt("isTrailEffectOn") == 1) ? true : false;
         trailEffectToggle.isOn = isTrailOn;
     }
@@ -45,10 +49,16 @@ public class optionsMenu : MonoBehaviour
 
     public void SetTrailEffect (bool isTrailEffect) {
         if(isTrailEffect){
-            
             PlayerPrefs.SetInt("isTrailEffectOn", 1);   
         } else {
             PlayerPrefs.SetInt("isTrailEffectOn", 0);
+        }
+    }
+
+    public void SetLanguage(int index) {
+        switch (index) {
+            case 0: PlayerPrefs.SetInt("Language", 0); break;
+            case 1: PlayerPrefs.SetInt("Language", 1); break;
         }
     }
 }

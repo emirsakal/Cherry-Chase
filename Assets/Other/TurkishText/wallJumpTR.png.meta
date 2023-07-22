@@ -1,0 +1,2284 @@
+fileFormatVersion: 2
+guid: 88ec4abfad628ba498c6c927dab08afc
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: wallJumpTR_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 6696
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8723947eb2397247b4e6c6d93499435
+      internalID: -1466332843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_1
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 6696
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd0ca9f636163334ca8be5f110c2a62d
+      internalID: 1562565346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_2
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 6696
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab7f95cd3a0c594581ba1a9de7b5e6f
+      internalID: 113322825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_3
+      rect:
+        serializedVersion: 2
+        x: 2682
+        y: 6696
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505a81f88006acb48bb28be72120e844
+      internalID: 1156561467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_4
+      rect:
+        serializedVersion: 2
+        x: 3573
+        y: 6696
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33415db361f258c47945aa4a0e5fe72a
+      internalID: 1299912882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_5
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 6345
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 544f27ad539f4b648b938f1807ccec27
+      internalID: -244336100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_6
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 6345
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97fac77454a3c864dbff44eefccf9001
+      internalID: -1645929866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_7
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 6345
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfadabfef1caa724cb1b35857390d0f5
+      internalID: 1941418331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_8
+      rect:
+        serializedVersion: 2
+        x: 2682
+        y: 6345
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1106930ee03be744ea0ead19b973e2fa
+      internalID: 294633566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_9
+      rect:
+        serializedVersion: 2
+        x: 3573
+        y: 6345
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a30786f54883548a947b88351ac554
+      internalID: 1043513614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_10
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 5994
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e1cd1605a1a93458eb3ebd7554d39a
+      internalID: -292276979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_11
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 5994
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f4b7497c7209649a7b9566a1e054ff
+      internalID: -786924279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_12
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 5994
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb8a2a10c680b44d8fcd7f14a2d579a
+      internalID: 74667348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_13
+      rect:
+        serializedVersion: 2
+        x: 2682
+        y: 5994
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5535ba1b0238d6e4fb6771806313094e
+      internalID: 774508076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_14
+      rect:
+        serializedVersion: 2
+        x: 3573
+        y: 5994
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee530c9e57e4bc4d8a39b484fbf5f1b
+      internalID: -1740251527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_15
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 5643
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8921a1a36e3de14d8b765e2cec00fb5
+      internalID: -1938068672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_16
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 5643
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac700533ad820f43a99cc29fbd35cad
+      internalID: 1114107276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_17
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 5643
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b01ea0ee228d14b833ca14c2cb624b
+      internalID: 1640612423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_18
+      rect:
+        serializedVersion: 2
+        x: 2682
+        y: 5643
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d78220cd8ad6f99458e6069651667525
+      internalID: 1410023501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_19
+      rect:
+        serializedVersion: 2
+        x: 3573
+        y: 5643
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc500f7c4fe7a05459765f62b0c8564d
+      internalID: 1868072178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_20
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 5292
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b05caaeefc2537045889c3641990f662
+      internalID: -87907952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_21
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 5292
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a06cfbbe02938fa448b9b65c3f9fab48
+      internalID: -1829858475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_22
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 5292
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d94ded8914365544090c24cd6cc98377
+      internalID: -1221649042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_23
+      rect:
+        serializedVersion: 2
+        x: 2682
+        y: 5292
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c2ebcdcb6013d941b30a72bfa15caec
+      internalID: 278088550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_24
+      rect:
+        serializedVersion: 2
+        x: 3573
+        y: 5292
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f97e9d9dc288314b8a6bf69c5205033
+      internalID: -2043913780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_25
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 4941
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16074a94fa3455f4d92ab719122f00b2
+      internalID: -1134427334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_26
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 4941
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ec8dd892126684fb50594e63532107
+      internalID: 1214600421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_27
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 4941
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b72cb886819677646b8bb01754660ad8
+      internalID: -710855636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_28
+      rect:
+        serializedVersion: 2
+        x: 2682
+        y: 4941
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de5d99a754583549a97d00e37d15390
+      internalID: 697814086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_29
+      rect:
+        serializedVersion: 2
+        x: 3573
+        y: 4941
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 322d6b53bb837c14995cbeab250e8165
+      internalID: -1994562941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_30
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 4590
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac766a0dc93342d4b9f546a3600a3fa5
+      internalID: 1775284927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_31
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 4590
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f84cd3c929606642b57cc6aa63769ff
+      internalID: 1648660585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_32
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 4590
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b78f8294c33375d4992b47cd2cdf5880
+      internalID: 1342280036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_33
+      rect:
+        serializedVersion: 2
+        x: 2682
+        y: 4590
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de3d26e0860afb040ae871c28bae6abc
+      internalID: 616210897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_34
+      rect:
+        serializedVersion: 2
+        x: 3573
+        y: 4590
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a7c683c01311f48988c2396e23e721
+      internalID: 698777083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_35
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 4239
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a96ea1c732821499cc264af294c396
+      internalID: -1979698401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_36
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 4239
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 404af4d8533140547a6a101049c83fe3
+      internalID: 914693558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_37
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 4239
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 996650d23eb6c974e95c30c08028a4aa
+      internalID: -82781640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_38
+      rect:
+        serializedVersion: 2
+        x: 2682
+        y: 4239
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b342ae5e4bd746b4dbc98891b444e856
+      internalID: -1567028095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_39
+      rect:
+        serializedVersion: 2
+        x: 3573
+        y: 4239
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 020bee80a0ecda44abea58ddde42c09b
+      internalID: -851804715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_40
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 3888
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4044a714334a42a41825c85ad799713d
+      internalID: 902380783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_41
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 3888
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d051d2302509947abc518998726654
+      internalID: 1437276902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_42
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 3888
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a11ce599cbc22094d810aaf50aa0efb0
+      internalID: -585141761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_43
+      rect:
+        serializedVersion: 2
+        x: 2682
+        y: 3888
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2a118d325d3ff4eb34a615e76eb80a
+      internalID: 1052991525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_44
+      rect:
+        serializedVersion: 2
+        x: 3573
+        y: 3888
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 874efe1328f0209479ae67ae6da0e0db
+      internalID: -198049065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_45
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 3537
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c123faab56cdc4f92700513bb0d1ae
+      internalID: 1565661014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_46
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 3537
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13ac89103a2ffe94e856f24f1fe7389c
+      internalID: 1123164761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_47
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 3537
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20a1c08300944f14986540c1ce8476b2
+      internalID: -1280940685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_48
+      rect:
+        serializedVersion: 2
+        x: 2682
+        y: 3537
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255a8ae40d8274c4b93809df63e2050b
+      internalID: -1345787485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_49
+      rect:
+        serializedVersion: 2
+        x: 3573
+        y: 3537
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 797ecb6d007371c459cacbd6170d1a98
+      internalID: -1933375101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_50
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 3186
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94210719a163d94fa76032cb70d148f
+      internalID: -338831955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_51
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 3186
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4da43a9702fede642b760e7ab1497d22
+      internalID: -1471492107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_52
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 3186
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac8ce9a5f254c14aa27185d590219e0
+      internalID: -2009033349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_53
+      rect:
+        serializedVersion: 2
+        x: 2682
+        y: 3186
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe4219c81de34545a0aec305ef868ae
+      internalID: -543786137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_54
+      rect:
+        serializedVersion: 2
+        x: 3573
+        y: 3186
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa0a535480c3dbb4892e98a377ba0d54
+      internalID: -1243470203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_55
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2835
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc3ceb39d91dbfd48901eea7db961cc5
+      internalID: -1805410629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_56
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 2835
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1481e2e6931dd31459fceb60a1e3cc1e
+      internalID: -1856925785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_57
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 2835
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78388c4834396064ba21267a7d8d8d06
+      internalID: 1847847200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_58
+      rect:
+        serializedVersion: 2
+        x: 2682
+        y: 2835
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8928ff464fc1224a8f0ef336a7b5972
+      internalID: -111467456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_59
+      rect:
+        serializedVersion: 2
+        x: 3573
+        y: 2835
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c32ae3cd81330f84dbe37e32ca05bb3b
+      internalID: 469751625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_60
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2484
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a8a15096d3d6084ab3940cd26dcf16d
+      internalID: -1012581665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_61
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 2484
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4d0fa5aff8f654d9e6fb6f34cbae26
+      internalID: 821943208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_62
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 2484
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80839883124a1c649b7fa194dd52ea2c
+      internalID: 558777025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_63
+      rect:
+        serializedVersion: 2
+        x: 2682
+        y: 2484
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8a529ab45d5248498260bebddf45224
+      internalID: -1991410493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_64
+      rect:
+        serializedVersion: 2
+        x: 3573
+        y: 2484
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf26f38a69581f41a8609196243407f
+      internalID: -1468408219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_65
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2133
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d71227ffa70ed499b876fb0624ca43
+      internalID: -1777657456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_66
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 2133
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daef09054d1875c4683430a16b1faa73
+      internalID: 1539862981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_67
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 2133
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b5d50291034d2d479605a527a5ca403
+      internalID: -1583785482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_68
+      rect:
+        serializedVersion: 2
+        x: 2682
+        y: 2133
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56fdd18616d87714a8a43f54832dfdd3
+      internalID: 1173755386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_69
+      rect:
+        serializedVersion: 2
+        x: 3573
+        y: 2133
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4887bd0c3fc0bdd4d82bc2053d34009b
+      internalID: 1898176333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_70
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1782
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a2379a172aaa7040b18cf3108fd74f0
+      internalID: 302496294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_71
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1782
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 428cae3b64d82954cb7a637892b52672
+      internalID: 449552887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_72
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 1782
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed268c45a7da77947981b9ef591fa356
+      internalID: -1185158710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_73
+      rect:
+        serializedVersion: 2
+        x: 2682
+        y: 1782
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e400bde0857b01043b03391c7c8c945a
+      internalID: -1667632026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_74
+      rect:
+        serializedVersion: 2
+        x: 3573
+        y: 1782
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea10a67d42b74546b9b15a059a25102
+      internalID: -1527018741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_75
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1431
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7e27ed09877f34d9d3da4c425e46e7
+      internalID: -273138743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_76
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1431
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06d78ba9b03cd164eb22efae33fb881d
+      internalID: 923966254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_77
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 1431
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 587b921175b02c6499453740e9e0e4b8
+      internalID: 1499449285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_78
+      rect:
+        serializedVersion: 2
+        x: 2682
+        y: 1431
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e156d9592b124547a1c70980ae421c7
+      internalID: -1639330042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_79
+      rect:
+        serializedVersion: 2
+        x: 3573
+        y: 1431
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62652d94f3ddd9c479e02b753ea7719d
+      internalID: 1098801121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_80
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1080
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb43bf8dced2f94086437de36208dee
+      internalID: -231755039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_81
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1080
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2155ce740b624ae44bb8897adfc4a8ef
+      internalID: -182025197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_82
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 1080
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da96af549c62ac64fb1a357671f06fa4
+      internalID: 478097060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_83
+      rect:
+        serializedVersion: 2
+        x: 2682
+        y: 1080
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eb128cd0e30ea246ae06f50d81fd01b
+      internalID: -1211248908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_84
+      rect:
+        serializedVersion: 2
+        x: 3573
+        y: 1080
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fdd9605ce106f74bb776e14abf705c1
+      internalID: 290695591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_85
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 729
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc29c7fffce4f854a8920759f7e4a7ad
+      internalID: -1872935061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_86
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 729
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae8e1b2a2c67904b9d0f10b18991b00
+      internalID: -416358440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_87
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 729
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3cea7c336a09b4e8fcbd657d9a5234
+      internalID: 433627893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_88
+      rect:
+        serializedVersion: 2
+        x: 2682
+        y: 729
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3aea2e79e270dc4ba2da2cac34347a3
+      internalID: -872104012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_89
+      rect:
+        serializedVersion: 2
+        x: 3573
+        y: 729
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a045262d97e1cd49a3c6a4e95d87c32
+      internalID: 1590459796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_90
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 378
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b5d28d0d8c710d4fa863be46c931b24
+      internalID: 46474164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_91
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 378
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1e47e50e69b6fb43aea5cd170a2e21c
+      internalID: 303605604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_92
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 378
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c1540e00f6feb74eb5b1ffd5a2f2ce6
+      internalID: 922841299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_93
+      rect:
+        serializedVersion: 2
+        x: 2682
+        y: 378
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 801416650c1a423499d663bab75435fd
+      internalID: 886182438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_94
+      rect:
+        serializedVersion: 2
+        x: 3573
+        y: 378
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a959ea7f028e9644983f2f6953cbbe6
+      internalID: 1506329487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallJumpTR_95
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 27
+        width: 873
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab7864e104bcb045a7619618479c4bd
+      internalID: 694932402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      wallJumpTR_40: 902380783
+      wallJumpTR_64: -1468408219
+      wallJumpTR_0: -1466332843
+      wallJumpTR_19: 1868072178
+      wallJumpTR_23: 278088550
+      wallJumpTR_63: -1991410493
+      wallJumpTR_73: -1667632026
+      wallJumpTR_51: -1471492107
+      wallJumpTR_6: -1645929866
+      wallJumpTR_91: 303605604
+      wallJumpTR_60: -1012581665
+      wallJumpTR_53: -543786137
+      wallJumpTR_46: 1123164761
+      wallJumpTR_87: 433627893
+      wallJumpTR_21: -1829858475
+      wallJumpTR_81: -182025197
+      wallJumpTR_2: 113322825
+      wallJumpTR_31: 1648660585
+      wallJumpTR_18: 1410023501
+      wallJumpTR_9: 1043513614
+      wallJumpTR_55: -1805410629
+      wallJumpTR_36: 914693558
+      wallJumpTR_66: 1539862981
+      wallJumpTR_90: 46474164
+      wallJumpTR_45: 1565661014
+      wallJumpTR_7: 1941418331
+      wallJumpTR_12: 74667348
+      wallJumpTR_67: -1583785482
+      wallJumpTR_77: 1499449285
+      wallJumpTR_88: -872104012
+      wallJumpTR_10: -292276979
+      wallJumpTR_11: -786924279
+      wallJumpTR_32: 1342280036
+      wallJumpTR_95: 694932402
+      wallJumpTR_41: 1437276902
+      wallJumpTR_52: -2009033349
+      wallJumpTR_72: -1185158710
+      wallJumpTR_15: -1938068672
+      wallJumpTR_4: 1299912882
+      wallJumpTR_27: -710855636
+      wallJumpTR_83: -1211248908
+      wallJumpTR_28: 697814086
+      wallJumpTR_33: 616210897
+      wallJumpTR_48: -1345787485
+      wallJumpTR_35: -1979698401
+      wallJumpTR_3: 1156561467
+      wallJumpTR_17: 1640612423
+      wallJumpTR_69: 1898176333
+      wallJumpTR_47: -1280940685
+      wallJumpTR_26: 1214600421
+      wallJumpTR_75: -273138743
+      wallJumpTR_85: -1872935061
+      wallJumpTR_84: 290695591
+      wallJumpTR_29: -1994562941
+      wallJumpTR_68: 1173755386
+      wallJumpTR_13: 774508076
+      wallJumpTR_22: -1221649042
+      wallJumpTR_43: 1052991525
+      wallJumpTR_30: 1775284927
+      wallJumpTR_80: -231755039
+      wallJumpTR_71: 449552887
+      wallJumpTR_37: -82781640
+      wallJumpTR_16: 1114107276
+      wallJumpTR_92: 922841299
+      wallJumpTR_39: -851804715
+      wallJumpTR_5: -244336100
+      wallJumpTR_65: -1777657456
+      wallJumpTR_44: -198049065
+      wallJumpTR_25: -1134427334
+      wallJumpTR_93: 886182438
+      wallJumpTR_1: 1562565346
+      wallJumpTR_57: 1847847200
+      wallJumpTR_54: -1243470203
+      wallJumpTR_34: 698777083
+      wallJumpTR_20: -87907952
+      wallJumpTR_59: 469751625
+      wallJumpTR_76: 923966254
+      wallJumpTR_94: 1506329487
+      wallJumpTR_42: -585141761
+      wallJumpTR_61: 821943208
+      wallJumpTR_24: -2043913780
+      wallJumpTR_50: -338831955
+      wallJumpTR_86: -416358440
+      wallJumpTR_56: -1856925785
+      wallJumpTR_82: 478097060
+      wallJumpTR_62: 558777025
+      wallJumpTR_70: 302496294
+      wallJumpTR_89: 1590459796
+      wallJumpTR_79: 1098801121
+      wallJumpTR_8: 294633566
+      wallJumpTR_38: -1567028095
+      wallJumpTR_74: -1527018741
+      wallJumpTR_78: -1639330042
+      wallJumpTR_49: -1933375101
+      wallJumpTR_14: -1740251527
+      wallJumpTR_58: -111467456
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
