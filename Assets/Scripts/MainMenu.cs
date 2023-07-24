@@ -2,9 +2,46 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class MainMenu : MonoBehaviour
 {
+    [Header("Levels Texts")]
+    public Text levelsText;
+    public Text backText;
+
+    [Header("Options Texts")]
+    public Text optionsText;
+    public Text volumeText;
+    public Text resolutionText;
+    public Text fullscreenText;
+    public Text languageText;
+    public Text trailEffectText;
+    public Text backOptionsText;
+
+    public void FixedUpdate(){
+        if(PlayerPrefs.GetInt("Language") == 0){
+            levelsText.text = "BOLUMLER";
+            backText.text = "GERI";
+            optionsText.text = "AYARLAR";
+            volumeText.text = "GENEL SES";
+            resolutionText.text = "COZUNURLUK";
+            fullscreenText.text = "TAM EKRAN";
+            languageText.text = "DIL SECENEGI";
+            trailEffectText.text = "OYUNCU IZI";
+            backOptionsText.text = "GERI";
+        } else if (PlayerPrefs.GetInt("Language") == 1) {
+            levelsText.text = "LEVELS";
+            backText.text = "BACK";
+            optionsText.text = "OPTIONS";
+            volumeText.text = "VOLUME";
+            resolutionText.text = "RESOLUTION";
+            fullscreenText.text = "FULLSCREEN";
+            languageText.text = "LANGUAGE";
+            trailEffectText.text = "TRAIL EFFECT";
+            backOptionsText.text = "BACK";
+        }
+    }
     public void GoMenu() {
         Invoke("GoBackMenu", 0.3f);
     }
