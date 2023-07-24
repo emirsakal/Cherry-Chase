@@ -18,6 +18,10 @@ public class MainMenu : MonoBehaviour
     public Text languageText;
     public Text trailEffectText;
     public Text backOptionsText;
+    public GameObject mainEN;
+    public GameObject mainTR;
+    public GameObject resetButton;
+    public GameObject sifirlaButonu;
 
     public void FixedUpdate(){
         if(PlayerPrefs.GetInt("Language") == 0){
@@ -30,6 +34,10 @@ public class MainMenu : MonoBehaviour
             languageText.text = "DIL SECENEGI";
             trailEffectText.text = "OYUNCU IZI";
             backOptionsText.text = "GERI";
+            mainEN.SetActive(false);
+            resetButton.SetActive(false);
+            mainTR.SetActive(true);
+            sifirlaButonu.SetActive(true);
         } else if (PlayerPrefs.GetInt("Language") == 1) {
             levelsText.text = "LEVELS";
             backText.text = "BACK";
@@ -40,6 +48,10 @@ public class MainMenu : MonoBehaviour
             languageText.text = "LANGUAGE";
             trailEffectText.text = "TRAIL EFFECT";
             backOptionsText.text = "BACK";
+            mainTR.SetActive(false);
+            sifirlaButonu.SetActive(false);
+            mainEN.SetActive(true);
+            resetButton.SetActive(true);
         }
     }
     public void GoMenu() {
