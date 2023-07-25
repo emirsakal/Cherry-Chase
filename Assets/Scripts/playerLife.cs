@@ -11,6 +11,7 @@ public class playerLife : MonoBehaviour
     public GameObject gameOverMenuUI;
     private Rigidbody2D rb;
     private Animator anim;
+    private Collider2D playerCollider;
     [SerializeField] private Text deathText;
 
     private int numberOfDeath;
@@ -18,6 +19,7 @@ public class playerLife : MonoBehaviour
     private void Start() {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        playerCollider = GetComponent<Collider2D>();
 
         if(PlayerPrefs.GetInt("isTrailEffectOn") == 0) {
             gameObject.GetComponent<TrailRenderer>().enabled = false;
@@ -41,6 +43,7 @@ public class playerLife : MonoBehaviour
     private void Die(){
         PlayerPrefs.SetInt("DeathNumber", numberOfDeath + 1);
         rb.bodyType = RigidbodyType2D.Static;
+        playerCollider.enabled = !playerCollider.enabled;
         anim.SetTrigger("death");
     }
 
