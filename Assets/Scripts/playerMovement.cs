@@ -124,10 +124,15 @@ public class playerMovement : MonoBehaviour
             isTouchingDoubleJump = false;
             canDoubleJump = 0;
         }
-        
+
+        if(canDoubleJump > 1 && Input.GetButtonDown("Jump") && !isGrounded) {
+            canDoubleJump--;
+        }
+                
         if (canDoubleJump == 1 && Input.GetButtonDown("Jump") && canJump == 0) { // canDoubleJump'ı canJump variable'ına çevirip double jump için de canJump'ı kullanırsan ve bu if statement'ı silersen karakter sadece hangTimer'ın içindeyken zıplayabilir.
             DoubleJump(); // This was DoubleJump() but I removed it since it causes duplicate jump sound effects.
         }
+
 
         if (isWallSliding && Input.GetButtonDown("Jump") && canWallJump && !isGrounded) {
             WallJump();
@@ -261,11 +266,11 @@ public class playerMovement : MonoBehaviour
     void UpdateAnimation() {
 
         if (isGrounded) {
-            if (mx != 0 && rb.velocity.y < 0.1f)
+            if (mx != 0 && rb.velocity.y == 0f ) // < 0.1f
                 {
                     anim.SetInteger("state", (int)MovementState.running);
                 }
-            else if (mx == 0 && rb.velocity.y < 0.1f)
+            else if (mx == 0 && rb.velocity.y == 0f) // 0.1f
                 {
                     anim.SetInteger("state", (int)MovementState.idle);
                 }

@@ -240,7 +240,7 @@ MonoBehaviour:
   _movementAcceleration: 30
   _maxMoveSpeed: 7
   _linearDrag: 7
-  jumpForce: 12
+  jumpForce: 10
   _airLinearDrag: 2
   _fallMultiplier: 3
   _lowJumpFallMultiplier: 2
