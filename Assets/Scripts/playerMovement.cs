@@ -266,11 +266,11 @@ public class playerMovement : MonoBehaviour
     void UpdateAnimation() {
 
         if (isGrounded) {
-            if (mx != 0 && rb.velocity.y == 0f ) // < 0.1f
+            if (mx != 0 && rb.velocity.y < 0.1f )
                 {
                     anim.SetInteger("state", (int)MovementState.running);
                 }
-            else if (mx == 0 && rb.velocity.y == 0f) // 0.1f
+            else if (mx == 0 && rb.velocity.y < 0.1f)
                 {
                     anim.SetInteger("state", (int)MovementState.idle);
                 }
