@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class menuControl : MonoBehaviour
 {
@@ -9,9 +10,44 @@ public class menuControl : MonoBehaviour
     public GameObject pauseMenuUI;
     [SerializeField] private AudioSource bgMusic;
     int isMute;
+    public Text pauseText;
+    public Text gameOverText;
+    public Text finishText;
+    public GameObject quitButton1;
+    public GameObject quitButton2;
+    public GameObject quitButton3;
+    public GameObject cikisYapButton1;
+    public GameObject cikisYapButton2;
+    public GameObject cikisYapButton3;
+    public playerLife PlayerLife;
+    public endingCheck EndingCheck;
+    // private bool isDead;
+    // private bool isFinished;
 
     void Start()
     {
+        if(PlayerPrefs.GetInt("Language") == 0){
+            pauseText.text = "OYUN DURDU";
+            gameOverText.text = "OLDUN!";
+            finishText.text = "TEBRIKLER!";
+            quitButton1.SetActive(false);
+            quitButton2.SetActive(false);
+            quitButton3.SetActive(false);
+            cikisYapButton1.SetActive(true);
+            cikisYapButton2.SetActive(true);
+            cikisYapButton3.SetActive(true);
+        } else if (PlayerPrefs.GetInt("Language") == 1) {
+            pauseText.text = "PAUSE";
+            gameOverText.text = "GAME OVER";
+            finishText.text = "WELL DONE!";
+            cikisYapButton1.SetActive(false);
+            cikisYapButton2.SetActive(false);
+            cikisYapButton3.SetActive(false);
+            quitButton1.SetActive(true);
+            quitButton2.SetActive(true);
+            quitButton3.SetActive(true);
+        }
+
         if(!PlayerPrefs.HasKey("isMute")) {
             bgMusic.mute = false;
             PlayerPrefs.SetInt("isMute", 0);
@@ -24,7 +60,7 @@ public class menuControl : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape)) {
+        if (Input.GetKeyDown(KeyCode.Escape) && !PlayerLife.isDead && !EndingCheck.isFinished) {
             if (GameIsPaused) {
                 Resume();
             } else {
@@ -81,4 +117,5 @@ public class menuControl : MonoBehaviour
             PlayerPrefs.SetInt("isMute", 0);
         }
     }
+
 }

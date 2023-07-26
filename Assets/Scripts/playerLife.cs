@@ -13,6 +13,7 @@ public class playerLife : MonoBehaviour
     private Animator anim;
     private Collider2D playerCollider;
     [SerializeField] private Text deathText;
+    public bool isDead = false;
 
     private int numberOfDeath;
 
@@ -34,6 +35,7 @@ public class playerLife : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision) {
         if (collision.gameObject.CompareTag("Trap")){
+            isDead = true;
             bgMusic.Pause();
             deathSound.Play();
             Die();

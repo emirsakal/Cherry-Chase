@@ -13,6 +13,7 @@ public class endingCheck : MonoBehaviour
     public ParticleSystem Confetti4;
     private bool levelCompleted = false;
     public int nextSceneLoad;
+    public bool isFinished = false;
 
     [SerializeField] private AudioSource finishSound;
     [SerializeField] private AudioSource bgMusic;
@@ -48,6 +49,7 @@ public class endingCheck : MonoBehaviour
 
     void CompleteLevel() {
         Time.timeScale = 0f;
+        isFinished = true;
         FinishMenuUI.SetActive(true);
 
         switch(SceneManager.GetActiveScene().name) {
