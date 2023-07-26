@@ -64,7 +64,7 @@ public class playerMovement : MonoBehaviour
     public Transform wallCheck;
     public LayerMask wallLayer;
     public float wallRadius = 0.2f;
-    public float wallJumpTime = 0.2f;
+    public float wallJumpTime = 0.1f;
     public float wallSlideSpeed = -0.8f;
     public float wallDistance = 0.7f; // 0.9f
     public bool isWallSliding = false;
@@ -128,9 +128,13 @@ public class playerMovement : MonoBehaviour
         if(canDoubleJump > 1 && Input.GetButtonDown("Jump") && !isGrounded) {
             canDoubleJump--;
         }
-                
-        if (canDoubleJump == 1 && Input.GetButtonDown("Jump") && canJump == 0) { // canDoubleJump'ı canJump variable'ına çevirip double jump için de canJump'ı kullanırsan ve bu if statement'ı silersen karakter sadece hangTimer'ın içindeyken zıplayabilir.
-            DoubleJump(); // This was DoubleJump() but I removed it since it causes duplicate jump sound effects.
+
+        if(canDoubleJump > 1 && canJump == 1) {
+            canDoubleJump = 0;
+        }
+
+        if (canDoubleJump == 1 && Input.GetButtonDown("Jump")) { 
+            DoubleJump();
         }
 
 
@@ -175,7 +179,6 @@ public class playerMovement : MonoBehaviour
 
         if (_hangTimeCounter > 0f && _jumpBufferCounter > 0f && readyToJump) {
             jumpInputDelayTimer = jumpInputDelay;
-            canJump--;
             Jump();
         }
         
@@ -226,6 +229,7 @@ public class playerMovement : MonoBehaviour
         if (touchingDoubleJump) { // I added the isGrounded = true; because of the running animation bug when the characther does a double jump. (Between first and second jump)
             isTouchingDoubleJump = true;
             isGrounded = true;
+            canJump = 0;
         }
 
         
@@ -265,6 +269,9 @@ public class playerMovement : MonoBehaviour
 
     void UpdateAnimation() {
 
+        if(Input.GetButtonDown("Jump") && rb.velocity.y > 0.1f && isGrounded){
+            anim.SetInteger("state", (int)MovementState.jumping);
+        }
         if (isGrounded) {
             if (mx != 0 && rb.velocity.y < 0.1f )
                 {
@@ -336,7 +343,6 @@ public class playerMovement : MonoBehaviour
         }
         if(collision.gameObject.layer == 6 || collision.gameObject.layer == 7){
             canJump = 1;
-            canDoubleJump = 0;
         }
         if(collision.gameObject.layer == 8) {
             canDoubleJump = 2;

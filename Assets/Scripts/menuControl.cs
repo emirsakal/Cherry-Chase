@@ -88,7 +88,7 @@ public class menuControl : MonoBehaviour
     }
 
     public void LoadMenu() {
-        Time.timeScale = 1f;
+        Time.timeScale = 0.5f;
         SceneManager.LoadScene("Menu");
     }
 

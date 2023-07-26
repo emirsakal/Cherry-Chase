@@ -73,6 +73,7 @@ public class levelSelection : MonoBehaviour
         float minutes10 = Mathf.FloorToInt(level10Time / 60);  
         float seconds10 = Mathf.FloorToInt(level10Time % 60);
         
+        PlayerPrefs.SetFloat("TotalTime", totalTime);
         float minutesTotal = Mathf.FloorToInt(totalTime / 60);  
         float secondsTotal = Mathf.FloorToInt(totalTime % 60);
 

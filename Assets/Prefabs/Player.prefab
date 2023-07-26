@@ -260,7 +260,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   wallRadius: 0.2
-  wallJumpTime: 0.2
+  wallJumpTime: 0.1
   wallSlideSpeed: -0.8
   wallDistance: 0.7
   isWallSliding: 0
@@ -306,6 +306,7 @@ MonoBehaviour:
   bgMusic: {fileID: 0}
   gameOverMenuUI: {fileID: 0}
   deathText: {fileID: 0}
+  isDead: 0
 --- !u!70 &135041018384748117
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
