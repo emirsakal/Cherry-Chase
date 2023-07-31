@@ -23,6 +23,9 @@ public class MainMenu : MonoBehaviour
     public GameObject resetButton;
     public GameObject sifirlaButonu;
 
+    public Animator transition;
+    public float transitionTime = 1f;
+
     public void FixedUpdate(){
         if(PlayerPrefs.GetInt("Language") == 0){
             levelsText.text = "BOLUMLER";
@@ -75,33 +78,42 @@ public class MainMenu : MonoBehaviour
     }
     
     public void LevelSelect1() {
-        SceneManager.LoadScene("Level1");
+        StartCoroutine(LoadLevel("Level1"));
     }
     public void LevelSelect2() {
-        SceneManager.LoadScene("Level2");
+        StartCoroutine(LoadLevel("Level2"));
     }
     public void LevelSelect3() {
-        SceneManager.LoadScene("Level3");
+        StartCoroutine(LoadLevel("Level3"));
     }
     public void LevelSelect4() {
-        SceneManager.LoadScene("Level4");
+        StartCoroutine(LoadLevel("Level4"));
     }
     public void LevelSelect5() {
-        SceneManager.LoadScene("Level5");
+        StartCoroutine(LoadLevel("Level5"));
     }
     public void LevelSelect6() {
-        SceneManager.LoadScene("Level6");
+        StartCoroutine(LoadLevel("Level6"));
     }
     public void LevelSelect7() {
-        SceneManager.LoadScene("Level7");
+        StartCoroutine(LoadLevel("Level7"));
     }
     public void LevelSelect8() {
-        SceneManager.LoadScene("Level8");
+        StartCoroutine(LoadLevel("Level8"));
     }
     public void LevelSelect9() {
-        SceneManager.LoadScene("Level9");
+        StartCoroutine(LoadLevel("Level9"));
     }
     public void LevelSelect10() {
-        SceneManager.LoadScene("Level10");
+        StartCoroutine(LoadLevel("Level10"));
+    }
+
+    IEnumerator LoadLevel(string name){
+        transition.SetTrigger("Start");
+
+        yield return new WaitForSecondsRealtime(transitionTime);
+
+        SceneManager.LoadSceneAsync(name);
+    
     }
 }

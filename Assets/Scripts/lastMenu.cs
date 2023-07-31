@@ -18,6 +18,9 @@ public class lastMenu : MonoBehaviour
     private int NumberOfDeath;
     public Text DeathText;
 
+    public Animator transition;
+    public float transitionTime = 1f;
+
     void Start()
     {
         if(PlayerPrefs.GetInt("Language") == 0){
@@ -60,8 +63,18 @@ public class lastMenu : MonoBehaviour
     }
 
     public void LoadMenu() {
-        Time.timeScale = 0.5f;
-        SceneManager.LoadScene("Menu");
+        Time.timeScale = 1f;
+        StartCoroutine(LoadMenu(0));
+    }
+
+    IEnumerator LoadMenu(int levelIndex){
+        transition.SetTrigger("Start");
+
+        yield return new WaitForSecondsRealtime(transitionTime);
+
+        SceneManager.LoadSceneAsync(levelIndex);
+
+
     }
 
     public void QuitGame() {

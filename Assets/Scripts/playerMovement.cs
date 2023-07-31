@@ -83,12 +83,16 @@ public class playerMovement : MonoBehaviour
     private float switchCooldown = 0.5f; // Cooldown time before player can trigger the particle effect again
     private float switchTimer = 0f;
 
+    //private menuControl MenuControl;
+
     void Start() {
         Time.timeScale = 1f;
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         movementParticle.Stop();
         anim.SetInteger("state", (int)MovementState.idle);
+
+        //MenuControl.transition.SetTrigger("End");
     }
 
     void Update(){

@@ -553,7 +553,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 320849370}
+      - m_Target: {fileID: 1042830889}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
         m_MethodName: LevelSelect9
         m_Mode: 1
@@ -1369,7 +1369,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 320849370}
+      - m_Target: {fileID: 1042830889}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
         m_MethodName: LevelSelect2
         m_Mode: 1
@@ -1506,7 +1506,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 320849370}
+      - m_Target: {fileID: 1042830889}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
         m_MethodName: LevelSelect4
         m_Mode: 1
@@ -2249,6 +2249,8 @@ MonoBehaviour:
   mainTR: {fileID: 151776940}
   resetButton: {fileID: 1512756689}
   sifirlaButonu: {fileID: 366483539}
+  transition: {fileID: 433769285}
+  transitionTime: 1
 --- !u!224 &320849371
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3056,6 +3058,7 @@ GameObject:
   - component: {fileID: 433769283}
   - component: {fileID: 433769282}
   - component: {fileID: 433769281}
+  - component: {fileID: 433769285}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -3139,6 +3142,7 @@ RectTransform:
   m_Children:
   - {fileID: 1836009473}
   - {fileID: 2008868956}
+  - {fileID: 1333120238}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3147,6 +3151,26 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!95 &433769285
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 433769280}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2b315bb4321f19b409642d871e801f35, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 2
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &438134420
 GameObject:
   m_ObjectHideFlags: 0
@@ -3234,7 +3258,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 320849370}
+      - m_Target: {fileID: 1042830889}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
         m_MethodName: LevelSelect5
         m_Mode: 1
@@ -3845,7 +3869,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 320849370}
+      - m_Target: {fileID: 1042830889}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
         m_MethodName: LevelSelect3
         m_Mode: 1
@@ -4177,7 +4201,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 320849370}
+      - m_Target: {fileID: 1042830889}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
         m_MethodName: LevelSelect6
         m_Mode: 1
@@ -6311,7 +6335,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 320849370}
+      - m_Target: {fileID: 1042830889}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
         m_MethodName: LevelSelect1
         m_Mode: 1
@@ -6390,9 +6414,9 @@ RectTransform:
   m_LocalScale: {x: 0.1874085, y: 0.1874085, z: 0.1874085}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1109187378}
   - {fileID: 2138684146}
   - {fileID: 446458027}
-  - {fileID: 1109187378}
   - {fileID: 1166882133}
   - {fileID: 2023787801}
   - {fileID: 1046681016}
@@ -6433,6 +6457,8 @@ MonoBehaviour:
   mainTR: {fileID: 151776940}
   resetButton: {fileID: 1512756689}
   sifirlaButonu: {fileID: 366483539}
+  transition: {fileID: 433769285}
+  transitionTime: 1
 --- !u!1 &1046681015
 GameObject:
   m_ObjectHideFlags: 0
@@ -6695,6 +6721,8 @@ MonoBehaviour:
   mainTR: {fileID: 151776940}
   resetButton: {fileID: 1512756689}
   sifirlaButonu: {fileID: 366483539}
+  transition: {fileID: 433769285}
+  transitionTime: 1
 --- !u!114 &1107785300
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7797,6 +7825,95 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1284611519}
   m_CullTransparentMesh: 1
+--- !u!1 &1333120234
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1333120238}
+  - component: {fileID: 1333120237}
+  - component: {fileID: 1333120236}
+  - component: {fileID: 1333120235}
+  m_Layer: 5
+  m_Name: Crossfade
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!225 &1333120235
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1333120234}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!114 &1333120236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1333120234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1333120237
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1333120234}
+  m_CullTransparentMesh: 1
+--- !u!224 &1333120238
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1333120234}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 433769284}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1358577920
 GameObject:
   m_ObjectHideFlags: 0
@@ -9265,7 +9382,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 320849370}
+      - m_Target: {fileID: 1042830889}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
         m_MethodName: LevelSelect8
         m_Mode: 1
@@ -9822,7 +9939,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 320849370}
+      - m_Target: {fileID: 1042830889}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
         m_MethodName: LevelSelect10
         m_Mode: 1
@@ -10192,7 +10309,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 320849370}
+      - m_Target: {fileID: 1042830889}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
         m_MethodName: LevelSelect7
         m_Mode: 1

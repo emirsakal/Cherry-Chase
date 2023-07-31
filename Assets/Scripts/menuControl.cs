@@ -21,6 +21,9 @@ public class menuControl : MonoBehaviour
     public GameObject cikisYapButton3;
     public playerLife PlayerLife;
     public endingCheck EndingCheck;
+
+    public Animator transition;
+    public float transitionTime = 1f;
     // private bool isDead;
     // private bool isFinished;
 
@@ -88,13 +91,13 @@ public class menuControl : MonoBehaviour
     }
 
     public void LoadMenu() {
-        Time.timeScale = 0.5f;
-        SceneManager.LoadScene("Menu");
+
+        StartCoroutine(LoadLevel(0));
     }
 
     public void PlayAgain() {
-        Time.timeScale = 1f;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+
+        StartCoroutine(LoadSameLevel());
     }
 
     public void QuitGame() {
@@ -102,12 +105,34 @@ public class menuControl : MonoBehaviour
     }
 
     public void NextLevel() {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+
+        StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
     }
     private void NextLevelLoad() {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+
+        StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
     }
 
+    IEnumerator LoadLevel(int levelIndex){
+        transition.SetTrigger("Start");
+
+        yield return new WaitForSecondsRealtime(transitionTime);
+
+        SceneManager.LoadSceneAsync(levelIndex);
+
+
+    }
+
+    IEnumerator LoadSameLevel(){
+        transition.SetTrigger("Start");
+
+        yield return new WaitForSecondsRealtime(transitionTime);
+
+        SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().name);
+        
+        
+    }
+    
     public void Mute(){
         if(PlayerPrefs.GetInt("isMute") == 0) {
             bgMusic.mute = true;
