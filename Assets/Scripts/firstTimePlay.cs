@@ -4,14 +4,13 @@ using UnityEngine;
 
 public class firstTimePlay : MonoBehaviour
 {
-    void Start()
-    {
-        PlayerPrefs.SetInt("isFirstTime", 1);
-    }
+    public int isFirstTime = 0;
 
-    public void Replay() {
-        if(PlayerPrefs.GetInt("isFirstTime") == 1) {
-            PlayerPrefs.SetInt("isFirstTime", 0); // 0 for restart
+    public void Start(){
+        // PlayerPrefs.SetInt("isFirstTime", 0);
+        isFirstTime = PlayerPrefs.GetInt("isFirstTime", 0);
+
+        if(isFirstTime == 0) {
             PlayerPrefs.SetFloat("level1Time", 999999.0f);
             PlayerPrefs.SetFloat("level2Time", 999999.0f);
             PlayerPrefs.SetFloat("level3Time", 999999.0f);
@@ -34,6 +33,7 @@ public class firstTimePlay : MonoBehaviour
             PlayerPrefs.SetInt("level10Cherries",0);
             PlayerPrefs.SetInt("DeathNumber", 0);
             PlayerPrefs.SetInt("levelAt", 1);
+            PlayerPrefs.SetInt("isFirstTime", 1);
         }
     }
 }

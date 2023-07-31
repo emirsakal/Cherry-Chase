@@ -9,6 +9,7 @@ public class trampolineControl : MonoBehaviour
     public Animator animPlayer;
     private enum MovementState { idle, running, jumping, falling, sliding, doubleJumping }
     [SerializeField] private float bounce = 20f;
+    [SerializeField] private AudioSource trampolineSoundEffect;
 
     void Start()
     {
@@ -25,6 +26,7 @@ public class trampolineControl : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("User"))
         {
+            trampolineSoundEffect.Play();
             collision.gameObject.GetComponent<Rigidbody2D>().velocity = (Vector2.up * bounce); // Old bounce system collision.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.up * bounce, ForceMode2D.Impulse);
             isWorking = true;
         }
