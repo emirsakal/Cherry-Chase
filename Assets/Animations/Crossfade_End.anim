@@ -30,7 +30,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.5
+        time: 0.16666667
         value: 1
         inSlope: 0
         outSlope: 0
@@ -39,7 +39,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 1.5
+        time: 1
         value: 0
         inSlope: 0
         outSlope: 0
@@ -51,7 +51,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Alpha
-    path: Crossfade
+    path: Fade
     classID: 225
     script: {fileID: 0}
   - curve:
@@ -67,7 +67,7 @@ AnimationClip:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 0.5
+        time: 0.16666667
         value: 1
         inSlope: Infinity
         outSlope: Infinity
@@ -76,7 +76,7 @@ AnimationClip:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 1.5
+        time: 1
         value: 0
         inSlope: Infinity
         outSlope: Infinity
@@ -88,7 +88,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Interactable
-    path: Crossfade
+    path: Fade
     classID: 225
     script: {fileID: 0}
   - curve:
@@ -104,7 +104,7 @@ AnimationClip:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 0.5
+        time: 0.16666667
         value: 1
         inSlope: Infinity
         outSlope: Infinity
@@ -113,7 +113,7 @@ AnimationClip:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 1.5
+        time: 1
         value: 0
         inSlope: Infinity
         outSlope: Infinity
@@ -125,7 +125,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_BlocksRaycasts
-    path: Crossfade
+    path: Fade
     classID: 225
     script: {fileID: 0}
   m_PPtrCurves: []
@@ -137,7 +137,7 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 3393738305
+      path: 3932635806
       attribute: 1574349066
       script: {fileID: 0}
       typeID: 225
@@ -145,7 +145,7 @@ AnimationClip:
       isPPtrCurve: 0
       isIntCurve: 0
     - serializedVersion: 2
-      path: 3393738305
+      path: 3932635806
       attribute: 4287062452
       script: {fileID: 0}
       typeID: 225
@@ -153,7 +153,7 @@ AnimationClip:
       isPPtrCurve: 0
       isIntCurve: 0
     - serializedVersion: 2
-      path: 3393738305
+      path: 3932635806
       attribute: 3739863151
       script: {fileID: 0}
       typeID: 225
@@ -166,7 +166,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1.5
+    m_StopTime: 1
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -195,7 +195,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.5
+        time: 0.16666667
         value: 1
         inSlope: 0
         outSlope: 0
@@ -204,7 +204,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 1.5
+        time: 1
         value: 0
         inSlope: 0
         outSlope: 0
@@ -216,7 +216,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Alpha
-    path: Crossfade
+    path: Fade
     classID: 225
     script: {fileID: 0}
   - curve:
@@ -232,7 +232,7 @@ AnimationClip:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 0.5
+        time: 0.16666667
         value: 1
         inSlope: Infinity
         outSlope: Infinity
@@ -241,7 +241,7 @@ AnimationClip:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 1.5
+        time: 1
         value: 0
         inSlope: Infinity
         outSlope: Infinity
@@ -253,7 +253,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Interactable
-    path: Crossfade
+    path: Fade
     classID: 225
     script: {fileID: 0}
   - curve:
@@ -269,7 +269,7 @@ AnimationClip:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 0.5
+        time: 0.16666667
         value: 1
         inSlope: Infinity
         outSlope: Infinity
@@ -278,7 +278,7 @@ AnimationClip:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 1.5
+        time: 1
         value: 0
         inSlope: Infinity
         outSlope: Infinity
@@ -290,7 +290,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_BlocksRaycasts
-    path: Crossfade
+    path: Fade
     classID: 225
     script: {fileID: 0}
   m_EulerEditorCurves: []
