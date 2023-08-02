@@ -8,7 +8,7 @@ public class firstTimePlay : MonoBehaviour
 
     public void Start(){
         // PlayerPrefs.SetInt("resetFirstTime", 0);
-        isFirstTime = PlayerPrefs.GetInt("resetOnce", 0);
+        isFirstTime = PlayerPrefs.GetInt("firstTime", 0);
 
         if(isFirstTime == 0) {
             PlayerPrefs.SetFloat("level1Time", 999999.0f);
@@ -33,7 +33,7 @@ public class firstTimePlay : MonoBehaviour
             PlayerPrefs.SetInt("level10Cherries",0);
             PlayerPrefs.SetInt("DeathNumber", 0);
             PlayerPrefs.SetInt("levelAt", 1);
-            PlayerPrefs.SetInt("resetOnce", 1);
+            PlayerPrefs.SetInt("firstTime", 1);
         }
     }
 }
