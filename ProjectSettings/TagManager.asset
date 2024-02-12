@@ -16,6 +16,7 @@ TagManager:
   - Cherry
   - Fan
   - Finished
+  - DoubleJumpTag
   layers:
   - Default
   - TransparentFX
